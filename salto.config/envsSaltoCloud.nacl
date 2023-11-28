@@ -1,0 +1,8 @@
+envs {
+  envsCloud = [
+    {
+      uuid = "3b114873-8944-4022-add4-53656b3b95c5"
+      folderName = "Apetech Jira"
+    },
+  ]
+}
