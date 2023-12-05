@@ -1,0 +1,35 @@
+jira.SLA Time_to_In_Progress_DEMO@sssu {
+  name = "Time to In Progress"
+  config = {
+    definition = {
+      start = [
+        {
+          pluginKey = "com.atlassian.servicedesk"
+          factoryKey = "issue-created-sla-condition-factory"
+          conditionId = "issue-created-hit-condition"
+          name = "Issue Created"
+        },
+      ]
+      stop = [
+        {
+          pluginKey = "com.atlassian.servicedesk"
+          factoryKey = "status-sla-condition-factory"
+          conditionId = "10054"
+          name = "Entered Status: Work in progress"
+        },
+      ]
+    }
+    goals = [
+      {
+        jqlQuery = ""
+        duration = 14400000
+        defaultGoal = true
+        timeMetricId = 0
+      },
+    ]
+    slaDisplayFormat = "NEW_SLA_FORMAT"
+  }
+  _parent = [
+    jira.Project.instance.Demo_service_project@s,
+  ]
+}
