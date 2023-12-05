@@ -1,0 +1,35 @@
+jira.SLA Time_to_Waiting_For_Response_DEMO@ssssu {
+  name = "Time to Waiting For Response"
+  config = {
+    definition = {
+      start = [
+        {
+          pluginKey = "com.atlassian.servicedesk"
+          factoryKey = "issue-created-sla-condition-factory"
+          conditionId = "issue-created-hit-condition"
+          name = "Issue Created"
+        },
+      ]
+      stop = [
+        {
+          pluginKey = "com.atlassian.servicedesk"
+          factoryKey = "status-sla-condition-factory"
+          conditionId = "10051"
+          name = "Entered Status: Waiting for customer"
+        },
+      ]
+    }
+    goals = [
+      {
+        jqlQuery = ""
+        duration = 7200000
+        defaultGoal = true
+        timeMetricId = 0
+      },
+    ]
+    slaDisplayFormat = "NEW_SLA_FORMAT"
+  }
+  _parent = [
+    jira.Project.instance.Demo_service_project@s,
+  ]
+}
