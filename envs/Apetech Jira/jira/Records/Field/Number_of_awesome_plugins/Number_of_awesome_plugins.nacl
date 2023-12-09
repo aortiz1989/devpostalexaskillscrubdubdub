@@ -1,0 +1,10 @@
+jira.Field Number_of_awesome_plugins__float__c@sssuuuu {
+  name = "Number of awesome plugins"
+  description = ""
+  searcherKey = "com.atlassian.jira.plugin.system.customfieldtypes:exactnumber"
+  type = "com.atlassian.jira.plugin.system.customfieldtypes:float"
+  contexts = [
+    jira.CustomFieldContext.instance.Number_of_awesome_plugins__float__c_sssuuuu_Default_Configuration_Scheme_for_Number_of_awesome_plugins@uuuuuuumusssssss,
+  ]
+  _alias = "Number of awesome plugins"
+}
