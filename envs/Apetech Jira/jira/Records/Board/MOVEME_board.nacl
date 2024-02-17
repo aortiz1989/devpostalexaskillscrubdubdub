@@ -1,0 +1,42 @@
+jira.Board MOVEME_board@s {
+  name = "MOVEME board"
+  type = "simple"
+  admins = {
+    users = [
+      {
+        id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+        displayName = "Alex Ortiz"
+      },
+    ]
+  }
+  location = {
+    projectId = jira.Project.instance.Team_Managed_Project_To_Migrate@s
+  }
+  filterId = jira.Filter.instance.missing_10049
+  columnConfig = {
+    columns = [
+      {
+        name = "To Do"
+        statuses = [
+          jira.Status.instance.missing_10070,
+        ]
+      },
+      {
+        name = "In Progress"
+        statuses = [
+          jira.Status.instance.missing_10071,
+        ]
+      },
+      {
+        name = "Done"
+        statuses = [
+          jira.Status.instance.missing_10072,
+        ]
+      },
+    ]
+    constraintType = "none"
+  }
+  estimation = {
+    field = jira.Field.instance.Story_point_estimate__jsw_story_points__c@ssuubbuu
+  }
+}

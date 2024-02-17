@@ -1,0 +1,8 @@
+jira.ProjectComponent Thanksgiving_Dinner___How_to_Agile_ssbsss__UI@uuuuuumuu {
+  assigneeType = "PROJECT_DEFAULT"
+  name = "UI"
+  _parent = [
+    jira.Project.instance.Thanksgiving_Dinner___How_to_Agile@ssbsss,
+  ]
+  _alias = "Thanksgiving Dinner - How to Agile:UI"
+}

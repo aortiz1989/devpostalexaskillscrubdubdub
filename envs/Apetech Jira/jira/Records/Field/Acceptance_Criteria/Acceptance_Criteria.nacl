@@ -1,0 +1,10 @@
+jira.Field Acceptance_Criteria__textarea__c@suuuu {
+  name = "Acceptance Criteria"
+  description = "This is my description"
+  searcherKey = "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher"
+  type = "com.atlassian.jira.plugin.system.customfieldtypes:textarea"
+  contexts = [
+    jira.CustomFieldContext.instance.Acceptance_Criteria__textarea__c_suuuu_Default_Configuration_Scheme_for_Acceptance_Criteria@uuuuumusssss,
+  ]
+  _alias = "Acceptance Criteria"
+}

@@ -1,0 +1,240 @@
+jira.Workflow demo_workflow@s {
+  description = ""
+  transitions = {
+    Create__From__none__Initial@fffsff = {
+      name = "Create"
+      description = ""
+      to = jira.Status.instance.open
+      type = "initial"
+      rules = {
+        validators = [
+          {
+            type = "PermissionValidator"
+            configuration = {
+              permissionKey = "CREATE_ISSUES"
+            }
+          },
+        ]
+        postFunctions = [
+          {
+            type = "FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Issue_Created@s
+              }
+            }
+          },
+        ]
+      }
+      properties = [
+        {
+          key = "jira.issue.editable"
+          value = "true"
+        },
+      ]
+      from = [
+        {
+          sourceAngle = 78.11134196037203
+          targetAngle = 173.58734576006634
+        },
+      ]
+    }
+    Accepted__From__any_status__Global@fffssff = {
+      name = "Accepted"
+      description = ""
+      to = jira.Status.instance.accepted
+      type = "global"
+      rules = {
+        postFunctions = [
+          {
+            type = "FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Generic_Event@s
+              }
+            }
+          },
+        ]
+      }
+      properties = [
+        {
+          key = "jira.issue.editable"
+          value = "true"
+        },
+      ]
+    }
+    Open__From__any_status__Global@fffssff = {
+      name = "Open"
+      description = ""
+      to = jira.Status.instance.open
+      type = "global"
+      rules = {
+        postFunctions = [
+          {
+            type = "FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Generic_Event@s
+              }
+            }
+          },
+        ]
+      }
+      properties = [
+        {
+          key = "jira.issue.editable"
+          value = "true"
+        },
+      ]
+    }
+    Backlog__From__any_status__Global@fffssff = {
+      name = "Backlog"
+      description = ""
+      to = jira.Status.instance.backlog
+      type = "global"
+      rules = {
+        postFunctions = [
+          {
+            type = "FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Generic_Event@s
+              }
+            }
+          },
+        ]
+      }
+      properties = [
+        {
+          key = "jira.issue.editable"
+          value = "true"
+        },
+      ]
+    }
+    Code_Complete__From__any_status__Global@sfffssff = {
+      name = "Code Complete"
+      description = ""
+      to = jira.Status.instance.code_complete@s
+      type = "global"
+      rules = {
+        postFunctions = [
+          {
+            type = "FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Generic_Event@s
+              }
+            }
+          },
+        ]
+      }
+      properties = [
+        {
+          key = "jira.issue.editable"
+          value = "true"
+        },
+      ]
+    }
+    In_Development__From__any_status__Global@sfffssff = {
+      name = "In Development"
+      description = ""
+      to = jira.Status.instance.in_development@s
+      type = "global"
+      rules = {
+        postFunctions = [
+          {
+            type = "FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Generic_Event@s
+              }
+            }
+          },
+        ]
+      }
+      properties = [
+        {
+          key = "jira.issue.editable"
+          value = "true"
+        },
+      ]
+    }
+  }
+  statuses = [
+    {
+      id = jira.Status.instance.accepted
+      name = "Accepted"
+      properties = [
+        {
+          key = "jira.issue.editable"
+          value = "true"
+        },
+      ]
+      location = {
+        x = 838.685546875
+        y = 329.29999877929686
+      }
+    },
+    {
+      id = jira.Status.instance.backlog
+      name = "Backlog"
+      properties = [
+        {
+          key = "jira.issue.editable"
+          value = "true"
+        },
+      ]
+      location = {
+        x = 852.306640625
+        y = 271.29999877929686
+      }
+    },
+    {
+      id = jira.Status.instance.code_complete@s
+      name = "Code Complete"
+      properties = [
+        {
+          key = "jira.issue.editable"
+          value = "true"
+        },
+      ]
+      location = {
+        x = 811.962890625
+        y = 176.29999877929689
+      }
+    },
+    {
+      id = jira.Status.instance.in_development@s
+      name = "In Development"
+      properties = [
+        {
+          key = "jira.issue.editable"
+          value = "true"
+        },
+      ]
+      location = {
+        x = 801.404296875
+        y = 222.29999877929689
+      }
+    },
+    {
+      id = jira.Status.instance.open
+      name = "Open"
+      properties = [
+        {
+          key = "jira.issue.editable"
+          value = "true"
+        },
+      ]
+      location = {
+        x = 896.41015625
+        y = 130.4
+      }
+    },
+  ]
+  name = "demo workflow"
+  diagramInitialEntry = {
+    x = 848
+    y = 67.4
+  }
+}

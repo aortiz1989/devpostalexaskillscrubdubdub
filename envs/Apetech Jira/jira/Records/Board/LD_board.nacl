@@ -1,0 +1,47 @@
+jira.Board LD_board@s {
+  name = "LD board"
+  type = "kanban"
+  admins = {
+    users = [
+      {
+        id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+        displayName = "Alex Ortiz"
+      },
+    ]
+  }
+  location = {
+    projectId = jira.Project.instance.Lynn_Demo@s
+  }
+  filterId = jira.Filter.instance.Filter_for_LD_board@s
+  columnConfig = {
+    columns = [
+      {
+        name = "Lynn's Status 1"
+        statuses = [
+          jira.Status.instance.backlog,
+          jira.Status.instance.to_do@s,
+        ]
+      },
+      {
+        name = "Status 2"
+        statuses = [
+          jira.Status.instance.selected_for_development@s,
+        ]
+      },
+      {
+        name = "In Progress"
+        statuses = [
+          jira.Status.instance.in_progress@s,
+        ]
+      },
+      {
+        name = "Done"
+        statuses = [
+          jira.Status.instance.done,
+        ]
+      },
+    ]
+    constraintType = "issueCount"
+  }
+  subQuery = "fixVersion in unreleasedVersions() OR fixVersion is EMPTY"
+}

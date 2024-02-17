@@ -1,0 +1,80 @@
+jira.Automation Set_Start_Date@s {
+  name = "Set Start Date"
+  state = "DISABLED"
+  authorAccountId = {
+    id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+    displayName = "Alex Ortiz"
+  }
+  actor = {
+    type = "ACCOUNT_ID"
+    value = {
+      id = "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077"
+      displayName = "Automation for Jira"
+    }
+  }
+  trigger = {
+    component = "TRIGGER"
+    schemaVersion = 1
+    type = "jira.issue.event.trigger:transitioned"
+    value = {
+      eventKey = "jira:issue_updated"
+      issueEvent = "issue_generic"
+      fromStatus = [
+      ]
+      toStatus = [
+        {
+          type = "NAME"
+          value = jira.Status.instance.in_progress@s.name
+        },
+      ]
+    }
+    children = [
+    ]
+    conditions = [
+    ]
+  }
+  components = [
+    {
+      component = "ACTION"
+      schemaVersion = 10
+      type = "jira.issue.edit"
+      value = {
+        operations = [
+          {
+            field = {
+              type = "NAME"
+              value = jira.Field.instance.Start_date__datepicker__c@suuuu.name
+            }
+            fieldType = "com.atlassian.jira.plugin.system.customfieldtypes:datepicker"
+            type = "SET"
+            rawValue = "{{now}}"
+          },
+        ]
+        sendNotifications = true
+      }
+      children = [
+      ]
+      conditions = [
+      ]
+    },
+  ]
+  canOtherRuleTrigger = false
+  notifyOnError = "FIRSTERROR"
+  labels = [
+  ]
+  tags = [
+  ]
+  ruleHome = {
+    ruleLifecycleHome = {
+      locationARI = "ari:cloud:jira-software::site/49e44624-3532-4a57-a284-c63551c79cbe"
+    }
+    ruleBillingHome = {
+      locationARI = "ari:cloud:jira-software::site/49e44624-3532-4a57-a284-c63551c79cbe"
+    }
+  }
+  writeAccessType = "UNRESTRICTED"
+  collaborators = [
+  ]
+  billingType = "NORMAL"
+  _alias = "Set Start Date"
+}

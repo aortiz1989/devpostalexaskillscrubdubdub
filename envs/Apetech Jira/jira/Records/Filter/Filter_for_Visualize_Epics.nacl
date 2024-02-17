@@ -1,0 +1,16 @@
+jira.Filter Filter_for_Visualize_Epics@s {
+  name = "Filter for Visualize Epics"
+  owner = {
+    id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+    displayName = "Alex Ortiz"
+  }
+  jql = "${ jira.Field.instance.Project__project } in (${ jira.Project.instance.demo_how_jira_works@s.key }, ${ jira.Project.instance.Sample_Scrum_Project@s.key }, ${ jira.Project.instance.Custom_Scholar_Scrum_Demo@s.key }) AND ${ jira.Field.instance.Issue_Type__issuetype@suu } in (standardIssueTypes(), subTaskIssueTypes()) ORDER BY ${ jira.Field.instance.Rank__gh_lexo_rank__c@uubbuu.name } ASC"
+  sharePermissions = [
+    {
+      type = "project"
+      project = {
+        id = jira.Project.instance.demo_how_jira_works@s
+      }
+    },
+  ]
+}

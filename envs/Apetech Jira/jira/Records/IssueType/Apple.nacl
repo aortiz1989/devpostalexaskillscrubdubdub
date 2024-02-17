@@ -1,0 +1,6 @@
+jira.IssueType Apple {
+  description = ""
+  name = "Apple"
+  untranslatedName = "Apple"
+  hierarchyLevel = 0
+}

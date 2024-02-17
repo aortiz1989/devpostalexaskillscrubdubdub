@@ -1,0 +1,8 @@
+jira.ProjectComponent Friday_Jira_Class_s__Roofing@uumuu {
+  assigneeType = "PROJECT_DEFAULT"
+  name = "Roofing"
+  _parent = [
+    jira.Project.instance.Friday_Jira_Class@s,
+  ]
+  _alias = "Friday Jira Class:Roofing"
+}

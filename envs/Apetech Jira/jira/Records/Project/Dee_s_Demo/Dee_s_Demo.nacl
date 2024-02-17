@@ -1,0 +1,13 @@
+jira.Project Dee_s_Demo@ts {
+  key = "DD"
+  description = ""
+  name = "Dee's Demo"
+  projectTypeKey = "software"
+  entityId = "6672b302-00db-43ff-bf61-c07d4344b5b9"
+  uuid = "6672b302-00db-43ff-bf61-c07d4344b5b9"
+  issueSecurityScheme = jira.SecurityScheme.instance.DD__Simplified_Issue_Security_Scheme@fssss
+  leadAccountId = {
+    id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+    displayName = "Alex Ortiz"
+  }
+}

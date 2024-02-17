@@ -1,0 +1,6 @@
+jira.IssueType Rack_Installation@s {
+  description = ""
+  name = "Rack Installation"
+  untranslatedName = "Rack Installation"
+  hierarchyLevel = 0
+}

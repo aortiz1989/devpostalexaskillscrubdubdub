@@ -1,0 +1,8 @@
+jira.ProjectComponent Demonstration_Project_s__A_subcomponent@umuus {
+  assigneeType = "PROJECT_DEFAULT"
+  name = "A subcomponent"
+  _parent = [
+    jira.Project.instance.Demonstration_Project@s,
+  ]
+  _alias = "Demonstration Project:A subcomponent"
+}

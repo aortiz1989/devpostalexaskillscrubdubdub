@@ -1,0 +1,68 @@
+jira.DashboardGadget My_First_Dashboard_s__Custom_Charts_0_8@uumuusuu {
+  moduleKey = "com.atlassian.plugins.atlassian-connect-plugin:com.oldstreetsolutions.atlassian.jira.custom-charts__custom-chart-dashboard-item"
+  color = "blue"
+  position = {
+    row = 8
+    column = 0
+  }
+  title = ""
+  properties = [
+    {
+      key = "params"
+      values = [
+        {
+          key = "id"
+          value = "CzAcHYFYBEg"
+        },
+        {
+          key = "title"
+          value = "Q"
+        },
+        {
+          key = "titleType"
+          value = "MICQggSgKkA"
+        },
+        {
+          key = "searchType"
+          value = "MoSQsgCgMgog+sGBBASgYQBJA"
+        },
+        {
+          key = "aggregations"
+          value = "NobwRALgngDgpmAXGAwgeQKoDkAqYA0YAhgOYkBOcJREcAQlEmAJIDKrGAoq2AL4C6QA"
+        },
+        {
+          key = "query"
+          value = "JzBsEZQQSA"
+        },
+        {
+          key = "customColumns"
+          value = "NobwRALgngDgpmAXGAygVQLJgDRgIYDmBATnAXhHAEJRJgDGArgM4QD2AtgGYCWcANgBMA+gEYADOIBMADhxhmACzYB3AApxi9OADsIhBIgjFGcAL7Zw0eHQDCAeTQA5ACrzCJMhWq1kASRR0AFEUeSVVDS1dfQJDY1MzAF0gA"
+        },
+        {
+          key = "displayOptions"
+          value = "N4IgzgFg9g7gQlATgEwKaJALgGYEMA2YqANONDACq4BG+qACugMaoB2ALmFu4gK4llYVWqgCSYMPy6Ye-UpFgAtdFABqBfgBkaqQljyEBCylHYEAwlF4dufI+QqmLUfLwC2rW3MEwA4oisABzgATy97WE1UAHM2ZHD5cgANAEEADwBLMG1qXQSfAE10rJy8mTtEoSgXdgzAgHlWOFxEAAkoADd0fNxedigAJVRsRFRIfQIiUgJ8WHrA2qhWMABZNl4e-FmYAFE0wKR2fONi7Ji4y2sj8u8TzLPY1mRGRBYbHEmBJggW9goQwKoLAgCgpOCaHYgUiA15sdgAESygXwuDCmBAqhSmgAqpDpvcAMrkF5va4GKY+ZQBElw0p6D6GaHMOGIsDI1EUDJ0YGYnE7AD69B2A3MOwAchQoSAYaTWeyQvQMkD0bzcYLhaKJVKZSykSiQqceVjcVK6I9nlAwBlFp50Sk+lBTecntoQlZriB7f0pbV2HQUvgMtFWG44cDNRRhVK0GAmIg6jb6JbrRklsCEOx+m4pcZsUREKI3DCwEtcDb8kxA0wANYUCABXjRCD5M1xAaRDJua1YACspFqdHMP0Q7FE7FQbjAL3bMF7pAN9yHv1aqCDEHYmk73cwACYAGwABkqMHhYzjCdTttkERgdOk1+PYvcuUQllcHnyrGf6H8QQyrGiYExXqflfAGepsXoUQxV8KUvzcF96FGJgskvLAAEYmVhDhcFiJDUBQq000wTCQFw6JRmiMtL05UNsVYbcQFaCCBgJKVyMo6illo1B2l4RABi4rAAA5SCYdxeBRWoukcMx8AmRkQGQFpqxWKA0AUiljEcGo6kaMVcFDdougwBktPISwEP-VBkAAKQAR3ksyBAXLJ6MYy4bFIZTxwAMSQNwy2BeEUgKflfNEViKH5AlmIGSVj3aeMAC8ljkzdWDGTTUAAXyAA"
+        },
+        {
+          key = "series1"
+          value = "N4IgxgFghgTgLgIQJ4EkAmIBcIBmBLADwDUBTGAZzwHsA7ckAGhAFso5IBlKZkgMTxIAbNPUw4og8iSYBzGFQCuABwDCUcmCho+A4aPGTpIBVJVVBVCljgwFRy9ph4aMrCG0aSNNM9dNyEFQA7gBaZFRmCjRw+hJSTGDmlgAyVGAA1lgGUgC+QA"
+        },
+        {
+          key = "impersonated"
+          value = false
+        },
+        {
+          key = "jiraFields"
+          value = "NobwRAlgJmBcYDMIA8BqBTATgZwgewDtswAaMAgQwFt04wAxFAAgx3yNLAGMAbCgV2zoActVrwkaLLkKdeAoQEkYElKxkFO2LgAt0VCnHAAXAJ4AHcWAqZMFU5wjH9xeADdp7OYON4qcAn4eHjJsU2xnf1UpNkJiAF94knBoOi4fPyR0HigAfQBGAAZCgCYADk5KGjoAZV9MUyYABTwIAmNiMnlBETFa+saWto65Ph7lNIRgItKygF0tXX1DWBMLK0CqACMsR0jXQOCujKjuPwA6CmM+bFwKAnOAKwg7c-MefgBzNvOwiP1zukIpkINkoGZLNhYAgeHgrlpwpEAkEeIk5kA"
+        },
+        {
+          key = "version"
+          value = "1"
+        },
+      ]
+    },
+  ]
+  _parent = [
+    jira.Dashboard.instance.My_First_Dashboard@s,
+  ]
+  _alias = ""
+}

@@ -1,0 +1,52 @@
+jira.DashboardGadget My_First_Dashboard_s__Custom_Charts_Simple_Search_0_7@uumuusssuu {
+  moduleKey = "com.atlassian.plugins.atlassian-connect-plugin:com.oldstreetsolutions.atlassian.jira.custom-charts__simple-search-dashboard-item"
+  color = "blue"
+  position = {
+    row = 7
+    column = 0
+  }
+  title = ""
+  properties = [
+    {
+      key = "params"
+      values = [
+        {
+          key = "id"
+          value = "JzBsEZQQSA"
+        },
+        {
+          key = "isTabsEnabled"
+          value = false
+        },
+        {
+          key = "displayOptions"
+          value = "N4IgzgFg9g7gggEwQMQJYFMA2CBCBXAFwKgDsQAuAgJz3QBoQF0wBjK1ABwNVIAUowqbqQogcUIlAC2IBpFgB5Kkyo4AngBEqUDglhlKNeuGgwAyqikdM6M+gCGVFhA3M2nYQeq0GCRwGsAWSgmCgAze0wwdABfIA"
+        },
+        {
+          key = "tabs"
+          value = "NobwRAZglgpgNgEwM5gFyjFBawAcBOA9gFYwDGALmADSZIDKAhgG4zaoX4CuMtZXSCoQC2AOUbCYOGnXrxyFNmk48AvtXBYcUJEh4UAnrim0dTVuxW8w-QSPGTpphvMpKO3GOs3swgxhQCMmYs7lZ8AkJiElKoYMEucAphnt6Yvoy6UADmAHYwJrKhlp4RdtGOcQlySW4lahrpOIoAHlRlUQ6x8c7mKTy9ror11q1UVWlacbZR0PAIAPoAjAAMK0sALDKEuBRQhLko6AC6HfYxTkUWyqWyQ-1ejVM2kSJziMtrSwCs27v7hzQwFOL3KXUuIWuHgGd1qwxuDR8OAQPAQAUKOz2ByOwLOFW61WKCOsZnuI0mvgI+3wUEMfyxgJOePBVV6ROhJMSyXJT180BaADUYPgkACULRMWKgSCZudKj0rg9BnCHqoQcQAI5wS5sWkAKS1aAgjDgSFGtKSOAAKowAEYAAiW23wCGFACEDGhwIZjDgACIAUXoAGEwKo1UA"
+        },
+        {
+          key = "title"
+          value = "LIQwlgdgBAygpiATgYwBZ0UA"
+        },
+        {
+          key = "titleAlignment"
+          value = "DIUQYgKkA"
+        },
+        {
+          key = "version"
+          value = "2"
+        },
+        {
+          key = "limitResults"
+          value = "N4IgVgjgNiBcIAcBOB7MBTAxgFwAQEkA5XACgB0QBBAYWooBoLKAVZhi6gBXZGoGU+AER6DuIRiEHMxEgGIApOiACU4kNgCeCdHBCcASgHl5AUWrM+a5GizYAznADaoANboNumtTUA7AIYAtjrwlNrYWAAWAOR2uNQoPuGJcUjoftgAlgm4pF6qAL70ru6erL6BwVRhkbjMNcwArtgoSBl+ULG5rAVFIG4e8FzlQbrxiejJnFB+Pj4ZPgDmOSRcPcUDvAKCw5XUDXbNAbh8mBEo00jHmEgNR4LoASjL-EJrfSXwoju6948+B0h0lkfLhOKgMDhlqI3v0ftJvp8Hk86oFQeDbFDpDCPiAFN56CB-CN4LJWgATPwaXDyDKAuLTOydEh4goAXXyQA"
+        },
+      ]
+    },
+  ]
+  _parent = [
+    jira.Dashboard.instance.My_First_Dashboard@s,
+  ]
+  _alias = ""
+}

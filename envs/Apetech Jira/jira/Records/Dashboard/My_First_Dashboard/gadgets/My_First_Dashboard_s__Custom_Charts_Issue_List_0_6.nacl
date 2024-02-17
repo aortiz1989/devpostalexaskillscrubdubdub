@@ -1,0 +1,60 @@
+jira.DashboardGadget My_First_Dashboard_s__Custom_Charts_Issue_List_0_6@uumuusssuu {
+  moduleKey = "com.atlassian.plugins.atlassian-connect-plugin:com.oldstreetsolutions.atlassian.jira.custom-charts__issue-list-dashboard-item"
+  color = "blue"
+  position = {
+    row = 6
+    column = 0
+  }
+  title = ""
+  properties = [
+    {
+      key = "params"
+      values = [
+        {
+          key = "id"
+          value = "JzBiCEBFyA"
+        },
+        {
+          key = "displayOptions"
+          value = "N4IgJgpgzgxgTgSwA4BcEHsB2AFdUFpYgBcIAQuiiugLYgA0IUAFugO4VyRwkBmAhgBsoERi3YARaPGSFMJFHACuo8PzgBrALLpIfISMZxoSwSijYIcbPwDmEEgEYADI0xKaAIysBxOOiUkBExbEhAAOQB5AH0fACVIgFVsAElwnwYQdy8rbGMYBHwiYgAmRjB+FAgAMXQ4GkqwiQBBAE1o6pS4gGUAFWjugAlIuN7M8TZEkTgUmiQrKCxKjHliRRVGGEEEGA1e5n8lW2YFZVV+JWo4iF5jFn1hc8FBdkjUFagtCHdTjZAhF5sACiAA8kHUUL9VBNmmYrJhliE4uwAMLoF5wKAPQxMVhscIebxwNGCDyrdbnWy2Yy2ZZYXoIGgQRKYAhhYaJHqZOzUiC0uQMpmDAJwOJ0kgADjEeMF0BQ-DmUEimAklQgsuqCAggjAWOIAkeAF8gA"
+        },
+        {
+          key = "title"
+          value = "Q"
+        },
+        {
+          key = "titleAlignment"
+          value = "DIUQYgKkA"
+        },
+        {
+          key = "fields"
+          value = "NobwRAlgJmBckGcEFcCmAXAngB1WANGAMbILoD2AtgHICGle8AKmAL77jRyIqoDWqTGw6QY8MrXSlhnMWBSVKtAE5D2s7rSQQA5gDtUedaO7oIDcst0Q9tADaoy5yXkK2G3APJWdN+wAJHMyV0IwBdIA"
+        },
+        {
+          key = "jiraFields"
+          value = "NobwRAlgJmBckGcEFcCmAXAngB1WANGAHYCGAtnvAJJJoAEAKjnoQMYA2JyCqAcuZTBZcBMBy48qMeBFoZmohKwAWqMiTjhhg2SnkjCEdGoRwiyduzbd0AezJmLVsAkwJjDmXO1gAvr-xwaDhEPQBrVExRUgoQgGlI0XFuPgEQ3TQkzhSpdJhCJVV1R0sAoOkXdBJ0bmi0+ABlKprTNmyeflj4d2ratolUXO7mvpcVNQ1YLQVh3tbID1NYc0trd3sS51d3NRCelr8yyAqUMnUAJyjCGMEG5DOSS6yBzsFTi6uxdsGT+4-FcbFKZCGaVc4QIgAc1ERhMmzWdk8Ky2bg8ez+jyi-kCxxCJCQEEhRFQLGI9TAAEECUSSc8Uq88dTiaTkpIKviEITmQCipNpiJ4ClzjDFvCxDYNssnAVUbt4ByubTseUQugIBRbODIRCSOxUO51dVSTcQgB5LU69h0fVq9TGOkdcm21CawmWm2G+39HIVV3a0jsACiBrtpMKE00IIFxHuACNUMLDKKpatxeskdKXLLPEJ1S6LQGPaHDgBdIA"
+        },
+        {
+          key = "quickFilters"
+          value = "N4IgZglgNgLgpgJwM4gFwG0C6AaEB7AB0QEMYI8A7NEAQQDkAREAXyA"
+        },
+        {
+          key = "search"
+          value = "N4IgDgTg9gVgpgYwC4GcQC4DaoDWcCeGIAagCogA0IAdgIYC2cRAbgIwDMABKQBa3U4UAcwCWzEdSGdOACjIBKEAF8AulST4wTdCAAKAJQDyAKQCiAYVIBlZUA"
+        },
+        {
+          key = "impersonated"
+          value = false
+        },
+        {
+          key = "version"
+          value = "1"
+        },
+      ]
+    },
+  ]
+  _parent = [
+    jira.Dashboard.instance.My_First_Dashboard@s,
+  ]
+  _alias = ""
+}

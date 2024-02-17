@@ -1,0 +1,42 @@
+jira.Board NPTR_board@s {
+  name = "NPTR board"
+  type = "scrum"
+  admins = {
+    users = [
+      {
+        id = "712020:2b10dceb-03a0-4229-8c5a-22b9248455aa"
+        displayName = "Revyz Configuration Manager for Jira"
+      },
+    ]
+  }
+  location = {
+    projectId = jira.Project.instance.A_new_project_to_restore_revyz@ssssu
+  }
+  filterId = jira.Filter.instance.Filter_for_NPTR_board@s
+  columnConfig = {
+    columns = [
+      {
+        name = "To Do"
+        statuses = [
+          jira.Status.instance.to_do@s,
+        ]
+      },
+      {
+        name = "In Progress"
+        statuses = [
+          jira.Status.instance.in_progress@s,
+        ]
+      },
+      {
+        name = "Done"
+        statuses = [
+          jira.Status.instance.done,
+        ]
+      },
+    ]
+    constraintType = "none"
+  }
+  estimation = {
+    field = jira.Field.instance.Story_Points__float__c@suuuu
+  }
+}

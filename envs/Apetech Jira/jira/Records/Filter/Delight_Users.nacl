@@ -1,0 +1,13 @@
+jira.Filter Delight_Users@s {
+  name = "Delight Users"
+  owner = {
+    id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+    displayName = "Alex Ortiz"
+  }
+  jql = "\"Goal[Checkboxes]\" = \"Delight users\" order by ${ jira.Field.instance.Created__datetime } DESC"
+  sharePermissions = [
+    {
+      type = "authenticated"
+    },
+  ]
+}

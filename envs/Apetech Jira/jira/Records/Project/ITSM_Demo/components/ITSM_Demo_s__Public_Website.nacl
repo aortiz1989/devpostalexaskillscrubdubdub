@@ -1,0 +1,13 @@
+jira.ProjectComponent ITSM_Demo_s__Public_Website@umuus {
+  description = "Created by Jira Service Management"
+  assigneeType = "PROJECT_DEFAULT"
+  name = "Public Website"
+  leadAccountId = {
+    id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+    displayName = "Alex Ortiz"
+  }
+  _parent = [
+    jira.Project.instance.ITSM_Demo@s,
+  ]
+  _alias = "ITSM Demo:Public Website"
+}

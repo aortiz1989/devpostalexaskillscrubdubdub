@@ -1,0 +1,11 @@
+jira.PortalSettings Demo_service_project@s {
+  name = "Demo service project"
+  description = "Welcome to Demo service project's portal! Try the example forms (we call them *Request types*) to practice requesting help like your customers would. To edit these request type forms, [visit the Request types page inside project settings|https://apetechengineering.atlassian.net/plugins/servlet/project-config/DEMO]."
+  announcementSettings = {
+    canAgentsManagePortalAnnouncement = false
+  }
+  _parent = [
+    jira.Project.instance.Demo_service_project@s,
+  ]
+  _alias = "Demo service project:Demo service project"
+}

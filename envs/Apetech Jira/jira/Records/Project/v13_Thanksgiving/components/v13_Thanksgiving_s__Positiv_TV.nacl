@@ -1,0 +1,8 @@
+jira.ProjectComponent v13_Thanksgiving_s__Positiv_TV@umuuv {
+  assigneeType = "PROJECT_DEFAULT"
+  name = "Positiv.TV"
+  _parent = [
+    jira.Project.instance.v13_Thanksgiving@s,
+  ]
+  _alias = "v13 Thanksgiving:Positiv.TV"
+}

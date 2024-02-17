@@ -1,0 +1,42 @@
+jira.Board DD_board@s {
+  name = "DD board"
+  type = "simple"
+  admins = {
+    users = [
+      {
+        id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+        displayName = "Alex Ortiz"
+      },
+    ]
+  }
+  location = {
+    projectId = jira.Project.instance.Dee_s_Demo@ts
+  }
+  filterId = jira.Filter.instance.missing_10083
+  columnConfig = {
+    columns = [
+      {
+        name = "To Do"
+        statuses = [
+          jira.Status.instance.missing_10123,
+        ]
+      },
+      {
+        name = "In Progress"
+        statuses = [
+          jira.Status.instance.missing_10124,
+        ]
+      },
+      {
+        name = "Done"
+        statuses = [
+          jira.Status.instance.missing_10125,
+        ]
+      },
+    ]
+    constraintType = "none"
+  }
+  estimation = {
+    field = jira.Field.instance.Story_point_estimate__jsw_story_points__c@ssuubbuu
+  }
+}

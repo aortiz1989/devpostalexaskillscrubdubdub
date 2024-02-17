@@ -1,0 +1,7 @@
+jira.ScreenScheme CMC__Scrum_Bug_Screen_Scheme@fssss {
+  name = "CMC: Scrum Bug Screen Scheme"
+  description = ""
+  screens = {
+    default = jira.Screen.instance.CMC__Scrum_Bug_Screen@fsss
+  }
+}

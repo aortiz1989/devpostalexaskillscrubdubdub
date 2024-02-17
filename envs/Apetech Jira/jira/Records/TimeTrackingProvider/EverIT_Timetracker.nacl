@@ -1,0 +1,5 @@
+jira.TimeTrackingProvider EverIT_Timetracker@s {
+  key = "org.everit.jira.timetracker.plugin__everit-timetracker-provider"
+  name = "EverIT Timetracker"
+  url = "https://apetechengineering.atlassian.net/plugins/servlet/ac/org.everit.jira.timetracker.plugin/timetracker-admin-page"
+}

@@ -1,0 +1,10 @@
+jira.Field Vendor_Parent_Company__select__c@dsuuuu {
+  name = "Vendor/Parent Company"
+  description = ""
+  searcherKey = "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher"
+  type = "com.atlassian.jira.plugin.system.customfieldtypes:select"
+  contexts = [
+    jira.CustomFieldContext.instance.Vendor_Parent_Company__select__c_dsuuuu_Default_Configuration_Scheme_for_Vendor_Parent_Company@uuuuuumussssds,
+  ]
+  _alias = "Vendor/Parent Company"
+}

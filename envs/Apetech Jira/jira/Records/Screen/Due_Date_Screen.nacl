@@ -1,0 +1,14 @@
+jira.Screen Due_Date_Screen@s {
+  name = "Due Date Screen"
+  description = ""
+  tabs = {
+    
+    General = {
+      name = "General"
+      fields = [
+        jira.Field.instance.Due_date__date@suu,
+      ]
+      position = 0
+    }
+  }
+}

@@ -1,0 +1,26 @@
+jira.Dashboard My_First_Dashboard@s {
+  description = ""
+  name = "My First Dashboard"
+  owner = {
+    id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+    displayName = "Alex Ortiz"
+  }
+  gadgets = [
+    jira.DashboardGadget.instance.My_First_Dashboard_s__Custom_Charts_0_0@uumuusuu,
+    jira.DashboardGadget.instance.My_First_Dashboard_s__Two_Dimensional_Filter_Statistics_0_1@uumuusssuu,
+    jira.DashboardGadget.instance.My_First_Dashboard_s__Custom_Charts_0_2@uumuusuu,
+    jira.DashboardGadget.instance.My_First_Dashboard_s__Custom_Charts_0_3@uumuusuu,
+    jira.DashboardGadget.instance.My_First_Dashboard_s__Issue_Statistics_0_4@uumuusuu,
+    jira.DashboardGadget.instance.My_First_Dashboard_s__Jira_Issues_Calendar_0_5@uumuussuu,
+    jira.DashboardGadget.instance.My_First_Dashboard_s__Custom_Charts_Issue_List_0_6@uumuusssuu,
+    jira.DashboardGadget.instance.My_First_Dashboard_s__Custom_Charts_Simple_Search_0_7@uumuusssuu,
+    jira.DashboardGadget.instance.My_First_Dashboard_s__Custom_Charts_0_8@uumuusuu,
+    jira.DashboardGadget.instance.My_First_Dashboard_s__Two_Dimensional_Filter_Statistics_0_9@uumuusssuu,
+    jira.DashboardGadget.instance.My_First_Dashboard_s__Issue_Statistics_0_10@uumuusuu,
+    jira.DashboardGadget.instance.My_First_Dashboard_s__Created_vs__Resolved_Chart_1_0@uumuusvssuu,
+    jira.DashboardGadget.instance.My_First_Dashboard_s__Two_Dimensional_Filter_Statistics_1_1@uumuusssuu,
+    jira.DashboardGadget.instance.My_First_Dashboard_s__Custom_Charts_1_2@uumuusuu,
+    jira.DashboardGadget.instance.My_First_Dashboard_s__Issue_Statistics_1_3@uumuusuu,
+  ]
+  layout = "AA"
+}

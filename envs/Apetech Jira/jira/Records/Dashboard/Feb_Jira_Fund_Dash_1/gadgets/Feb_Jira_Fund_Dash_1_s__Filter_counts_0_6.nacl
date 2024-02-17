@@ -1,0 +1,111 @@
+jira.DashboardGadget Feb_Jira_Fund_Dash_1_s__Filter_counts_0_6@uuuumuusuu {
+  moduleKey = "com.atlassian.servicedesk.dashboard-items-plugin:filter-count-dashboard-item"
+  color = "blue"
+  position = {
+    row = 6
+    column = 0
+  }
+  title = "Filter counts"
+  properties = [
+    {
+      key = "countOptions"
+      value = [
+        {
+          hasTrigger = false
+          trigger = {
+            display = ""
+            triggerEquality = ""
+            triggerOn = ""
+          }
+          name = "Priority - Highest"
+          jql = "priority = Highest"
+          id = "c21"
+        },
+        {
+          hasTrigger = false
+          trigger = {
+            display = ""
+            triggerEquality = ""
+            triggerOn = ""
+          }
+          name = "Status - To Do"
+          jql = "status = \"To Do\""
+          id = "c25"
+        },
+        {
+          hasTrigger = false
+          trigger = {
+            display = ""
+            triggerEquality = ""
+            triggerOn = ""
+          }
+          name = "Status - In Progress"
+          jql = "status = \"In Progress\""
+          id = "c29"
+        },
+        {
+          hasTrigger = false
+          trigger = {
+            display = ""
+            triggerEquality = ""
+            triggerOn = ""
+          }
+          name = "Priority - High"
+          jql = "priority = High"
+          id = "c33"
+        },
+        {
+          hasTrigger = false
+          trigger = {
+            display = "warning"
+            triggerEquality = "above"
+            triggerOn = "undefined"
+          }
+          id = "c37"
+          name = "Overdue"
+          jql = "due >= now()"
+        },
+        {
+          hasTrigger = false
+          trigger = {
+            display = "warning"
+            triggerEquality = "above"
+            triggerOn = "undefined"
+          }
+          id = "c69"
+          name = "New BUGS this week"
+          jql = "issuetype = bug and created < startOfWeek()"
+        },
+      ]
+    },
+    {
+      key = "isConfigured"
+      value = true
+    },
+    {
+      key = "projectFilterDetails"
+      values = [
+        {
+          key = "name"
+          value = "Jan 2023 Jira For Scrum Masters Course"
+        },
+        {
+          key = "type"
+          value = "project"
+        },
+        {
+          key = "id"
+          value = "10030"
+        },
+      ]
+    },
+    {
+      key = "refresh"
+      value = "15"
+    },
+  ]
+  _parent = [
+    jira.Dashboard.instance.Feb_Jira_Fund_Dash_1@s,
+  ]
+  _alias = "Filter counts"
+}

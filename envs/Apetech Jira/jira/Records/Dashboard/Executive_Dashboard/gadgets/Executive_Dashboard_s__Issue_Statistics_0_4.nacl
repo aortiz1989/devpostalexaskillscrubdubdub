@@ -1,0 +1,64 @@
+jira.DashboardGadget Executive_Dashboard_s__Issue_Statistics_0_4@umuusuu {
+  uri = "rest/gadgets/1.0/g/com.atlassian.jira.gadgets:stats-gadget/gadgets/stats-gadget.xml"
+  color = "blue"
+  position = {
+    row = 4
+    column = 0
+  }
+  title = "Issue Statistics"
+  properties = [
+    {
+      key = "config"
+      values = [
+        {
+          key = "isConfigured"
+          value = "true"
+        },
+        {
+          key = "sortDirection"
+          value = "desc"
+        },
+        {
+          key = "statType"
+          value = "statuses"
+        },
+        {
+          key = "maxResults"
+          value = "10"
+        },
+        {
+          key = "name"
+          value = "Demo Contracts"
+        },
+        {
+          key = "refresh"
+          value = "false"
+        },
+        {
+          key = "projectOrFilterId"
+          value = jira.Project.instance.Demo_Contracts@s
+        },
+        {
+          key = "includeResolvedIssues"
+          value = "false"
+        },
+        {
+          key = "sortBy"
+          value = "total"
+        },
+        {
+          key = "id"
+          value = "10023"
+        },
+        {
+          key = "type"
+          value = "project"
+        },
+      ]
+    },
+  ]
+  _parent = [
+    jira.Dashboard.instance.Executive_Dashboard@s,
+  ]
+  _alias = "Issue Statistics"
+}

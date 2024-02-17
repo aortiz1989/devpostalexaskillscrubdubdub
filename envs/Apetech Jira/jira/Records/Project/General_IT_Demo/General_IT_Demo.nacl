@@ -1,0 +1,26 @@
+jira.Project General_IT_Demo@s {
+  key = "GID"
+  description = ""
+  name = "General IT Demo"
+  projectTypeKey = "service_desk"
+  components = [
+    jira.ProjectComponent.instance.General_IT_Demo_s__Intranet@uumuu,
+    jira.ProjectComponent.instance.General_IT_Demo_s__Jira@uumuu,
+    jira.ProjectComponent.instance.General_IT_Demo_s__Public_website@uumuus,
+  ]
+  workflowScheme = jira.WorkflowScheme.instance.Jira_Service_Management_IT_Support_Workflow_Scheme_generated_for_Project_GID@s
+  permissionScheme = jira.PermissionScheme.instance.Jira_Service_Management_Permission_Scheme_for_Project_GID@s
+  notificationScheme = jira.NotificationScheme.instance.Default_Notification_Scheme@s
+  issueTypeScreenScheme = jira.IssueTypeScreenScheme.instance.GID__Jira_Service_Management_Issue_Type_Screen_Scheme@fsssssss
+  issueTypeScheme = jira.IssueTypeScheme.instance.GID__Jira_Service_Management_Issue_Type_Scheme@fssssss
+  fieldConfigurationScheme = jira.FieldConfigurationScheme.instance.Jira_Service_Management_Field_Configuration_Scheme_for_Project_GID@s
+  leadAccountId = {
+    id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+    displayName = "Alex Ortiz"
+  }
+  customerPermissions = {
+    manageEnabled = false
+    autocompleteEnabled = false
+    serviceDeskOpenAccess = true
+  }
+}

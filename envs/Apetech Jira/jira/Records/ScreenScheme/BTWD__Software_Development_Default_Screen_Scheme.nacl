@@ -1,0 +1,7 @@
+jira.ScreenScheme BTWD__Software_Development_Default_Screen_Scheme@fsssss {
+  name = "BTWD: Software Development Default Screen Scheme"
+  description = ""
+  screens = {
+    default = jira.Screen.instance.BTWD__Software_Development_Default_Issue_Screen@fsssss
+  }
+}

@@ -1,0 +1,8 @@
+jira.Filter My_Million_Dollar_Project@s {
+  name = "My Million Dollar Project"
+  owner = {
+    id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+    displayName = "Alex Ortiz"
+  }
+  jql = "issue in portfolioChildIssuesOf(\"FJC-49\")"
+}

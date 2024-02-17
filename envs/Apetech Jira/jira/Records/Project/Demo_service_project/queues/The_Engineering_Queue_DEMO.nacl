@@ -1,0 +1,19 @@
+jira.Queue The_Engineering_Queue_DEMO@ssu {
+  name = "The Engineering Queue"
+  jql = "${ jira.Field.instance.Resolution__resolution } = Unresolved AND \"${ jira.Field.instance.Responsible_Team__select__c@suuuu.name }\" = Engineering"
+  columns = [
+    jira.Field.instance.Issue_Type__issuetype@suu,
+    jira.Field.instance.Key,
+    jira.Field.instance.Summary__string,
+    jira.Field.instance.Reporter__user,
+    jira.Field.instance.Assignee__user,
+    jira.Field.instance.Status__status,
+    jira.Field.instance.Created__datetime,
+  ]
+  _parent = [
+    jira.Project.instance.Demo_service_project@s,
+  ]
+  _alias = "Demo service project:The Engineering Queue"
+  canBeHidden = true
+  favourite = false
+}

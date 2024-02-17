@@ -1,0 +1,50 @@
+jira.SLA Time_to_resolution_DEMO@ssu {
+  name = "Time to resolution"
+  config = {
+    definition = {
+      start = [
+        {
+          pluginKey = "com.atlassian.servicedesk"
+          factoryKey = "issue-created-sla-condition-factory"
+          conditionId = "issue-created-hit-condition"
+          name = "Issue Created"
+        },
+        {
+          pluginKey = "com.atlassian.servicedesk"
+          factoryKey = "resolution-sla-condition-factory"
+          conditionId = "resolution-cleared-hit-condition"
+          name = "Resolution: Cleared"
+        },
+      ]
+      stop = [
+        {
+          pluginKey = "com.atlassian.servicedesk"
+          factoryKey = "resolution-sla-condition-factory"
+          conditionId = "resolution-set-hit-condition"
+          name = "Resolution: Set"
+        },
+      ]
+    }
+    goals = [
+      {
+        jqlQuery = "${ jira.Field.instance.Priority__priority } = ${ jira.Priority.instance.Highest.name }"
+        duration = 14400000
+        calendarId = jira.Calendar.instance.Sample_9_5_Calendar_DEMO@sbsu
+        defaultGoal = false
+        timeMetricId = 0
+      },
+      {
+        jqlQuery = ""
+        duration = 57600000
+        calendarId = jira.Calendar.instance.Sample_9_5_Calendar_DEMO@sbsu
+        defaultGoal = true
+        timeMetricId = 0
+      },
+    ]
+    slaDisplayFormat = "NEW_SLA_FORMAT"
+  }
+  _parent = [
+    jira.Project.instance.Demo_service_project@s,
+  ]
+  _alias = "Demo service project:Time to resolution"
+}

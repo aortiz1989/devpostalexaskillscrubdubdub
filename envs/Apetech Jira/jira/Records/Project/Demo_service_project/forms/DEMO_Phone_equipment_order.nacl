@@ -1,0 +1,468 @@
+jira.Form DEMO_Phone_equipment_order@uss {
+  publish = {
+    jira = {
+      submitOnCreate = true
+      validateOnCreate = true
+    }
+    portal = {
+      submitOnCreate = true
+      validateOnCreate = true
+    }
+  }
+  design = {
+    settings = {
+      name = "Phone equipment order"
+      submit = {
+        lock = false
+        pdf = false
+      }
+    }
+    layout = [
+      {
+        type = "doc"
+        version = 1
+        content = [
+          {
+            type = "heading"
+            content = [
+              {
+                type = "text"
+                text = "Person making request"
+              },
+            ]
+            attrs = {
+              level = 2
+            }
+          },
+          {
+            type = "layoutSection"
+            content = [
+              {
+                type = "layoutColumn"
+                content = [
+                  {
+                    type = "extension"
+                    attrs = {
+                      layout = "default"
+                      extensionKey = "question"
+                      parameters = {
+                        id = 199
+                      }
+                      extensionType = "com.thinktilt.proforma"
+                    }
+                  },
+                  {
+                    type = "extension"
+                    attrs = {
+                      layout = "default"
+                      extensionKey = "question"
+                      parameters = {
+                        id = 201
+                      }
+                      extensionType = "com.thinktilt.proforma"
+                    }
+                  },
+                  {
+                    type = "extension"
+                    attrs = {
+                      layout = "default"
+                      extensionKey = "question"
+                      parameters = {
+                        id = 203
+                      }
+                      extensionType = "com.thinktilt.proforma"
+                    }
+                  },
+                ]
+                attrs = {
+                  width = 50
+                }
+              },
+              {
+                type = "layoutColumn"
+                content = [
+                  {
+                    type = "extension"
+                    attrs = {
+                      layout = "default"
+                      extensionKey = "question"
+                      parameters = {
+                        id = 200
+                      }
+                      extensionType = "com.thinktilt.proforma"
+                    }
+                  },
+                  {
+                    type = "extension"
+                    attrs = {
+                      layout = "default"
+                      extensionKey = "question"
+                      parameters = {
+                        id = 202
+                      }
+                      extensionType = "com.thinktilt.proforma"
+                    }
+                  },
+                  {
+                    type = "extension"
+                    attrs = {
+                      layout = "default"
+                      extensionKey = "question"
+                      parameters = {
+                        id = 204
+                      }
+                      extensionType = "com.thinktilt.proforma"
+                    }
+                  },
+                ]
+                attrs = {
+                  width = 50
+                }
+              },
+            ]
+          },
+          {
+            type = "heading"
+            content = [
+              {
+                type = "text"
+                text = "Telephone lines and installations"
+              },
+            ]
+            attrs = {
+              level = 2
+            }
+          },
+          {
+            type = "extension"
+            attrs = {
+              layout = "default"
+              extensionKey = "question"
+              parameters = {
+                id = 157
+              }
+              extensionType = "com.thinktilt.proforma"
+            }
+          },
+          {
+            type = "heading"
+            content = [
+              {
+                type = "text"
+                text = "Handsets and Headsets"
+              },
+            ]
+            attrs = {
+              level = 2
+            }
+          },
+          {
+            type = "extension"
+            attrs = {
+              layout = "default"
+              extensionKey = "question"
+              parameters = {
+                id = 159
+              }
+              extensionType = "com.thinktilt.proforma"
+            }
+          },
+          {
+            type = "heading"
+            content = [
+              {
+                type = "text"
+                text = "Time frame"
+              },
+            ]
+            attrs = {
+              level = 2
+            }
+          },
+          {
+            type = "layoutSection"
+            content = [
+              {
+                type = "layoutColumn"
+                content = [
+                  {
+                    type = "extension"
+                    attrs = {
+                      layout = "default"
+                      extensionKey = "question"
+                      parameters = {
+                        id = 205
+                      }
+                      extensionType = "com.thinktilt.proforma"
+                    }
+                  },
+                ]
+                attrs = {
+                  width = 50
+                }
+              },
+              {
+                type = "layoutColumn"
+                content = [
+                  {
+                    type = "extension"
+                    attrs = {
+                      layout = "default"
+                      extensionKey = "question"
+                      parameters = {
+                        id = 206
+                      }
+                      extensionType = "com.thinktilt.proforma"
+                    }
+                  },
+                ]
+                attrs = {
+                  width = 50
+                }
+              },
+            ]
+          },
+        ]
+      },
+      {
+        type = "doc"
+        version = 1
+        content = [
+          {
+            type = "extension"
+            attrs = {
+              layout = "default"
+              extensionKey = "question"
+              parameters = {
+                id = 197
+              }
+              extensionType = "com.thinktilt.proforma"
+            }
+          },
+        ]
+      },
+      {
+        type = "doc"
+        version = 1
+        content = [
+          {
+            type = "extension"
+            attrs = {
+              layout = "default"
+              extensionKey = "question"
+              parameters = {
+                id = 189
+              }
+              extensionType = "com.thinktilt.proforma"
+            }
+          },
+        ]
+      },
+    ]
+    conditions = {
+      
+      "207@" = {
+        t = "sh"
+        i = {
+          co = {
+            cIds = {
+              "205@" = [
+                "183",
+              ]
+            }
+          }
+        }
+        o = {
+          sIds = [
+            "1",
+          ]
+        }
+      }
+    }
+    sections = {
+      
+      
+      "1@" = {
+        name = "Temporary"
+        conditions = [
+          "207",
+        ]
+      }
+      "2@" = {
+        conditions = [
+        ]
+      }
+    }
+    questions = {
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      "157@" = {
+        type = "cs"
+        label = "Installation requested"
+        validation = {
+        }
+        choices = [
+          {
+            id = "160"
+            label = "New extension including new cabling and socket"
+          },
+          {
+            id = "161"
+            label = "New extension to an existing, inactive socket"
+          },
+          {
+            id = "182"
+            label = "Relocate existing to a new location "
+          },
+          {
+            id = "190"
+            label = "Convert existing extension from analogue to digital"
+          },
+          {
+            id = "191"
+            label = "Relocate an existing extension to an existing inactive, socket"
+          },
+          {
+            id = "192"
+            label = "Swap of telephone extensions"
+          },
+          {
+            id = "0"
+            label = "Other..."
+            other = true
+          },
+        ]
+      }
+      "159@" = {
+        type = "cm"
+        label = "Equipment requested"
+        validation = {
+        }
+        choices = [
+          {
+            id = "164"
+            label = "Handset speaker phone"
+          },
+          {
+            id = "165"
+            label = "Cordless headset"
+          },
+          {
+            id = "166"
+            label = "Cordless handset"
+          },
+          {
+            id = "167"
+            label = "Mobile phone"
+          },
+          {
+            id = "168"
+            label = "Smartphone"
+          },
+          {
+            id = "194"
+            label = "SIM card only"
+          },
+          {
+            id = "0"
+            label = "Other..."
+            other = true
+          },
+        ]
+      }
+      "189@" = {
+        type = "pg"
+        label = "Comments"
+        validation = {
+        }
+      }
+      "197@" = {
+        type = "da"
+        label = "Approximate ending date"
+        description = ""
+        validation = {
+          rq = false
+        }
+        choices = [
+        ]
+        questionKey = ""
+      }
+      "199@" = {
+        type = "ts"
+        label = "Name"
+        validation = {
+        }
+      }
+      "200@" = {
+        type = "ts"
+        label = "Job title"
+        validation = {
+        }
+      }
+      "201@" = {
+        type = "ts"
+        label = "Phone"
+        validation = {
+        }
+      }
+      "202@" = {
+        type = "te"
+        label = " Email"
+        description = ""
+        validation = {
+          rq = false
+        }
+        choices = [
+        ]
+        questionKey = ""
+      }
+      "203@" = {
+        type = "ts"
+        label = "Department"
+        validation = {
+        }
+      }
+      "204@" = {
+        type = "ts"
+        label = "Cost center (acct #)"
+        validation = {
+        }
+      }
+      "205@" = {
+        type = "cs"
+        label = "This equipment is for "
+        validation = {
+        }
+        choices = [
+          {
+            id = "183"
+            label = "Temporary use (three months or less)"
+          },
+          {
+            id = "184"
+            label = "Permanent use"
+          },
+        ]
+      }
+      "206@" = {
+        type = "da"
+        label = "Date needed by"
+        validation = {
+        }
+      }
+    }
+  }
+  _parent = [
+    jira.Project.instance.Demo_service_project@s,
+  ]
+}

@@ -1,0 +1,10 @@
+jira.FieldConfigurationScheme Advanced_Roadmaps_Sample_Plans_Field_Configuration_Scheme@s {
+  name = "Advanced Roadmaps Sample Plans Field Configuration Scheme"
+  description = "Field Configuration Scheme used by Advanced Roadmaps Sample Plans"
+  items = [
+    {
+      issueTypeId = "default"
+      fieldConfigurationId = jira.FieldConfiguration.instance.Advanced_Roadmaps_Sample_Plans_Field_Configuration@s
+    },
+  ]
+}

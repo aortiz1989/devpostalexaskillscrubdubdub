@@ -1,0 +1,13 @@
+jira.Project Team_Managed_Project_To_Migrate@s {
+  key = "MOVEME"
+  description = ""
+  name = "Team Managed Project To Migrate"
+  projectTypeKey = "software"
+  entityId = "2ed9f8b1-3e55-4d7d-9d1a-e242e85edea2"
+  uuid = "2ed9f8b1-3e55-4d7d-9d1a-e242e85edea2"
+  issueSecurityScheme = jira.SecurityScheme.instance.MOVEME__Simplified_Issue_Security_Scheme@fssss
+  leadAccountId = {
+    id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+    displayName = "Alex Ortiz"
+  }
+}

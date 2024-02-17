@@ -1,0 +1,7 @@
+jira.ScreenScheme TURKEY__Scrum_Default_Screen_Scheme@fssss {
+  name = "TURKEY: Scrum Default Screen Scheme"
+  description = ""
+  screens = {
+    default = jira.Screen.instance.TURKEY__Scrum_Default_Issue_Screen@fssss
+  }
+}

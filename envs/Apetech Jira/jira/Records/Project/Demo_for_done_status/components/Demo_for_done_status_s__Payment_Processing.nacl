@@ -1,0 +1,8 @@
+jira.ProjectComponent Demo_for_done_status_s__Payment_Processing@uuumuus {
+  assigneeType = "PROJECT_DEFAULT"
+  name = "Payment Processing"
+  _parent = [
+    jira.Project.instance.Demo_for_done_status@s,
+  ]
+  _alias = "Demo for done status:Payment Processing"
+}

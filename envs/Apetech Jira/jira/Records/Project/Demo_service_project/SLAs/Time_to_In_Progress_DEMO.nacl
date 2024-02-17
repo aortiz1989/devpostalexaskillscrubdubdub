@@ -32,4 +32,5 @@ jira.SLA Time_to_In_Progress_DEMO@sssu {
   _parent = [
     jira.Project.instance.Demo_service_project@s,
   ]
+  _alias = "Demo service project:Time to In Progress"
 }

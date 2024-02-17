@@ -1,0 +1,46 @@
+jira.Board Bug_Tracking@s {
+  name = "Bug Tracking"
+  type = "kanban"
+  admins = {
+    users = [
+      {
+        id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+        displayName = "Alex Ortiz"
+      },
+    ]
+  }
+  location = {
+    projectId = jira.Project.instance.Bug_Tracking_Demo@s
+  }
+  filterId = jira.Filter.instance.Filter_for_Bug_Tracking@s
+  columnConfig = {
+    columns = [
+      {
+        name = "To Do"
+        statuses = [
+          jira.Status.instance.to_do@s,
+        ]
+      },
+      {
+        name = "In Progress"
+        statuses = [
+          jira.Status.instance.in_progress@s,
+        ]
+      },
+      {
+        name = "In Review"
+        statuses = [
+          jira.Status.instance.in_review@s,
+        ]
+      },
+      {
+        name = "Done"
+        statuses = [
+          jira.Status.instance.done,
+        ]
+      },
+    ]
+    constraintType = "issueCount"
+  }
+  subQuery = "fixVersion in unreleasedVersions() OR fixVersion is EMPTY"
+}

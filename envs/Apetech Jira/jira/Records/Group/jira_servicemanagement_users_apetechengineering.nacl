@@ -1,0 +1,3 @@
+jira.Group jira_servicemanagement_users_apetechengineering@b {
+  name = "jira-servicemanagement-users-apetechengineering"
+}

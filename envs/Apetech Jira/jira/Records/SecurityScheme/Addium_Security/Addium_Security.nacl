@@ -1,0 +1,8 @@
+jira.SecurityScheme Addium_Security@s {
+  name = "Addium Security"
+  description = ""
+  levels = [
+    jira.SecurityLevel.instance.Addium_Security_s__Contractors@umuu,
+    jira.SecurityLevel.instance.Addium_Security_s__Internal@umuu,
+  ]
+}

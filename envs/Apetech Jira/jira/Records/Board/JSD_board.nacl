@@ -1,0 +1,54 @@
+jira.Board JSD_board@s {
+  name = "JSD board"
+  type = "scrum"
+  admins = {
+    users = [
+      {
+        id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+        displayName = "Alex Ortiz"
+      },
+    ]
+  }
+  location = {
+    projectId = jira.Project.instance.Jira_Scrum_Demonstration@s
+  }
+  filterId = jira.Filter.instance.Filter_for_JSD_board@s
+  columnConfig = {
+    columns = [
+      {
+        name = "To Do"
+        statuses = [
+          jira.Status.instance.to_do@s,
+        ]
+      },
+      {
+        name = "In Progress"
+        statuses = [
+          jira.Status.instance.in_progress@s,
+        ]
+      },
+      {
+        name = "Code Complete"
+        statuses = [
+          jira.Status.instance.code_complete@s,
+        ]
+      },
+      {
+        name = "Code Review"
+        statuses = [
+          jira.Status.instance.code_review@s,
+        ]
+      },
+      {
+        name = "Done"
+        statuses = [
+          jira.Status.instance.ready_for_qa@s,
+        ]
+      },
+    ]
+    constraintType = "none"
+  }
+  estimation = {
+    field = jira.Field.instance.Story_Points__float__c@suuuu
+  }
+}

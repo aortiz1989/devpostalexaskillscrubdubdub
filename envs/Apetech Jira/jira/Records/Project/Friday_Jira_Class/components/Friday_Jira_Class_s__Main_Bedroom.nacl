@@ -1,0 +1,8 @@
+jira.ProjectComponent Friday_Jira_Class_s__Main_Bedroom@uumuus {
+  assigneeType = "PROJECT_DEFAULT"
+  name = "Main Bedroom"
+  _parent = [
+    jira.Project.instance.Friday_Jira_Class@s,
+  ]
+  _alias = "Friday Jira Class:Main Bedroom"
+}

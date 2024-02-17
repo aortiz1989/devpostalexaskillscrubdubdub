@@ -1,0 +1,40 @@
+jira.IssueTypeScheme Default_Issue_Type_Scheme@s {
+  name = "Default Issue Type Scheme"
+  description = "Default issue type scheme is the list of global issue types. All newly created issue types will automatically be added to this scheme."
+  isDefault = true
+  issueTypeIds = [
+    jira.IssueType.instance.Epic,
+    jira.IssueType.instance.Story,
+    jira.IssueType.instance.Task,
+    jira.IssueType.instance.Sub_task@b,
+    jira.IssueType.instance.Bug,
+    jira.IssueType.instance.Initiative,
+    jira.IssueType.instance.Risk,
+    jira.IssueType.instance.HLD,
+    jira.IssueType.instance.Submit_a_request_or_incident@s,
+    jira.IssueType.instance.Ask_a_question@s,
+    jira.IssueType.instance.IT_Help@s,
+    jira.IssueType.instance.Emailed_request@s,
+    jira.IssueType.instance.Service_Request@s,
+    jira.IssueType.instance.Service_Request_with_Approvals@s,
+    jira.IssueType.instance.Theme,
+    jira.IssueType.instance.Apple,
+    jira.IssueType.instance.Defect,
+    jira.IssueType.instance.Spike,
+    jira.IssueType.instance.Technical_Debt@s,
+    jira.IssueType.instance.The_DeVonna@s,
+    jira.IssueType.instance.Improvement,
+    jira.IssueType.instance.New_Feature@s,
+    jira.IssueType.instance.Not_a_Spike@s,
+    jira.IssueType.instance._System__Incident@his,
+    jira.IssueType.instance._System__Post_incident_review@hisbs,
+    jira.IssueType.instance._System__Service_request@hiss,
+    jira.IssueType.instance._System__Service_request_with_approvals@hissss,
+    jira.IssueType.instance._System__Change@his,
+    jira.IssueType.instance._System__Problem@his,
+    jira.IssueType.instance.Documents,
+    jira.IssueType.instance.Server_Installation@s,
+    jira.IssueType.instance.Main_Comm_Installations@s,
+    jira.IssueType.instance.Rack_Installation@s,
+  ]
+}

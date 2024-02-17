@@ -1,0 +1,52 @@
+jira.Board Dev_Board@s {
+  name = "Dev Board"
+  type = "scrum"
+  admins = {
+    users = [
+      {
+        id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+        displayName = "Alex Ortiz"
+      },
+    ]
+  }
+  location = {
+    projectId = jira.Project.instance.Demonstration_Project@s
+  }
+  filterId = jira.Filter.instance.Filter_for_DEVELOPER_Board@s
+  columnConfig = {
+    columns = [
+      {
+        name = "To Do"
+        statuses = [
+          jira.Status.instance.backlog,
+          jira.Status.instance.selected_for_development@s,
+        ]
+      },
+      {
+        name = "In Progress"
+        statuses = [
+          jira.Status.instance.in_progress@s,
+        ]
+      },
+      {
+        name = "Ready for Sanity"
+      },
+      {
+        name = "Review"
+        statuses = [
+          jira.Status.instance.review,
+        ]
+      },
+      {
+        name = "Done"
+        statuses = [
+          jira.Status.instance.done,
+        ]
+      },
+    ]
+    constraintType = "none"
+  }
+  estimation = {
+    field = jira.Field.instance.Story_Points__float__c@suuuu
+  }
+}

@@ -1,0 +1,11 @@
+jira.PortalGroup General_GID {
+  name = "General"
+  ticketTypeIds = [
+    jira.RequestType.instance.Submit_a_request_or_incident_GID@ssssu,
+    jira.RequestType.instance.Ask_a_question_GID@ssu,
+  ]
+  _parent = [
+    jira.Project.instance.General_IT_Demo@s,
+  ]
+  _alias = "General IT Demo:General"
+}

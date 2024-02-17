@@ -1,0 +1,3 @@
+jira.Group Transition_To_Done_Group@s {
+  name = "Transition To Done Group"
+}

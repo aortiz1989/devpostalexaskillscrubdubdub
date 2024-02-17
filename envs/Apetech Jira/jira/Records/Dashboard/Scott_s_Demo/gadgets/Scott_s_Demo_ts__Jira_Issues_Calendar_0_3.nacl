@@ -1,0 +1,56 @@
+jira.DashboardGadget Scott_s_Demo_ts__Jira_Issues_Calendar_0_3@uumuussuu {
+  uri = "rest/gadgets/1.0/g/com.atlassian.jira.ext.calendar:issuescalendar-gadget/templates/plugins/jira/portlets/calendar/gadget/calendar-gadget.xml"
+  color = "blue"
+  position = {
+    row = 3
+    column = 0
+  }
+  title = "Jira Issues Calendar"
+  properties = [
+    {
+      key = "config"
+      values = [
+        {
+          key = "isConfigured"
+          value = "true"
+        },
+        {
+          key = "numOfIssueIcons"
+          value = "10"
+        },
+        {
+          key = "dateFieldName"
+          value = "duedate"
+        },
+        {
+          key = "name"
+          value = "Thanksgiving Dinner - How to Agile"
+        },
+        {
+          key = "refresh"
+          value = "15"
+        },
+        {
+          key = "projectOrFilterId"
+          value = jira.Project.instance.Thanksgiving_Dinner___How_to_Agile@ssbsss
+        },
+        {
+          key = "id"
+          value = "10015"
+        },
+        {
+          key = "type"
+          value = "project"
+        },
+        {
+          key = "displayVersions"
+          value = "true"
+        },
+      ]
+    },
+  ]
+  _parent = [
+    jira.Dashboard.instance.Scott_s_Demo@ts,
+  ]
+  _alias = "Jira Issues Calendar"
+}

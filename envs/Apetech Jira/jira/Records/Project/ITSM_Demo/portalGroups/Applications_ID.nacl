@@ -1,0 +1,12 @@
+jira.PortalGroup Applications_ID {
+  name = "Applications"
+  ticketTypeIds = [
+    jira.RequestType.instance.Report_a_system_problem_ID@sssu,
+    jira.RequestType.instance.Request_a_change_ID@ssu,
+    jira.RequestType.instance.Request_new_software_ID@ssu,
+  ]
+  _parent = [
+    jira.Project.instance.ITSM_Demo@s,
+  ]
+  _alias = "ITSM Demo:Applications"
+}

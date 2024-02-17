@@ -1,0 +1,8 @@
+jira.ProjectComponent Demonstration_Project_s__Plumbing@umuu {
+  assigneeType = "PROJECT_DEFAULT"
+  name = "Plumbing"
+  _parent = [
+    jira.Project.instance.Demonstration_Project@s,
+  ]
+  _alias = "Demonstration Project:Plumbing"
+}

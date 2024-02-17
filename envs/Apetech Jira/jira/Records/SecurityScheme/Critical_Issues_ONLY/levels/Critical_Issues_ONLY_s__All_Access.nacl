@@ -1,0 +1,15 @@
+jira.SecurityLevel Critical_Issues_ONLY_s__All_Access@uumuus {
+  description = ""
+  name = "All Access"
+  members = [
+    {
+      holder = {
+        type = "projectRole"
+        parameter = jira.ProjectRole.instance.atlassian_addons_project_access@b
+      }
+    },
+  ]
+  _parent = [
+    jira.SecurityScheme.instance.Critical_Issues_ONLY@s,
+  ]
+}

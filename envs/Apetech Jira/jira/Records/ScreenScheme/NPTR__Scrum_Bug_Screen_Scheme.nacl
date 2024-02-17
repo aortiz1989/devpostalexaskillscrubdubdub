@@ -1,0 +1,7 @@
+jira.ScreenScheme NPTR__Scrum_Bug_Screen_Scheme@fssss {
+  name = "NPTR: Scrum Bug Screen Scheme"
+  description = ""
+  screens = {
+    default = jira.Screen.instance.NPTR__Scrum_Bug_Screen@fsss
+  }
+}

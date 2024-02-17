@@ -1,0 +1,6 @@
+jira.IssueType HLD {
+  description = ""
+  name = "HLD"
+  untranslatedName = "HLD"
+  hierarchyLevel = 0
+}

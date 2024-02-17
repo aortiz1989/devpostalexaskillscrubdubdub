@@ -1,0 +1,7 @@
+jira.SecurityScheme Internal {
+  name = "Internal"
+  description = ""
+  levels = [
+    jira.SecurityLevel.instance.Internal__All_internal_members@uuss,
+  ]
+}

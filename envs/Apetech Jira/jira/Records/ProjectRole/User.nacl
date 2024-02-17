@@ -1,0 +1,4 @@
+jira.ProjectRole User {
+  name = "User"
+  description = ""
+}

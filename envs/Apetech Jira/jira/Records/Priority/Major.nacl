@@ -1,0 +1,6 @@
+jira.Priority Major {
+  statusColor = "#ffff00"
+  description = ""
+  iconUrl = "/images/icons/priorities/critical.svg"
+  name = "Major"
+}

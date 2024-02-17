@@ -1,0 +1,28 @@
+jira.Board NEW_ITEMS_FOR_REVIEW@s {
+  name = "NEW ITEMS FOR REVIEW"
+  type = "kanban"
+  admins = {
+    users = [
+      {
+        id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+        displayName = "Alex Ortiz"
+      },
+    ]
+  }
+  location = {
+    projectId = jira.Project.instance.Thanksgiving_2@s
+  }
+  filterId = jira.Filter.instance.Filter_for_NEW_ITEMS_FOR_REVIEW@s
+  columnConfig = {
+    columns = [
+      {
+        name = "To Do"
+        statuses = [
+          jira.Status.instance.new,
+        ]
+      },
+    ]
+    constraintType = "issueCount"
+  }
+  subQuery = "fixVersion in unreleasedVersions() OR fixVersion is EMPTY"
+}

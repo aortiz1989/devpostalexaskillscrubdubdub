@@ -1,0 +1,64 @@
+jira.DashboardGadget My_First_Dashboard_s__Issue_Statistics_0_4@uumuusuu {
+  uri = "rest/gadgets/1.0/g/com.atlassian.jira.gadgets:stats-gadget/gadgets/stats-gadget.xml"
+  color = "blue"
+  position = {
+    row = 4
+    column = 0
+  }
+  title = "Issue Statistics"
+  properties = [
+    {
+      key = "config"
+      values = [
+        {
+          key = "isConfigured"
+          value = "true"
+        },
+        {
+          key = "sortDirection"
+          value = "desc"
+        },
+        {
+          key = "statType"
+          value = "assignees"
+        },
+        {
+          key = "maxResults"
+          value = "10"
+        },
+        {
+          key = "name"
+          value = "v13 Thanksgiving"
+        },
+        {
+          key = "refresh"
+          value = "false"
+        },
+        {
+          key = "projectOrFilterId"
+          value = jira.Project.instance.v13_Thanksgiving@s
+        },
+        {
+          key = "includeResolvedIssues"
+          value = "false"
+        },
+        {
+          key = "sortBy"
+          value = "total"
+        },
+        {
+          key = "id"
+          value = "10020"
+        },
+        {
+          key = "type"
+          value = "project"
+        },
+      ]
+    },
+  ]
+  _parent = [
+    jira.Dashboard.instance.My_First_Dashboard@s,
+  ]
+  _alias = "Issue Statistics"
+}

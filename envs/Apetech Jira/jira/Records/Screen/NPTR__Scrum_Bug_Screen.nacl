@@ -1,0 +1,10 @@
+jira.Screen NPTR__Scrum_Bug_Screen@fsss {
+  name = "NPTR: Scrum Bug Screen"
+  tabs = {
+    
+    General = {
+      name = "General"
+      position = 0
+    }
+  }
+}

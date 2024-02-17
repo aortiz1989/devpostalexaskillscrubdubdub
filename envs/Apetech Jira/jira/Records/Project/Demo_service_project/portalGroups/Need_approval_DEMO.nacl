@@ -1,0 +1,11 @@
+jira.PortalGroup Need_approval_DEMO@su {
+  name = "Need approval"
+  ticketTypeIds = [
+    jira.RequestType.instance.Travel_request_DEMO@su,
+    jira.RequestType.instance.Purchase_over__100_DEMO@sszcu,
+  ]
+  _parent = [
+    jira.Project.instance.Demo_service_project@s,
+  ]
+  _alias = "Demo service project:Need approval"
+}

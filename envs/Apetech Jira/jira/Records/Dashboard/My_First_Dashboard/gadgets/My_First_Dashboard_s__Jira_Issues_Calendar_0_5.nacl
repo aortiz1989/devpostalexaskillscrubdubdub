@@ -1,0 +1,56 @@
+jira.DashboardGadget My_First_Dashboard_s__Jira_Issues_Calendar_0_5@uumuussuu {
+  uri = "rest/gadgets/1.0/g/com.atlassian.jira.ext.calendar:issuescalendar-gadget/templates/plugins/jira/portlets/calendar/gadget/calendar-gadget.xml"
+  color = "blue"
+  position = {
+    row = 5
+    column = 0
+  }
+  title = "Jira Issues Calendar"
+  properties = [
+    {
+      key = "config"
+      values = [
+        {
+          key = "isConfigured"
+          value = "true"
+        },
+        {
+          key = "numOfIssueIcons"
+          value = "10"
+        },
+        {
+          key = "dateFieldName"
+          value = "duedate"
+        },
+        {
+          key = "name"
+          value = "v13 Thanksgiving"
+        },
+        {
+          key = "refresh"
+          value = "false"
+        },
+        {
+          key = "projectOrFilterId"
+          value = jira.Project.instance.v13_Thanksgiving@s
+        },
+        {
+          key = "id"
+          value = "10020"
+        },
+        {
+          key = "type"
+          value = "project"
+        },
+        {
+          key = "displayVersions"
+          value = "false"
+        },
+      ]
+    },
+  ]
+  _parent = [
+    jira.Dashboard.instance.My_First_Dashboard@s,
+  ]
+  _alias = "Jira Issues Calendar"
+}

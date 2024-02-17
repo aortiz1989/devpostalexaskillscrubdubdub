@@ -1,0 +1,8 @@
+jira.ProjectComponent Jira_Scrum_Demonstration_s__test_1@uumuus {
+  assigneeType = "PROJECT_DEFAULT"
+  name = "test 1"
+  _parent = [
+    jira.Project.instance.Jira_Scrum_Demonstration@s,
+  ]
+  _alias = "Jira Scrum Demonstration:test 1"
+}

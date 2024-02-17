@@ -1,0 +1,9 @@
+jira.CustomFieldContext Category__jwm_category__c_uubuu_Category_Field_Config_Scheme_for_Project__Paid_Ads_for_Apetech@uuuuumusssssfssss {
+  name = "Category Field Config Scheme for Project: Paid Ads for Apetech"
+  description = "Category Field Options"
+  isGlobalContext = false
+  _parent = [
+    jira.Field.instance.Category__jwm_category__c@uubuu,
+  ]
+  _alias = "Category context in Category Field Config Scheme for Project: Paid Ads for Apetech"
+}

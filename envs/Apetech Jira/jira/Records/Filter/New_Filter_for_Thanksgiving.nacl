@@ -1,0 +1,83 @@
+jira.Filter New_Filter_for_Thanksgiving@s {
+  name = "New Filter for Thanksgiving"
+  description = ""
+  owner = {
+    id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+    displayName = "Alex Ortiz"
+  }
+  jql = "${ jira.Field.instance.Project__project } in (${ jira.Project.instance.Thanksgiving_2@s.key }, ${ jira.Project.instance.Demo_service_project@s.key }) AND \"${ jira.Field.instance.Favorite_dessert__select__c@suuuu.name }[Dropdown]\" = Candy ORDER BY ${ jira.Field.instance.Rank__gh_lexo_rank__c@uubbuu.name } ASC"
+  sharePermissions = [
+    {
+      type = "project"
+      project = {
+        id = jira.Project.instance.Thanksgiving_2@s
+      }
+    },
+  ]
+  columns = [
+    {
+      label = "Issue Type"
+      value = "issuetype"
+    },
+    {
+      label = "Key"
+      value = "issuekey"
+    },
+    {
+      label = "Summary"
+      value = "summary"
+    },
+    {
+      label = "Assignee"
+      value = "assignee"
+    },
+    {
+      label = "Reporter"
+      value = "reporter"
+    },
+    {
+      label = "Priority"
+      value = "priority"
+    },
+    {
+      label = "Status"
+      value = "status"
+    },
+    {
+      label = "Resolution"
+      value = "resolution"
+    },
+    {
+      label = "Created"
+      value = "created"
+    },
+    {
+      label = "Updated"
+      value = "updated"
+    },
+    {
+      label = "Due date"
+      value = "duedate"
+    },
+    {
+      label = "Epic Link"
+      value = "customfield_10014"
+    },
+    {
+      label = "Fix versions"
+      value = "fixVersions"
+    },
+    {
+      label = "Time Spent"
+      value = "timespent"
+    },
+    {
+      label = "Story Points"
+      value = "customfield_10028"
+    },
+    {
+      label = "Risk Score"
+      value = "customfield_10043"
+    },
+  ]
+}

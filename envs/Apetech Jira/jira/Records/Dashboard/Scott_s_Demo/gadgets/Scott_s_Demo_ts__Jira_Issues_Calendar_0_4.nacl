@@ -1,0 +1,13 @@
+jira.DashboardGadget Scott_s_Demo_ts__Jira_Issues_Calendar_0_4@uumuussuu {
+  uri = "rest/gadgets/1.0/g/com.atlassian.jira.ext.calendar:issuescalendar-gadget/templates/plugins/jira/portlets/calendar/gadget/calendar-gadget.xml"
+  color = "blue"
+  position = {
+    row = 4
+    column = 0
+  }
+  title = "Jira Issues Calendar"
+  _parent = [
+    jira.Dashboard.instance.Scott_s_Demo@ts,
+  ]
+  _alias = "Jira Issues Calendar"
+}

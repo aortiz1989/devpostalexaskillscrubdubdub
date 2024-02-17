@@ -1,0 +1,8 @@
+jira.ScreenScheme ATT__Scrum_Epic_Screen_Scheme@fssss {
+  name = "ATT: Scrum Epic Screen Scheme"
+  description = ""
+  screens = {
+    default = jira.Screen.instance.ATT__Scrum_Epic_Issue_Screen@fssss
+    edit = jira.Screen.instance.ATT__Scrum_Epic_NO_EDIT_DUE_DATE_Issue_Screen@fssssssss
+  }
+}

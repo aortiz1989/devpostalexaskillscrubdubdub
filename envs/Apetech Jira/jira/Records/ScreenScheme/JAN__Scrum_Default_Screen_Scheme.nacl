@@ -1,0 +1,7 @@
+jira.ScreenScheme JAN__Scrum_Default_Screen_Scheme@fssss {
+  name = "JAN: Scrum Default Screen Scheme"
+  description = ""
+  screens = {
+    default = jira.Screen.instance.JAN__Scrum_Default_Issue_Screen@fssss
+  }
+}

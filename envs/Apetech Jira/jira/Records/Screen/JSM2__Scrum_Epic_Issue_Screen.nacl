@@ -1,0 +1,29 @@
+jira.Screen JSM2__Scrum_Epic_Issue_Screen@fssss {
+  name = "JSM2: Scrum Epic Issue Screen"
+  description = ""
+  tabs = {
+    
+    General = {
+      name = "General"
+      fields = [
+        jira.Field.instance.Epic_Name__gh_epic_label__c@suubbuu,
+        jira.Field.instance.Summary__string,
+        jira.Field.instance.Favorite_Color__select__c@suuuu,
+        jira.Field.instance.Issue_Type__issuetype@suu,
+        jira.Field.instance.Components__array,
+        jira.Field.instance.Security_Level__securitylevel@suu,
+        jira.Field.instance.Attachment__array,
+        jira.Field.instance.Description__string,
+        jira.Field.instance.Reporter__user,
+        jira.Field.instance.Fix_versions__array@suu,
+        jira.Field.instance.Assignee__user,
+        jira.Field.instance.Priority__priority,
+        jira.Field.instance.Labels__array,
+        jira.Field.instance.Completed_Stories__float__c@suuuu,
+        jira.Field.instance.Linked_Issues__array@suu,
+        jira.Field.instance.Tonia_s_Favorite_Tree__select__c@tssuuuu,
+      ]
+      position = 0
+    }
+  }
+}

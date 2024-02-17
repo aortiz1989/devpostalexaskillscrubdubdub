@@ -1,0 +1,446 @@
+jira.Form DEMO_Company_feedback@us {
+  publish = {
+    jira = {
+      submitOnCreate = true
+      validateOnCreate = true
+    }
+    portal = {
+      portalRequestTypeIds = [
+        12,
+      ]
+      submitOnCreate = true
+      validateOnCreate = true
+    }
+  }
+  design = {
+    settings = {
+      name = "Company feedback"
+      submit = {
+        lock = false
+        pdf = false
+      }
+    }
+    layout = [
+      {
+        version = 1
+        type = "doc"
+        content = [
+          {
+            type = "heading"
+            attrs = {
+              level = 2
+            }
+            content = [
+              {
+                type = "text"
+                text = "Person giving feedback"
+              },
+            ]
+          },
+          {
+            type = "layoutSection"
+            content = [
+              {
+                type = "layoutColumn"
+                attrs = {
+                  width = 50
+                }
+                content = [
+                  {
+                    type = "extension"
+                    attrs = {
+                      extensionKey = "question"
+                      extensionType = "com.thinktilt.proforma"
+                      layout = "default"
+                      parameters = {
+                        id = 42
+                      }
+                      localId = "380209c3-1f42-41c5-98af-87dfd593f7fd"
+                    }
+                  },
+                  {
+                    type = "extension"
+                    attrs = {
+                      extensionKey = "question"
+                      extensionType = "com.thinktilt.proforma"
+                      layout = "default"
+                      parameters = {
+                        id = 44
+                      }
+                      localId = "43127baf-e2ae-4352-bd4e-9b223c8dc68f"
+                    }
+                  },
+                ]
+              },
+              {
+                type = "layoutColumn"
+                attrs = {
+                  width = 50
+                }
+                content = [
+                  {
+                    type = "extension"
+                    attrs = {
+                      extensionKey = "question"
+                      extensionType = "com.thinktilt.proforma"
+                      layout = "default"
+                      parameters = {
+                        id = 43
+                      }
+                      localId = "20231419-284d-4fdb-9f28-bb090ceaa474"
+                    }
+                  },
+                  {
+                    type = "extension"
+                    attrs = {
+                      extensionKey = "question"
+                      extensionType = "com.thinktilt.proforma"
+                      layout = "default"
+                      parameters = {
+                        id = 45
+                      }
+                      localId = "21c79eb2-7568-43e4-b7bd-38a0c670718a"
+                    }
+                  },
+                ]
+              },
+            ]
+          },
+          {
+            type = "heading"
+            attrs = {
+              level = 2
+            }
+            content = [
+              {
+                type = "text"
+                text = "Feedback"
+              },
+            ]
+          },
+          {
+            type = "extension"
+            attrs = {
+              extensionKey = "question"
+              extensionType = "com.thinktilt.proforma"
+              layout = "default"
+              parameters = {
+                id = 9
+              }
+              localId = "70410bf3-b3f0-4a7c-a630-ca942186b08d"
+            }
+          },
+          {
+            type = "extension"
+            attrs = {
+              extensionKey = "question"
+              extensionType = "com.thinktilt.proforma"
+              layout = "default"
+              parameters = {
+                id = 15
+              }
+              localId = "8f6dd12b-87a8-4a53-a2e3-8ebf2dfb0660"
+            }
+          },
+          {
+            type = "extension"
+            attrs = {
+              extensionKey = "question"
+              extensionType = "com.thinktilt.proforma"
+              layout = "default"
+              parameters = {
+                id = 21
+              }
+              localId = "57dac072-414c-43c6-915c-c0a363488cc0"
+            }
+          },
+          {
+            type = "extension"
+            attrs = {
+              extensionKey = "question"
+              extensionType = "com.thinktilt.proforma"
+              layout = "default"
+              parameters = {
+                id = 27
+              }
+              localId = "88e7743d-130b-4f77-91fe-bdfacb8bf355"
+            }
+          },
+          {
+            type = "extension"
+            attrs = {
+              extensionKey = "question"
+              extensionType = "com.thinktilt.proforma"
+              layout = "default"
+              parameters = {
+                id = 33
+              }
+              localId = "085e554f-4a1e-4d98-9146-bae869f66895"
+            }
+          },
+          {
+            type = "extension"
+            attrs = {
+              extensionKey = "question"
+              extensionType = "com.thinktilt.proforma"
+              layout = "default"
+              parameters = {
+                id = 47
+              }
+              localId = "937ef7f7-b79f-4f3a-96a7-b154aef88e00"
+            }
+          },
+          {
+            type = "extension"
+            attrs = {
+              extensionKey = "question"
+              extensionType = "com.thinktilt.proforma"
+              layout = "default"
+              parameters = {
+                id = 39
+              }
+              localId = "90243c12-2a3e-4151-b742-11a898bb8373"
+            }
+          },
+          {
+            type = "extension"
+            attrs = {
+              extensionKey = "question"
+              extensionType = "com.thinktilt.proforma"
+              layout = "default"
+              parameters = {
+                id = 40
+              }
+              localId = "a7b1044d-242d-4118-a4a2-d5f266700774"
+            }
+          },
+          {
+            type = "heading"
+            attrs = {
+              level = 2
+            }
+            content = [
+              {
+                type = "text"
+                text = "Thank you for your feedback!"
+              },
+            ]
+          },
+          {
+            type = "paragraph"
+            content = [
+            ]
+          },
+        ]
+      },
+    ]
+    conditions = {
+    }
+    sections = {
+    }
+    questions = {
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      "9@" = {
+        type = "cs"
+        label = "How would you rate your interaction with our company?"
+        validation = {
+        }
+        choices = [
+          {
+            id = "10"
+            label = "Very High"
+          },
+          {
+            id = "11"
+            label = "High"
+          },
+          {
+            id = "12"
+            label = "Neutral"
+          },
+          {
+            id = "13"
+            label = "Low"
+          },
+          {
+            id = "14"
+            label = "Very Low"
+          },
+        ]
+      }
+      "15@" = {
+        type = "cs"
+        label = "How would you rate the knowledge of the staff? "
+        validation = {
+        }
+        choices = [
+          {
+            id = "16"
+            label = "Very Knowledgable"
+          },
+          {
+            id = "17"
+            label = "Knowledgable"
+          },
+          {
+            id = "18"
+            label = "Neutral"
+          },
+          {
+            id = "19"
+            label = "Unknowledgable"
+          },
+          {
+            id = "20"
+            label = "Very Unknowledgable"
+          },
+        ]
+      }
+      "21@" = {
+        type = "cs"
+        label = "How reasonable do you find our costs/ rates to be?"
+        validation = {
+        }
+        choices = [
+          {
+            id = "22"
+            label = "Very Reasonable"
+          },
+          {
+            id = "23"
+            label = "Reasonable"
+          },
+          {
+            id = "24"
+            label = "Average"
+          },
+          {
+            id = "25"
+            label = "A Bit high"
+          },
+          {
+            id = "26"
+            label = "Unreasonable"
+          },
+        ]
+      }
+      "27@" = {
+        type = "cs"
+        label = "How would you rate our professionalism and courtesy?"
+        validation = {
+        }
+        choices = [
+          {
+            id = "28"
+            label = "Very Professional"
+          },
+          {
+            id = "29"
+            label = "Professional"
+          },
+          {
+            id = "30"
+            label = "Neutral"
+          },
+          {
+            id = "31"
+            label = "Unprofessional"
+          },
+          {
+            id = "32"
+            label = "Very Unprofessional"
+          },
+        ]
+      }
+      "33@" = {
+        type = "cs"
+        label = "How willing are you to recommend our company to others?"
+        validation = {
+        }
+        choices = [
+          {
+            id = "34"
+            label = "Very Willing"
+          },
+          {
+            id = "35"
+            label = "Willing"
+          },
+          {
+            id = "36"
+            label = "Neutral"
+          },
+          {
+            id = "37"
+            label = "Unwilling"
+          },
+          {
+            id = "38"
+            label = "Very Unwilling"
+          },
+        ]
+      }
+      "39@" = {
+        type = "pg"
+        label = "Please share any comments or suggestions you may have."
+        validation = {
+        }
+      }
+      "40@" = {
+        type = "pg"
+        label = "Are there any products or services we don't currently offer that you would like to see?"
+        validation = {
+        }
+      }
+      "42@" = {
+        type = "ts"
+        label = "Name"
+        validation = {
+        }
+      }
+      "43@" = {
+        type = "ts"
+        label = "Job title"
+        validation = {
+        }
+      }
+      "44@" = {
+        type = "ts"
+        label = "Phone"
+        validation = {
+        }
+      }
+      "45@" = {
+        type = "te"
+        label = "Email"
+        description = ""
+        validation = {
+          rq = false
+        }
+        choices = [
+        ]
+        questionKey = ""
+      }
+      "47@" = {
+        type = "rt"
+        label = "Label"
+        validation = {
+        }
+      }
+    }
+  }
+  _parent = [
+    jira.Project.instance.Demo_service_project@s,
+  ]
+}

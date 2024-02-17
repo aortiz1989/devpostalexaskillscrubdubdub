@@ -1,0 +1,6 @@
+jira.IssueType Defect {
+  description = ""
+  name = "Defect"
+  untranslatedName = "Defect"
+  hierarchyLevel = -1
+}

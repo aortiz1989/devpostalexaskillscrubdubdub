@@ -1,0 +1,6 @@
+jira.IssueType Main_Comm_Installations@s {
+  description = ""
+  name = "Main Comm Installations"
+  untranslatedName = "Main Comm Installations"
+  hierarchyLevel = 0
+}

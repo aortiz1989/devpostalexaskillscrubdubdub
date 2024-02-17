@@ -1,0 +1,8 @@
+jira.Filter Blocked_Issues@s {
+  name = "Blocked Issues"
+  owner = {
+    id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+    displayName = "Alex Ortiz"
+  }
+  jql = "${ jira.Field.instance.Status__status } = ${ jira.Status.instance.blocked.name }"
+}

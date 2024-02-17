@@ -1,0 +1,19 @@
+jira.Project Apetech_s_Content_Creation@tss {
+  key = "ACC"
+  description = ""
+  name = "Apetech's Content Creation"
+  projectCategory = jira.ProjectCategory.instance.Demo_Projects@s
+  projectTypeKey = "business"
+  workflowScheme = jira.WorkflowScheme.instance.ACC__Quick_start_workflow_scheme@fssss
+  permissionScheme = jira.PermissionScheme.instance.Default_Permission_Scheme@s
+  notificationScheme = jira.NotificationScheme.instance.Default_Notification_Scheme@s
+  issueTypeScreenScheme = jira.IssueTypeScreenScheme.instance.ACC__Quick_start_screen_scheme@fssss
+  issueTypeScheme = jira.IssueTypeScheme.instance.Default_Issue_Type_Scheme@s
+  leadAccountId = {
+    id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+    displayName = "Alex Ortiz"
+  }
+  fieldContexts = [
+    jira.CustomFieldContext.instance.Category__jwm_category__c_uubuu_Category_Field_Config_Scheme_for_Project__Apetech_s_Content_Creation@uuuuumusssssfstss,
+  ]
+}

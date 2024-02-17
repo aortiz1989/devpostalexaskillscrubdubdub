@@ -1,0 +1,16 @@
+jira.Filter Filter_for_SKP_board@s {
+  name = "Filter for SKP board"
+  owner = {
+    id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+    displayName = "Alex Ortiz"
+  }
+  jql = "${ jira.Field.instance.Project__project } = ${ jira.Project.instance.Sample_Kanban_Project@s.key } ORDER BY ${ jira.Field.instance.Rank__gh_lexo_rank__c@uubbuu.name } ASC"
+  sharePermissions = [
+    {
+      type = "project"
+      project = {
+        id = jira.Project.instance.Sample_Kanban_Project@s
+      }
+    },
+  ]
+}

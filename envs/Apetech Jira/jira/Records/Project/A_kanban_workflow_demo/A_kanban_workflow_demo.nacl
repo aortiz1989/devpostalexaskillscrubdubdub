@@ -1,0 +1,19 @@
+jira.Project A_kanban_workflow_demo@s {
+  key = "KWD"
+  description = ""
+  name = "A kanban workflow demo"
+  projectTypeKey = "software"
+  components = [
+    jira.ProjectComponent.instance.A_kanban_workflow_demo_s__demo_component@uuumuus,
+  ]
+  workflowScheme = jira.WorkflowScheme.instance.VT__Software_Simplified_Workflow_Scheme@fssss
+  permissionScheme = jira.PermissionScheme.instance.Default_software_scheme@s
+  notificationScheme = jira.NotificationScheme.instance.Default_Notification_Scheme@s
+  issueSecurityScheme = jira.SecurityScheme.instance.Critical_Issues_ONLY@s
+  issueTypeScreenScheme = jira.IssueTypeScreenScheme.instance.KWD__Kanban_Issue_Type_Screen_Scheme@fsssss
+  issueTypeScheme = jira.IssueTypeScheme.instance.KWD__Kanban_Issue_Type_Scheme@fssss
+  leadAccountId = {
+    id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+    displayName = "Alex Ortiz"
+  }
+}

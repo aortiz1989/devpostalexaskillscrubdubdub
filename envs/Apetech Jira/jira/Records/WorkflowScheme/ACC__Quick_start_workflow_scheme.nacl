@@ -1,0 +1,5 @@
+jira.WorkflowScheme ACC__Quick_start_workflow_scheme@fssss {
+  name = "ACC: Quick start workflow scheme"
+  description = ""
+  defaultWorkflow = jira.Workflow.instance.Content_Creation_ACC__Quick_start_default_workflow@ssfssss
+}

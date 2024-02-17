@@ -1,0 +1,114 @@
+jira.Automation Lock_Up_Critical_Issues_A_kanban_workflow_demo@sssusss {
+  name = "Lock Up Critical Issues"
+  state = "DISABLED"
+  description = ""
+  authorAccountId = {
+    id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+    displayName = "Alex Ortiz"
+  }
+  actor = {
+    type = "ACCOUNT_ID"
+    value = {
+      id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+      displayName = "Alex Ortiz"
+    }
+  }
+  trigger = {
+    component = "TRIGGER"
+    schemaVersion = 2
+    type = "jira.issue.field.changed"
+    value = {
+      changeType = "ANY_CHANGE"
+      fields = [
+        {
+          value = jira.Field.instance.Priority__priority
+          type = "field"
+        },
+      ]
+      actions = [
+      ]
+    }
+    children = [
+    ]
+    conditions = [
+    ]
+  }
+  components = [
+    {
+      component = "CONDITION"
+      schemaVersion = 3
+      type = "jira.issue.condition"
+      value = {
+        selectedField = {
+          type = "ID"
+          value = jira.Field.instance.Priority__priority
+        }
+        selectedFieldType = "priority"
+        comparison = "EQUALS"
+        compareFieldValue = {
+          type = "ID"
+          value = jira.Priority.instance.Critical
+          multiValue = false
+        }
+      }
+      children = [
+      ]
+      conditions = [
+      ]
+    },
+    {
+      component = "ACTION"
+      schemaVersion = 10
+      type = "jira.issue.edit"
+      value = {
+        operations = [
+          {
+            field = {
+              type = "ID"
+              value = jira.Field.instance.Security_Level__securitylevel@suu
+            }
+            fieldType = "security"
+            type = "SET"
+            value = {
+              type = "NAME"
+              value = "Critical Users Only"
+            }
+          },
+        ]
+        sendNotifications = true
+      }
+      children = [
+      ]
+      conditions = [
+      ]
+    },
+  ]
+  canOtherRuleTrigger = false
+  notifyOnError = "FIRSTERROR"
+  projects = [
+    {
+      projectId = jira.Project.instance.A_kanban_workflow_demo@s
+    },
+  ]
+  labels = [
+  ]
+  tags = [
+    {
+      tagType = "IS_RULE_UPDATED"
+      tagValue = "true"
+    },
+  ]
+  ruleHome = {
+    ruleLifecycleHome = {
+      locationARI = "ari:cloud:jira:49e44624-3532-4a57-a284-c63551c79cbe:project/10040"
+    }
+    ruleBillingHome = {
+      locationARI = "ari:cloud:jira-software::site/49e44624-3532-4a57-a284-c63551c79cbe"
+    }
+  }
+  writeAccessType = "UNRESTRICTED"
+  collaborators = [
+  ]
+  billingType = "NORMAL"
+  _alias = "Lock Up Critical Issues"
+}

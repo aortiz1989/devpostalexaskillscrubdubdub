@@ -1,0 +1,10 @@
+jira.Field Results_of_Date_Difference__float__c@sssuuuu {
+  name = "Results of Date Difference"
+  description = ""
+  searcherKey = "com.atlassian.jira.plugin.system.customfieldtypes:exactnumber"
+  type = "com.atlassian.jira.plugin.system.customfieldtypes:float"
+  contexts = [
+    jira.CustomFieldContext.instance.Results_of_Date_Difference__float__c_sssuuuu_Default_Configuration_Scheme_for_Results_of_Date_Difference@uuuuuuumusssssss,
+  ]
+  _alias = "Results of Date Difference"
+}

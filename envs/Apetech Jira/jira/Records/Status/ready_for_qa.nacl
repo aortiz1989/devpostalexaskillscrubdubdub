@@ -1,0 +1,5 @@
+jira.Status ready_for_qa@s {
+  name = "Ready for QA"
+  statusCategory = jira.StatusCategory.instance.In_Progress@s
+  description = ""
+}

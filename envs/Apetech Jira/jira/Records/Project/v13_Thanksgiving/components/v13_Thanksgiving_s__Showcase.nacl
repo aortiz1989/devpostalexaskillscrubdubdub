@@ -1,0 +1,8 @@
+jira.ProjectComponent v13_Thanksgiving_s__Showcase@umuu {
+  assigneeType = "PROJECT_DEFAULT"
+  name = "Showcase"
+  _parent = [
+    jira.Project.instance.v13_Thanksgiving@s,
+  ]
+  _alias = "v13 Thanksgiving:Showcase"
+}

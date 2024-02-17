@@ -1,0 +1,24 @@
+jira.Project Jira_Scrum_March_2023@s {
+  key = "JSM2"
+  description = ""
+  name = "Jira Scrum March 2023"
+  projectTypeKey = "software"
+  components = [
+    jira.ProjectComponent.instance.Jira_Scrum_March_2023_s__Menu@uuumuu,
+    jira.ProjectComponent.instance.Jira_Scrum_March_2023_s__Orders@uuumuu,
+    jira.ProjectComponent.instance.Jira_Scrum_March_2023_s__Payments@uuumuu,
+    jira.ProjectComponent.instance.Jira_Scrum_March_2023_s__Restaurants@uuumuu,
+    jira.ProjectComponent.instance.Jira_Scrum_March_2023_s__UI@uuumuu,
+  ]
+  workflowScheme = jira.WorkflowScheme.instance.JSM2__Software_Simplified_Workflow_Scheme@fssss
+  permissionScheme = jira.PermissionScheme.instance.Developer_Group_A_Permission_Scheme@s
+  notificationScheme = jira.NotificationScheme.instance.Default_Notification_Scheme@s
+  issueSecurityScheme = jira.SecurityScheme.instance.Addium_Security@s
+  issueTypeScreenScheme = jira.IssueTypeScreenScheme.instance.JSM2__Scrum_Issue_Type_Screen_Scheme@fsssss
+  issueTypeScheme = jira.IssueTypeScheme.instance.JAA__Scrum_Issue_Type_Scheme@fssss
+  fieldConfigurationScheme = jira.FieldConfigurationScheme.instance.Addium_Default_Field_Configuration_Scheme@s
+  leadAccountId = {
+    id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+    displayName = "Alex Ortiz"
+  }
+}

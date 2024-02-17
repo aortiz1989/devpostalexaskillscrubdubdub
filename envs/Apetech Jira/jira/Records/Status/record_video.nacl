@@ -1,0 +1,5 @@
+jira.Status record_video@s {
+  name = "Record Video"
+  statusCategory = jira.StatusCategory.instance.In_Progress@s
+  description = ""
+}

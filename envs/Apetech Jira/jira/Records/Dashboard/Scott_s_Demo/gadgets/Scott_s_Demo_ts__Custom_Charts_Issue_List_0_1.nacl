@@ -1,0 +1,60 @@
+jira.DashboardGadget Scott_s_Demo_ts__Custom_Charts_Issue_List_0_1@uumuusssuu {
+  moduleKey = "com.atlassian.plugins.atlassian-connect-plugin:com.oldstreetsolutions.atlassian.jira.custom-charts__issue-list-dashboard-item"
+  color = "blue"
+  position = {
+    row = 1
+    column = 0
+  }
+  title = ""
+  properties = [
+    {
+      key = "params"
+      values = [
+        {
+          key = "id"
+          value = "OwVmAYA4BYg"
+        },
+        {
+          key = "displayOptions"
+          value = "N4IgJgpgzgxgTgSwA4BcEHsB2AFdUFpYgBcIAQuiiugLYgA0IUAFugO4VyRwkBmAhgBsoERi3YARaPGSFMJFHACuopqzYBVEXACSMIsUUrGYfnADWAWXSQ+QkYzjQlglFGwQ42fgHMIJAEYABkZMJRoAI08AcTh0JSQETB8SEAA5AHkAfWiAJQyNbB006IYQMMjPbCcYBHwDACYTfhQIADF0OBoW1IkAQQBNLLadXIBlABUssYAJDNyJsvFNbR0aJE8oLBaMeUNlVRhBBBhzCeY4pR9mBQPGfiVqXIheJxY7YVUhQXYM1F2oJYIGFbsYQN92ABRAAeSE6KFBqmWfVcnkwO2SuXYAGF0D84FAPg41Ow0uEonBcYJwnsjF8fD4nD4dlgJggaBANJgCKk5hpxmVfIyIMy5GyOTN4nBciySAAOMTqcXQFD8dZQDKYCQtCDKtoICCCMCE4gCT4mOr8CKCCAzACeGzgx0w5hNZpEAF8gA"
+        },
+        {
+          key = "title"
+          value = "Q"
+        },
+        {
+          key = "titleAlignment"
+          value = "DIUQYgKkA"
+        },
+        {
+          key = "fields"
+          value = "NobwRAlgJmBckGcEFcCmAXAngB1WANGAMbILoD2AtgHICGle8AKmAL77jRyIqoDWqTGw6QY8MrXSlhnMWBSVKtAE5D2s7rSQQA5gDtUedaO5Q0USXkJ76jMABE0AAgvojIrvBJkqAMwioADZQAPoAjAAMEQBMAMwEYDYM3EwqOhhOqHowrAC6QA"
+        },
+        {
+          key = "jiraFields"
+          value = "NobwRAlgJmBckGcEFcCmAXAngB1WANGAHYCGAtnvAJJJoAEAKjnoQMYA2JyCqAcuZTBZcBMBy48qMeBFoZmohKwAWqMiTjhhg2SnkjCEdGoRwiyduzbd0AezJmLVsAkwJjDmXO1gAvr-xwaDhEPQBrVExRUgoQgGlI0XFuPgEQ3TQkzhSpdJhCJVV1R0sAoOkXdBJ0bmi0+ABlKprTNmyeflj4d2ratolUXO7mvpcVNQ1YLQVh3tbID1NYc0trd3sS51d3NRCelr8yyAqUMnUAJyjCGMEG5DOSS6yBzsFTi6uxdsGT+4-FcbFKZCGaVc4QIgAc1ERhMmzWdk8Ky2bg8ez+jyi-kCxxCJCQEEhRFQLGI9TAAEECUSSc8Uq88dTiaTkpIKviEITmQCipNpiJ4ClzjDFvCxDYNssnAVUbt4ByubTseUQlA0FBqqSbiEACL0DXGOkdclq1AGlnfIZgU08iaaEEC62akVwqWrcXrJHSlyyzzW9XO5W4+CsCVkABmEFQ7CgAH0AIwABkTACYAMx1LpgBiPSEYOioIj5L4vck58559AFotGn4hVjh4BJ1NpgC6tqB-ME5pdZCWyIRkrE9gAdNVOASSEQRwArbC2WBz2wAWlDnuXkejUGXACN8dGIahl4Xi9s0W72P5W0A"
+        },
+        {
+          key = "quickFilters"
+          value = "N4IgZglgNgLgpgJwM4gFwG1QQCZpAKwEcoBaGAewHNKo4BDOsAdgA4BjJuEpsOAZhIAWAAx0AjCQBG2FgE4ScMIL4z6AVjpqWIADQg2AVyQUAtgDk6JuHgDyAN0QACbAet7yABxgRyAOxQYALp6EEgAynC0bPC4qGB0UEhweoSuCACeeC5wjgA8jr7kAO4AFACUuiB2CTh03n4ASnBIBrBooBQwCWhieogI5Aho8YlwAL5jwSCeiHU+vngAgmYAIiBjQA"
+        },
+        {
+          key = "search"
+          value = "N4IgDgTg9gVgpgYwC4GcQC4DaBdANCJATzDgxACkBFAGRHwEcBXOCQsyWRJAAgF5ukjCAGs4hbgEEAcgBFuASxQpmREnwUA7eUnkBDHQDdSAXyA"
+        },
+        {
+          key = "impersonated"
+          value = false
+        },
+        {
+          key = "version"
+          value = "1"
+        },
+      ]
+    },
+  ]
+  _parent = [
+    jira.Dashboard.instance.Scott_s_Demo@ts,
+  ]
+  _alias = ""
+}

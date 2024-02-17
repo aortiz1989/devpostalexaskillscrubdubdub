@@ -1,0 +1,19 @@
+jira.Queue Resolved_Issues_GSM@su {
+  name = "Resolved Issues"
+  jql = "${ jira.Field.instance.Resolution__resolution } in (${ jira.Resolution.instance.Done.name }, \"${ jira.Resolution.instance.Won_t_Do@ts.name }\", ${ jira.Resolution.instance.Duplicate.name }, \"${ jira.Resolution.instance.Cannot_Reproduce@s.name }\", ${ jira.Resolution.instance.Canceled.name }, ${ jira.Resolution.instance.Declined.name }, ${ jira.Resolution.instance.Deferred.name })"
+  columns = [
+    jira.Field.instance.Issue_Type__issuetype@suu,
+    jira.Field.instance.Key,
+    jira.Field.instance.Summary__string,
+    jira.Field.instance.Reporter__user,
+    jira.Field.instance.Assignee__user,
+    jira.Field.instance.Status__status,
+    jira.Field.instance.Created__datetime,
+  ]
+  _parent = [
+    jira.Project.instance.General_service_management@s,
+  ]
+  _alias = "General service management:Resolved Issues"
+  canBeHidden = false
+  favourite = false
+}

@@ -1,0 +1,8 @@
+jira.SecurityScheme Designers {
+  name = "Designers"
+  description = ""
+  levels = [
+    jira.SecurityLevel.instance.Designers__access,
+    jira.SecurityLevel.instance.Designers__locked,
+  ]
+}

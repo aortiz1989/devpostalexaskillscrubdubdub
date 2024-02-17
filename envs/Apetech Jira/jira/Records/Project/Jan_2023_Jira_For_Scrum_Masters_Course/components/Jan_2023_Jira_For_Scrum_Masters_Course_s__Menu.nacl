@@ -1,0 +1,8 @@
+jira.ProjectComponent Jan_2023_Jira_For_Scrum_Masters_Course_s__Menu@uuuuuumuu {
+  assigneeType = "PROJECT_DEFAULT"
+  name = "Menu"
+  _parent = [
+    jira.Project.instance.Jan_2023_Jira_For_Scrum_Masters_Course@s,
+  ]
+  _alias = "Jan 2023 Jira For Scrum Masters Course:Menu"
+}

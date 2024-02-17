@@ -1,0 +1,7 @@
+jira.IssueTypeScheme TLPD__Kanban_Issue_Type_Scheme@fssss {
+  name = "TLPD: Kanban Issue Type Scheme"
+  defaultIssueTypeId = jira.IssueType.instance.Initiative
+  issueTypeIds = [
+    jira.IssueType.instance.Initiative,
+  ]
+}

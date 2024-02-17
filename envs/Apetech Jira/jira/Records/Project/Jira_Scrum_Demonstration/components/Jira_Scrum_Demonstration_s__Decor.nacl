@@ -1,0 +1,8 @@
+jira.ProjectComponent Jira_Scrum_Demonstration_s__Decor@uumuu {
+  assigneeType = "PROJECT_DEFAULT"
+  name = "Decor"
+  _parent = [
+    jira.Project.instance.Jira_Scrum_Demonstration@s,
+  ]
+  _alias = "Jira Scrum Demonstration:Decor"
+}

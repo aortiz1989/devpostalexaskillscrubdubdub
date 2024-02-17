@@ -1,0 +1,44 @@
+jira.Board TURKEY_board@s {
+  name = "TURKEY board"
+  type = "scrum"
+  admins = {
+    users = [
+      {
+        id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+        displayName = "Alex Ortiz"
+      },
+    ]
+  }
+  location = {
+    projectId = jira.Project.instance.Thanksgiving_Dinner___How_to_Agile@ssbsss
+  }
+  filterId = jira.Filter.instance.Filter_for_TURKEY_board@s
+  columnConfig = {
+    columns = [
+      {
+        name = "To Do"
+        statuses = [
+          jira.Status.instance.to_do@s,
+        ]
+      },
+      {
+        name = "Design Work"
+        statuses = [
+          jira.Status.instance.in_progress@s,
+          jira.Status.instance.blocked,
+          jira.Status.instance.done,
+        ]
+      },
+      {
+        name = "Dev In Progress"
+      },
+      {
+        name = "Done"
+      },
+    ]
+    constraintType = "none"
+  }
+  estimation = {
+    field = jira.Field.instance.Story_Points__float__c@suuuu
+  }
+}

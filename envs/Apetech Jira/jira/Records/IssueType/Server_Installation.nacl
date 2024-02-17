@@ -1,0 +1,6 @@
+jira.IssueType Server_Installation@s {
+  description = ""
+  name = "Server Installation"
+  untranslatedName = "Server Installation"
+  hierarchyLevel = 0
+}

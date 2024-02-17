@@ -1,0 +1,10 @@
+jira.Field Feature_Single__cascadingselect__c@suuuu {
+  name = "Feature Single"
+  description = ""
+  searcherKey = "com.atlassian.jira.plugin.system.customfieldtypes:cascadingselectsearcher"
+  type = "com.atlassian.jira.plugin.system.customfieldtypes:cascadingselect"
+  contexts = [
+    jira.CustomFieldContext.instance.Feature_Single__cascadingselect__c_suuuu_Default_Configuration_Scheme_for_Feature_Single@uuuuumusssss,
+  ]
+  _alias = "Feature Single"
+}

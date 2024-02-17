@@ -1,0 +1,15 @@
+jira.Project Paid_Ads_for_Apetech@s {
+  key = "PAFA"
+  description = ""
+  name = "Paid Ads for Apetech"
+  projectTypeKey = "business"
+  entityId = "a67b9a6a-5087-42bf-8a0f-01c575f19275"
+  uuid = "a67b9a6a-5087-42bf-8a0f-01c575f19275"
+  leadAccountId = {
+    id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+    displayName = "Alex Ortiz"
+  }
+  fieldContexts = [
+    jira.CustomFieldContext.instance.Category__jwm_category__c_uubuu_Category_Field_Config_Scheme_for_Project__Paid_Ads_for_Apetech@uuuuumusssssfssss,
+  ]
+}

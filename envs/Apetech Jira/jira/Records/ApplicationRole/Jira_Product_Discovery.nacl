@@ -1,0 +1,18 @@
+jira.ApplicationRole Jira_Product_Discovery@s {
+  key = "jira-product-discovery"
+  groups = [
+    jira.Group.instance.atlassian_addons_admin@b,
+    jira.Group.instance.jira_product_discovery_users_apetechengineering@b,
+    jira.Group.instance.site_admins@b,
+  ]
+  name = "Jira Product Discovery"
+  defaultGroups = [
+    jira.Group.instance.jira_product_discovery_users_apetechengineering@b,
+  ]
+  selectedByDefault = false
+  defined = true
+  numberOfSeats = 3
+  userCountDescription = "jira.product-discovery.user.count"
+  hasUnlimitedSeats = false
+  platform = false
+}

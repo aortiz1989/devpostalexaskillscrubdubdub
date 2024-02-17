@@ -1,0 +1,314 @@
+jira.Workflow Copy_of_CP2__Quick_start_default_workflow@ssfssss {
+  description = "(This copy was automatically generated from a draft, when workflow 'CP2: Quick start default workflow' was made inactive.)"
+  transitions = {
+    Create__From__none__Initial@fffsff = {
+      name = "Create"
+      description = ""
+      to = jira.Status.instance.to_do@s
+      type = "initial"
+      rules = {
+        validators = [
+          {
+            type = "PermissionValidator"
+            configuration = {
+              permissionKey = "CREATE_ISSUES"
+            }
+          },
+        ]
+        postFunctions = [
+          {
+            type = "FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Issue_Created@s
+              }
+            }
+          },
+        ]
+      }
+      properties = [
+        {
+          key = "jira.i18n.submit"
+          value = "common.forms.create"
+        },
+        {
+          key = "jira.i18n.title"
+          value = "common.forms.create"
+        },
+        {
+          key = "jira.issue.editable"
+          value = "true"
+        },
+      ]
+      from = [
+        {
+          sourceAngle = 78.11134196037203
+          targetAngle = -70.01689347810002
+        },
+      ]
+    }
+    Script__From__any_status__Global@fffssff = {
+      name = "Script"
+      description = ""
+      to = jira.Status.instance.script
+      type = "global"
+      rules = {
+        postFunctions = [
+          {
+            type = "FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Generic_Event@s
+              }
+            }
+          },
+        ]
+      }
+      properties = [
+        {
+          key = "jira.issue.editable"
+          value = "true"
+        },
+      ]
+    }
+    Record_Video__From__any_status__Global@sfffssff = {
+      name = "Record Video"
+      description = ""
+      to = jira.Status.instance.record_video@s
+      type = "global"
+      rules = {
+        postFunctions = [
+          {
+            type = "FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Generic_Event@s
+              }
+            }
+          },
+        ]
+      }
+      properties = [
+        {
+          key = "jira.issue.editable"
+          value = "true"
+        },
+      ]
+    }
+    Edit_Video__From__any_status__Global@sfffssff = {
+      name = "Edit Video"
+      description = ""
+      to = jira.Status.instance.edit_video@s
+      type = "global"
+      rules = {
+        postFunctions = [
+          {
+            type = "FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Generic_Event@s
+              }
+            }
+          },
+        ]
+      }
+      properties = [
+        {
+          key = "jira.issue.editable"
+          value = "true"
+        },
+      ]
+    }
+    Review_Video__From__any_status__Global@sfffssff = {
+      name = "Review Video"
+      description = ""
+      to = jira.Status.instance.review_video@s
+      type = "global"
+      rules = {
+        postFunctions = [
+          {
+            type = "FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Generic_Event@s
+              }
+            }
+          },
+        ]
+      }
+      properties = [
+        {
+          key = "jira.issue.editable"
+          value = "true"
+        },
+      ]
+    }
+    Publish_Video__From__any_status__Global@sfffssff = {
+      name = "Publish Video"
+      description = ""
+      to = jira.Status.instance.publish_video@s
+      type = "global"
+      rules = {
+        postFunctions = [
+          {
+            type = "FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Generic_Event@s
+              }
+            }
+          },
+        ]
+      }
+      properties = [
+        {
+          key = "jira.issue.editable"
+          value = "true"
+        },
+      ]
+    }
+    To_Do__From__any_status__Global@sfffssff = {
+      name = "To Do"
+      description = ""
+      to = jira.Status.instance.to_do@s
+      type = "global"
+      rules = {
+        postFunctions = [
+          {
+            type = "FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Generic_Event@s
+              }
+            }
+          },
+        ]
+      }
+      properties = [
+        {
+          key = "jira.issue.editable"
+          value = "true"
+        },
+      ]
+    }
+  }
+  statuses = [
+    {
+      id = jira.Status.instance.done
+      name = "Done"
+      properties = [
+        {
+          key = "jira.issue.editable"
+          value = "true"
+        },
+      ]
+      location = {
+        x = 2207.001953125
+        y = 91.00020599365234
+      }
+    },
+    {
+      id = jira.Status.instance.edit_video@s
+      name = "Edit Video"
+      properties = [
+        {
+          key = "jira.issue.editable"
+          value = "true"
+        },
+      ]
+      location = {
+        x = 1613.1489582061768
+        y = 111.00001525878906
+      }
+    },
+    {
+      id = jira.Status.instance.in_progress@s
+      name = "In Progress"
+      properties = [
+        {
+          key = "jira.issue.editable"
+          value = "true"
+        },
+      ]
+      location = {
+        x = 2184.6968364715576
+        y = -1.0009832382202148
+      }
+    },
+    {
+      id = jira.Status.instance.publish_video@s
+      name = "Publish Video"
+      properties = [
+        {
+          key = "jira.issue.editable"
+          value = "true"
+        },
+      ]
+      location = {
+        x = 1603.9868507385254
+        y = 217.4855314254761
+      }
+    },
+    {
+      id = jira.Status.instance.record_video@s
+      name = "Record Video"
+      properties = [
+        {
+          key = "jira.issue.editable"
+          value = "true"
+        },
+      ]
+      location = {
+        x = 1601.8490257263184
+        y = 54.48238048553469
+      }
+    },
+    {
+      id = jira.Status.instance.review_video@s
+      name = "Review Video"
+      properties = [
+        {
+          key = "jira.issue.editable"
+          value = "true"
+        },
+      ]
+      location = {
+        x = 1603.9868507385254
+        y = 166.48454723358157
+      }
+    },
+    {
+      id = jira.Status.instance.script
+      name = "Script"
+      properties = [
+        {
+          key = "jira.issue.editable"
+          value = "true"
+        },
+      ]
+      location = {
+        x = 1621.2954216003418
+        y = -13.518937730789162
+      }
+    },
+    {
+      id = jira.Status.instance.to_do@s
+      name = "To Do"
+      properties = [
+        {
+          key = "jira.issue.editable"
+          value = "true"
+        },
+      ]
+      location = {
+        x = 1626.9986572265625
+        y = -85.00318908691406
+      }
+    },
+  ]
+  name = "Copy of CP2: Quick start default workflow"
+  diagramInitialEntry = {
+    x = 1436.998779296875
+    y = -171.0033082962036
+  }
+}

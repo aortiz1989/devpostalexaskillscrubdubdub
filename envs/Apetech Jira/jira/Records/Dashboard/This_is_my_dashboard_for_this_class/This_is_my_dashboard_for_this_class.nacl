@@ -1,0 +1,13 @@
+jira.Dashboard This_is_my_dashboard_for_this_class@s {
+  description = ""
+  name = "This is my dashboard for this class"
+  owner = {
+    id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+    displayName = "Alex Ortiz"
+  }
+  gadgets = [
+    jira.DashboardGadget.instance.This_is_my_dashboard_for_this_class_s__Custom_Charts_0_0@uuuuuumuusuu,
+    jira.DashboardGadget.instance.This_is_my_dashboard_for_this_class_s__Issue_Statistics_0_1@uuuuuumuusuu,
+  ]
+  layout = "AA"
+}

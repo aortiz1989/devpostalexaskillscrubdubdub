@@ -1,0 +1,43 @@
+jira.Board Demo_Kanban_Board@s {
+  name = "Demo Kanban Board"
+  type = "kanban"
+  admins = {
+    users = [
+      {
+        id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+        displayName = "Alex Ortiz"
+      },
+    ]
+  }
+  location = {
+    projectId = jira.Project.instance.Demonstration_Project@s
+  }
+  filterId = jira.Filter.instance.Filter_for_Demo_Kanban_Board@s
+  columnConfig = {
+    columns = [
+      {
+        name = "To Do"
+        statuses = [
+          jira.Status.instance.selected_for_development@s,
+          jira.Status.instance.backlog,
+        ]
+      },
+      {
+        name = "In Progress"
+        statuses = [
+          jira.Status.instance.approval,
+          jira.Status.instance.in_progress@s,
+          jira.Status.instance.review,
+        ]
+      },
+      {
+        name = "Done"
+        statuses = [
+          jira.Status.instance.done,
+        ]
+      },
+    ]
+    constraintType = "issueCount"
+  }
+  subQuery = "fixVersion in unreleasedVersions() OR fixVersion is EMPTY"
+}

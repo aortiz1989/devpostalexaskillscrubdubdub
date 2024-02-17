@@ -1,0 +1,114 @@
+jira.Automation Copy_Component_from_Epic_Jira_Scrum_March_2023@sssusss {
+  name = "Copy Component from Epic"
+  state = "DISABLED"
+  description = ""
+  authorAccountId = {
+    id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+    displayName = "Alex Ortiz"
+  }
+  actor = {
+    type = "ACCOUNT_ID"
+    value = {
+      id = "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077"
+      displayName = "Automation for Jira"
+    }
+  }
+  trigger = {
+    component = "TRIGGER"
+    schemaVersion = 1
+    type = "jira.issue.event.trigger:created"
+    value = {
+      eventKey = "jira:issue_created"
+      issueEvent = "issue_created"
+    }
+    children = [
+    ]
+    conditions = [
+    ]
+  }
+  components = [
+    {
+      component = "CONDITION"
+      schemaVersion = 3
+      type = "jira.issue.condition"
+      value = {
+        selectedField = {
+          type = "ID"
+          value = jira.Field.instance.Issue_Type__issuetype@suu
+        }
+        selectedFieldType = "issuetype"
+        comparison = "ONE_OF"
+        compareFieldValue = {
+          type = "ID"
+          multiValue = true
+          values = [
+            jira.IssueType.instance.Story,
+            jira.IssueType.instance.Task,
+            jira.IssueType.instance.Bug,
+          ]
+        }
+      }
+      children = [
+      ]
+      conditions = [
+      ]
+    },
+    {
+      component = "ACTION"
+      schemaVersion = 10
+      type = "jira.issue.edit"
+      value = {
+        operations = [
+          {
+            field = {
+              type = "ID"
+              value = jira.Field.instance.Components__array
+            }
+            fieldType = "components"
+            type = "COPY"
+            value = {
+              copyOptions = [
+                "ADD",
+              ]
+              sourceIssue = "epic"
+              sourceField = {
+                type = "ID"
+                value = "components"
+                fieldType = "components"
+              }
+            }
+          },
+        ]
+        sendNotifications = true
+      }
+      children = [
+      ]
+      conditions = [
+      ]
+    },
+  ]
+  canOtherRuleTrigger = false
+  notifyOnError = "FIRSTERROR"
+  projects = [
+    {
+      projectId = jira.Project.instance.Jira_Scrum_March_2023@s
+    },
+  ]
+  labels = [
+  ]
+  tags = [
+  ]
+  ruleHome = {
+    ruleLifecycleHome = {
+      locationARI = "ari:cloud:jira:49e44624-3532-4a57-a284-c63551c79cbe:project/10033"
+    }
+    ruleBillingHome = {
+      locationARI = "ari:cloud:jira-software::site/49e44624-3532-4a57-a284-c63551c79cbe"
+    }
+  }
+  writeAccessType = "UNRESTRICTED"
+  collaborators = [
+  ]
+  billingType = "NORMAL"
+  _alias = "Copy Component from Epic"
+}

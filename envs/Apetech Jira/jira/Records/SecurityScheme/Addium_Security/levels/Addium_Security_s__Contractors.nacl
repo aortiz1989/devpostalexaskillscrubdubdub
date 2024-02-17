@@ -1,0 +1,27 @@
+jira.SecurityLevel Addium_Security_s__Contractors@umuu {
+  description = ""
+  name = "Contractors"
+  members = [
+    {
+      holder = {
+        type = "group"
+        parameter = jira.Group.instance.External_Vendor@s
+      }
+    },
+    {
+      holder = {
+        type = "group"
+        parameter = jira.Group.instance.site_admins@b
+      }
+    },
+    {
+      holder = {
+        type = "projectRole"
+        parameter = jira.ProjectRole.instance.atlassian_addons_project_access@b
+      }
+    },
+  ]
+  _parent = [
+    jira.SecurityScheme.instance.Addium_Security@s,
+  ]
+}

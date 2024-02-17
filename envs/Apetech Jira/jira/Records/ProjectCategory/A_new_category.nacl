@@ -1,0 +1,4 @@
+jira.ProjectCategory A_new_category@s {
+  description = ""
+  name = "A new category"
+}

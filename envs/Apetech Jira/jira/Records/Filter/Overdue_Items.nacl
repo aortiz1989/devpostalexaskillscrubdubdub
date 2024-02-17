@@ -1,0 +1,14 @@
+jira.Filter Overdue_Items@s {
+  name = "Overdue Items"
+  description = ""
+  owner = {
+    id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+    displayName = "Alex Ortiz"
+  }
+  jql = "due <= \"0\" ORDER BY due ASC, ${ jira.Field.instance.Created__datetime } DESC"
+  sharePermissions = [
+    {
+      type = "authenticated"
+    },
+  ]
+}

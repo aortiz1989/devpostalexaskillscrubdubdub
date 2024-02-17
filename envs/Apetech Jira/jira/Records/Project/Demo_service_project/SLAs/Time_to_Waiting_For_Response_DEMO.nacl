@@ -32,4 +32,5 @@ jira.SLA Time_to_Waiting_For_Response_DEMO@ssssu {
   _parent = [
     jira.Project.instance.Demo_service_project@s,
   ]
+  _alias = "Demo service project:Time to Waiting For Response"
 }

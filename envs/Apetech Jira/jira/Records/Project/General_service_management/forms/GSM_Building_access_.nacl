@@ -1,0 +1,273 @@
+jira.Form GSM_Building_access_@uss {
+  publish = {
+  }
+  design = {
+    settings = {
+      name = "Building access "
+      submit = {
+        lock = false
+        pdf = false
+      }
+    }
+    layout = [
+      {
+        version = 1
+        type = "doc"
+        content = [
+          {
+            type = "paragraph"
+            content = [
+            ]
+          },
+          {
+            type = "heading"
+            attrs = {
+              level = 2
+            }
+            content = [
+              {
+                type = "text"
+                text = "Person making request"
+              },
+            ]
+          },
+          {
+            type = "layoutSection"
+            content = [
+              {
+                type = "layoutColumn"
+                attrs = {
+                  width = 50
+                }
+                content = [
+                  {
+                    type = "extension"
+                    attrs = {
+                      extensionKey = "question"
+                      extensionType = "com.thinktilt.proforma"
+                      layout = "default"
+                      parameters = {
+                        id = 1
+                      }
+                      localId = "63ebba8d-7050-4707-b4f7-a12806384051"
+                    }
+                  },
+                  {
+                    type = "extension"
+                    attrs = {
+                      extensionKey = "question"
+                      extensionType = "com.thinktilt.proforma"
+                      layout = "default"
+                      parameters = {
+                        id = 2
+                      }
+                      localId = "d5656261-7b86-4ead-9aea-c0e4bca6fc8c"
+                    }
+                  },
+                ]
+              },
+              {
+                type = "layoutColumn"
+                attrs = {
+                  width = 50
+                }
+                content = [
+                  {
+                    type = "extension"
+                    attrs = {
+                      extensionKey = "question"
+                      extensionType = "com.thinktilt.proforma"
+                      layout = "default"
+                      parameters = {
+                        id = 3
+                      }
+                      localId = "41d0f11c-e4b4-4b9d-bcb0-a18dc544a562"
+                    }
+                  },
+                  {
+                    type = "extension"
+                    attrs = {
+                      extensionKey = "question"
+                      extensionType = "com.thinktilt.proforma"
+                      layout = "default"
+                      parameters = {
+                        id = 4
+                      }
+                      localId = "cf36fda7-2da0-4f0b-a0d8-54c029ae2c2b"
+                    }
+                  },
+                ]
+              },
+            ]
+          },
+          {
+            type = "heading"
+            attrs = {
+              level = 2
+            }
+            content = [
+              {
+                type = "text"
+                text = "Access requested"
+              },
+            ]
+          },
+          {
+            type = "extension"
+            attrs = {
+              extensionKey = "question"
+              extensionType = "com.thinktilt.proforma"
+              layout = "default"
+              parameters = {
+                id = 5
+              }
+              localId = "75d0502a-2bdb-4958-8113-603fb3189f76"
+            }
+          },
+          {
+            type = "extension"
+            attrs = {
+              extensionKey = "question"
+              extensionType = "com.thinktilt.proforma"
+              layout = "default"
+              parameters = {
+                id = 6
+              }
+              localId = "48deffe1-c92d-4ccb-a2c1-9573abebafa5"
+            }
+          },
+          {
+            type = "extension"
+            attrs = {
+              extensionKey = "question"
+              extensionType = "com.thinktilt.proforma"
+              layout = "default"
+              parameters = {
+                id = 7
+              }
+              localId = "d7edc751-5d00-4790-bf59-fbc4fae39ff0"
+            }
+          },
+          {
+            type = "heading"
+            attrs = {
+              level = 2
+            }
+            content = [
+              {
+                type = "text"
+                text = "Terms and conditions"
+              },
+            ]
+          },
+          {
+            type = "paragraph"
+            content = [
+              {
+                type = "text"
+                text = "Paste your terms and conditions here for reference."
+              },
+            ]
+          },
+          {
+            type = "extension"
+            attrs = {
+              extensionKey = "question"
+              extensionType = "com.thinktilt.proforma"
+              layout = "default"
+              parameters = {
+                id = 8
+              }
+              localId = "f0585c6d-6132-4f73-89a3-b91e821d2712"
+            }
+          },
+        ]
+      },
+    ]
+    conditions = {
+    }
+    sections = {
+    }
+    questions = {
+      
+      
+      
+      
+      
+      
+      
+      
+      "1@" = {
+        type = "ts"
+        label = "Name"
+        validation = {
+        }
+      }
+      "2@" = {
+        type = "ts"
+        label = "Phone"
+        validation = {
+        }
+      }
+      "3@" = {
+        type = "ts"
+        label = "Job title"
+        validation = {
+        }
+      }
+      "4@" = {
+        type = "te"
+        label = "Email"
+        description = ""
+        validation = {
+          rq = false
+        }
+        choices = [
+        ]
+        questionKey = ""
+      }
+      "5@" = {
+        type = "tl"
+        label = "Name of person needing building access"
+        description = ""
+        validation = {
+          rq = false
+        }
+        choices = [
+        ]
+        questionKey = ""
+      }
+      "6@" = {
+        type = "pg"
+        label = "Request description"
+        validation = {
+        }
+      }
+      "7@" = {
+        type = "pg"
+        label = "Reason for access"
+        validation = {
+        }
+      }
+      "8@" = {
+        type = "cm"
+        label = ""
+        description = ""
+        validation = {
+          rq = true
+          ch = "26"
+        }
+        choices = [
+          {
+            id = "26"
+            label = "I have read and agree to the terms and conditions."
+          },
+        ]
+        questionKey = ""
+      }
+    }
+  }
+  _parent = [
+    jira.Project.instance.General_service_management@s,
+  ]
+}

@@ -1,0 +1,8 @@
+jira.ProjectComponent Friday_Jira_Class_s__Laundry_Room@uumuus {
+  assigneeType = "PROJECT_DEFAULT"
+  name = "Laundry Room"
+  _parent = [
+    jira.Project.instance.Friday_Jira_Class@s,
+  ]
+  _alias = "Friday Jira Class:Laundry Room"
+}

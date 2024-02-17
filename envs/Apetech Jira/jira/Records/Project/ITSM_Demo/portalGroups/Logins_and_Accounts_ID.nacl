@@ -1,0 +1,15 @@
+jira.PortalGroup Logins_and_Accounts_ID@ssu {
+  name = "Logins and Accounts"
+  ticketTypeIds = [
+    jira.RequestType.instance.Request_a_new_account_ID@sssu,
+    jira.RequestType.instance.Fix_an_account_problem_ID@sssu,
+    jira.RequestType.instance.Get_a_guest_wifi_account_ID@ssssu,
+    jira.RequestType.instance.Set_up_VPN_to_the_office_ID@sssssu,
+    jira.RequestType.instance.Request_admin_access_ID@ssu,
+    jira.RequestType.instance.Onboard_new_employees_ID@ssu,
+  ]
+  _parent = [
+    jira.Project.instance.ITSM_Demo@s,
+  ]
+  _alias = "ITSM Demo:Logins and Accounts"
+}

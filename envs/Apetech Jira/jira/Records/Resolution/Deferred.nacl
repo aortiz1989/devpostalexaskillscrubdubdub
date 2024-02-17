@@ -1,0 +1,4 @@
+jira.Resolution Deferred {
+  description = ""
+  name = "Deferred"
+}

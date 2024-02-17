@@ -1,0 +1,132 @@
+jira.Automation Finished_Sum_Up_Story_Points_to_Epic_Jira_Scrum_March_2023@ssssssusss {
+  name = "Finished Sum Up Story Points to Epic"
+  state = "DISABLED"
+  description = ""
+  authorAccountId = {
+    id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+    displayName = "Alex Ortiz"
+  }
+  actor = {
+    type = "ACCOUNT_ID"
+    value = {
+      id = "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077"
+      displayName = "Automation for Jira"
+    }
+  }
+  trigger = {
+    component = "TRIGGER"
+    schemaVersion = 1
+    type = "jira.issue.event.trigger:transitioned"
+    value = {
+      eventKey = "jira:issue_updated"
+      issueEvent = "issue_generic"
+      fromStatus = [
+      ]
+      toStatus = [
+        {
+          type = "NAME"
+          value = jira.Status.instance.done.name
+        },
+      ]
+    }
+    children = [
+    ]
+    conditions = [
+    ]
+  }
+  components = [
+    {
+      component = "CONDITION"
+      schemaVersion = 3
+      type = "jira.issue.condition"
+      value = {
+        selectedField = {
+          type = "ID"
+          value = jira.Field.instance.Issue_Type__issuetype@suu
+        }
+        selectedFieldType = "issuetype"
+        comparison = "NOT_ONE_OF"
+        compareFieldValue = {
+          type = "ID"
+          multiValue = true
+          values = [
+            jira.IssueType.instance.Epic,
+          ]
+        }
+      }
+      children = [
+      ]
+      conditions = [
+      ]
+    },
+    {
+      component = "BRANCH"
+      schemaVersion = 1
+      type = "jira.issue.related"
+      value = {
+        relatedType = "epic"
+        jql = ""
+        linkTypes = [
+        ]
+        onlyUpdatedIssues = false
+        similarityLimit = 40
+        compareValue = 0
+      }
+      children = [
+        {
+          component = "ACTION"
+          schemaVersion = 10
+          type = "jira.issue.edit"
+          value = {
+            operations = [
+              {
+                field = {
+                  type = "NAME"
+                  value = jira.Field.instance.Completed_Stories__float__c@suuuu.name
+                }
+                fieldType = "com.atlassian.jira.plugin.system.customfieldtypes:float"
+                type = "SET"
+                rawValue = "{{#=}}{{issue.customfield_10105}} + {{triggerIssue.Story Points}}{{/}}"
+              },
+            ]
+            sendNotifications = true
+          }
+          children = [
+          ]
+          conditions = [
+          ]
+        },
+      ]
+      conditions = [
+      ]
+    },
+  ]
+  canOtherRuleTrigger = false
+  notifyOnError = "FIRSTERROR"
+  projects = [
+    {
+      projectId = jira.Project.instance.Jira_Scrum_March_2023@s
+    },
+  ]
+  labels = [
+  ]
+  tags = [
+    {
+      tagType = "IS_RULE_UPDATED"
+      tagValue = "true"
+    },
+  ]
+  ruleHome = {
+    ruleLifecycleHome = {
+      locationARI = "ari:cloud:jira:49e44624-3532-4a57-a284-c63551c79cbe:project/10033"
+    }
+    ruleBillingHome = {
+      locationARI = "ari:cloud:jira-software::site/49e44624-3532-4a57-a284-c63551c79cbe"
+    }
+  }
+  writeAccessType = "UNRESTRICTED"
+  collaborators = [
+  ]
+  billingType = "NORMAL"
+  _alias = "Finished Sum Up Story Points to Epic"
+}

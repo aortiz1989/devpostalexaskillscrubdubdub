@@ -1,0 +1,14 @@
+jira.FieldConfigurationScheme Favorite_Animal_Configuration_Scheme@s {
+  name = "Favorite Animal Configuration Scheme"
+  description = ""
+  items = [
+    {
+      issueTypeId = "default"
+      fieldConfigurationId = jira.FieldConfiguration.instance.Favorite_Animal_Default_Field_Configuration@s
+    },
+    {
+      issueTypeId = jira.IssueType.instance.Epic
+      fieldConfigurationId = jira.FieldConfiguration.instance.Epic_only_Favorite_Animal_Default_Field_Configuration@s
+    },
+  ]
+}

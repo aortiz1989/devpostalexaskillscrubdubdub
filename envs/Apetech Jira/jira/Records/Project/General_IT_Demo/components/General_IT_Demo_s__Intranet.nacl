@@ -1,0 +1,13 @@
+jira.ProjectComponent General_IT_Demo_s__Intranet@uumuu {
+  description = "Issues related to the intranet. Created by Jira Service Management."
+  assigneeType = "UNASSIGNED"
+  name = "Intranet"
+  leadAccountId = {
+    id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+    displayName = "Alex Ortiz"
+  }
+  _parent = [
+    jira.Project.instance.General_IT_Demo@s,
+  ]
+  _alias = "General IT Demo:Intranet"
+}

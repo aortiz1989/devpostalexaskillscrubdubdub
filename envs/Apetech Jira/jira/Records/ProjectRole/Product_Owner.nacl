@@ -1,0 +1,4 @@
+jira.ProjectRole Product_Owner@s {
+  name = "Product Owner"
+  description = ""
+}

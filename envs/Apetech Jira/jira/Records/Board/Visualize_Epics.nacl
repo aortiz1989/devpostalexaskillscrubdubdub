@@ -1,0 +1,50 @@
+jira.Board Visualize_Epics@s {
+  name = "Visualize Epics"
+  type = "kanban"
+  admins = {
+    users = [
+      {
+        id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+        displayName = "Alex Ortiz"
+      },
+    ]
+  }
+  location = {
+    projectId = jira.Project.instance.demo_how_jira_works@s
+  }
+  filterId = jira.Filter.instance.Filter_for_Visualize_Epics@s
+  columnConfig = {
+    columns = [
+      {
+        name = "Not Yet Bob"
+        statuses = [
+          jira.Status.instance.to_do@s,
+        ]
+      },
+      {
+        name = "Working On It"
+        statuses = [
+          jira.Status.instance.code_complete@s,
+          jira.Status.instance.code_review@s,
+          jira.Status.instance.in_progress@s,
+        ]
+      },
+      {
+        name = "QA/UAT"
+        statuses = [
+          jira.Status.instance.ready_for_qa@s,
+          jira.Status.instance.in_qa@s,
+          jira.Status.instance.some_column@s,
+        ]
+      },
+      {
+        name = "Work Complete"
+        statuses = [
+          jira.Status.instance.done,
+        ]
+      },
+    ]
+    constraintType = "issueCount"
+  }
+  subQuery = "fixVersion in unreleasedVersions() OR fixVersion is EMPTY"
+}

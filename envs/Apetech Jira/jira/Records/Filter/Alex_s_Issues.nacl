@@ -1,0 +1,22 @@
+jira.Filter Alex_s_Issues@ts {
+  name = "Alex's Issues"
+  description = ""
+  owner = {
+    id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+    displayName = "Alex Ortiz"
+  }
+  jql = "${ jira.Field.instance.Assignee__user } in (557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f) ORDER BY fixVersion ASC, ${ jira.Field.instance.Updated__datetime } DESC, ${ jira.Field.instance.Created__datetime } DESC"
+  sharePermissions = [
+    {
+      type = "authenticated"
+    },
+  ]
+  editPermissions = [
+    {
+      type = "group"
+      group = {
+        name = jira.Group.instance.site_admins@b
+      }
+    },
+  ]
+}

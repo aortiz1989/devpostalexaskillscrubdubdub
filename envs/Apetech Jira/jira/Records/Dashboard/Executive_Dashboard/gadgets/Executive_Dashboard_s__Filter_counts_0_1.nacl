@@ -1,0 +1,111 @@
+jira.DashboardGadget Executive_Dashboard_s__Filter_counts_0_1@umuusuu {
+  moduleKey = "com.atlassian.servicedesk.dashboard-items-plugin:filter-count-dashboard-item"
+  color = "blue"
+  position = {
+    row = 1
+    column = 0
+  }
+  title = "Filter counts"
+  properties = [
+    {
+      key = "countOptions"
+      value = [
+        {
+          hasTrigger = false
+          trigger = {
+            display = ""
+            triggerEquality = ""
+            triggerOn = ""
+          }
+          name = "Priority - Highest"
+          jql = "priority = Highest"
+          id = "c37"
+        },
+        {
+          hasTrigger = false
+          trigger = {
+            display = ""
+            triggerEquality = ""
+            triggerOn = ""
+          }
+          name = "Priority - High"
+          jql = "priority = High"
+          id = "c41"
+        },
+        {
+          hasTrigger = false
+          trigger = {
+            display = ""
+            triggerEquality = ""
+            triggerOn = ""
+          }
+          name = "Status - In Progress"
+          jql = "status = \"In Progress\""
+          id = "c45"
+        },
+        {
+          hasTrigger = false
+          trigger = {
+            display = ""
+            triggerEquality = ""
+            triggerOn = ""
+          }
+          name = "Status - Blocked"
+          jql = "status = Blocked"
+          id = "c49"
+        },
+        {
+          hasTrigger = false
+          trigger = {
+            display = "warning"
+            triggerEquality = "above"
+            triggerOn = "undefined"
+          }
+          id = "c53"
+          name = "New Bugs From Last Night"
+          jql = "issuetype = Bug and created > -24h"
+        },
+        {
+          hasTrigger = false
+          trigger = {
+            display = "warning"
+            triggerEquality = "above"
+            triggerOn = "undefined"
+          }
+          id = "c85"
+          name = "Flagged Issues"
+          jql = "Flagged is not empty"
+        },
+      ]
+    },
+    {
+      key = "isConfigured"
+      value = true
+    },
+    {
+      key = "projectFilterDetails"
+      values = [
+        {
+          key = "name"
+          value = "Thanksgiving Dinner - How to Agile"
+        },
+        {
+          key = "type"
+          value = "project"
+        },
+        {
+          key = "id"
+          value = "10015"
+        },
+      ]
+    },
+    {
+      key = "refresh"
+      value = "15"
+    },
+  ]
+  _parent = [
+    jira.Dashboard.instance.Executive_Dashboard@s,
+  ]
+  _alias = "Filter counts"
+}

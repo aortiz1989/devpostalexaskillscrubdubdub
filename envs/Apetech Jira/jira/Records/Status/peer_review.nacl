@@ -1,0 +1,5 @@
+jira.Status peer_review@s {
+  name = "Peer Review"
+  statusCategory = jira.StatusCategory.instance.In_Progress@s
+  description = ""
+}

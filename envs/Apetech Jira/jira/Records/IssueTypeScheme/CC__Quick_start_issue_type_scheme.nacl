@@ -1,0 +1,8 @@
+jira.IssueTypeScheme CC__Quick_start_issue_type_scheme@fsssss {
+  name = "CC: Quick start issue type scheme"
+  defaultIssueTypeId = jira.IssueType.instance.Task
+  issueTypeIds = [
+    jira.IssueType.instance.Task,
+    jira.IssueType.instance.Sub_task@b,
+  ]
+}

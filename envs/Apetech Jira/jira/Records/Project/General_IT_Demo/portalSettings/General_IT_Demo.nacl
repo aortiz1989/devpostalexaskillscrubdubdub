@@ -1,0 +1,11 @@
+jira.PortalSettings General_IT_Demo@s {
+  name = "General IT Demo"
+  description = "Welcome! You can raise a request for General IT Demo using the options provided."
+  announcementSettings = {
+    canAgentsManagePortalAnnouncement = false
+  }
+  _parent = [
+    jira.Project.instance.General_IT_Demo@s,
+  ]
+  _alias = "General IT Demo:General IT Demo"
+}

@@ -1,0 +1,12 @@
+jira.Project Demo_Project_JPD@s {
+  key = "DPJ"
+  description = ""
+  name = "Demo Project JPD"
+  projectTypeKey = "product_discovery"
+  entityId = "44ec3ace-cbe1-447b-a502-bccbe7f4a3c0"
+  uuid = "44ec3ace-cbe1-447b-a502-bccbe7f4a3c0"
+  leadAccountId = {
+    id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+    displayName = "Alex Ortiz"
+  }
+}

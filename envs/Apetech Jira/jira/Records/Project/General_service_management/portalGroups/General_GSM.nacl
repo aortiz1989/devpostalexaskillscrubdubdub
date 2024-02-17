@@ -1,0 +1,11 @@
+jira.PortalGroup General_GSM {
+  name = "General"
+  ticketTypeIds = [
+    jira.RequestType.instance.Ask_a_question_GSM@ssu,
+    jira.RequestType.instance.Submit_a_request_or_incident_GSM@ssssu,
+  ]
+  _parent = [
+    jira.Project.instance.General_service_management@s,
+  ]
+  _alias = "General service management:General"
+}

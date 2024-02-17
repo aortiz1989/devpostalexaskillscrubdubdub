@@ -1,0 +1,10 @@
+jira.ApplicationProperty jira_admin_announcement_banner_message@v {
+  id = "jira.admin.announcement.banner.message"
+  value = '''
+Check out my Udemy Course!
+Search: Jira Cloud Fundamentals
+'''
+  name = "jira.admin.announcement.banner.message"
+  type = "string"
+  defaultValue = ""
+}

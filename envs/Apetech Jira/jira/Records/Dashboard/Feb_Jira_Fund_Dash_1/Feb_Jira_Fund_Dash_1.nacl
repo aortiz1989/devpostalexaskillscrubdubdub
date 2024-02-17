@@ -1,0 +1,27 @@
+jira.Dashboard Feb_Jira_Fund_Dash_1@s {
+  description = ""
+  name = "Feb Jira Fund Dash 1"
+  owner = {
+    id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+    displayName = "Alex Ortiz"
+  }
+  sharePermissions = [
+    {
+      type = "authenticated"
+    },
+  ]
+  gadgets = [
+    jira.DashboardGadget.instance.Feb_Jira_Fund_Dash_1_s__Activity_Stream_0_0@uuuumuusuu,
+    jira.DashboardGadget.instance.Feb_Jira_Fund_Dash_1_s__Custom_Charts_0_1@uuuumuusuu,
+    jira.DashboardGadget.instance.Feb_Jira_Fund_Dash_1_s__Custom_Charts_Simple_Search_0_2@uuuumuusssuu,
+    jira.DashboardGadget.instance.Feb_Jira_Fund_Dash_1_s__Pie_Chart_0_3@uuuumuusuu,
+    jira.DashboardGadget.instance.Feb_Jira_Fund_Dash_1_s__Jira_Issues_Calendar_0_4@uuuumuussuu,
+    jira.DashboardGadget.instance.Feb_Jira_Fund_Dash_1_s__Issue_Statistics_0_5@uuuumuusuu,
+    jira.DashboardGadget.instance.Feb_Jira_Fund_Dash_1_s__Filter_counts_0_6@uuuumuusuu,
+    jira.DashboardGadget.instance.Feb_Jira_Fund_Dash_1_s__Created_vs__Resolved_Chart_0_7@uuuumuusvssuu,
+    jira.DashboardGadget.instance.Feb_Jira_Fund_Dash_1_s__Activity_Stream_0_8@uuuumuusuu,
+    jira.DashboardGadget.instance.Feb_Jira_Fund_Dash_1_s__Custom_Charts_1_0@uuuumuusuu,
+    jira.DashboardGadget.instance.Feb_Jira_Fund_Dash_1_s__Average_Number_of_Times_in_Status_1_1@uuuumuusssssuu,
+  ]
+  layout = "AA"
+}

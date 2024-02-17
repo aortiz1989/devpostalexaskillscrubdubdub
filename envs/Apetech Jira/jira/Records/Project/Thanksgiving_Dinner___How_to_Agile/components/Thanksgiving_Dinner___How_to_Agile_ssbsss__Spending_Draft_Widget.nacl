@@ -1,0 +1,8 @@
+jira.ProjectComponent Thanksgiving_Dinner___How_to_Agile_ssbsss__Spending_Draft_Widget@uuuuuumuuss {
+  assigneeType = "PROJECT_DEFAULT"
+  name = "Spending Draft Widget"
+  _parent = [
+    jira.Project.instance.Thanksgiving_Dinner___How_to_Agile@ssbsss,
+  ]
+  _alias = "Thanksgiving Dinner - How to Agile:Spending Draft Widget"
+}

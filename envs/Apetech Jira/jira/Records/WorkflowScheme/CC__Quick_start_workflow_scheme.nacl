@@ -1,0 +1,15 @@
+jira.WorkflowScheme CC__Quick_start_workflow_scheme@fssss {
+  name = "CC: Quick start workflow scheme"
+  description = ""
+  defaultWorkflow = jira.Workflow.instance.CC__Quick_start_default_workflow@fssss
+  items = [
+    {
+      workflow = jira.Workflow.instance.CC__Quick_start_default_workflow@fssss
+      issueType = jira.IssueType.instance.Task
+    },
+    {
+      workflow = jira.Workflow.instance.CC__Quick_start_default_workflow@fssss
+      issueType = jira.IssueType.instance.Sub_task@b
+    },
+  ]
+}

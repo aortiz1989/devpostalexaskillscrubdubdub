@@ -1,0 +1,10 @@
+jira.Field Initial_Sentiment__float__c@suuuu {
+  name = "Initial Sentiment"
+  description = "ServiceDesk Language Tools: Sentiment of initial request"
+  searcherKey = "com.atlassian.jira.plugin.system.customfieldtypes:exactnumber"
+  type = "com.atlassian.jira.plugin.system.customfieldtypes:float"
+  contexts = [
+    jira.CustomFieldContext.instance.Initial_Sentiment__float__c_suuuu_Default_Configuration_Scheme_for_Initial_Sentiment@uuuuumusssss,
+  ]
+  _alias = "Initial Sentiment"
+}

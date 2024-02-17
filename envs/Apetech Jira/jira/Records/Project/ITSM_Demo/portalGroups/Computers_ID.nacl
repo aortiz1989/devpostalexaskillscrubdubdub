@@ -1,0 +1,14 @@
+jira.PortalGroup Computers_ID {
+  name = "Computers"
+  ticketTypeIds = [
+    jira.RequestType.instance.Get_IT_help_ID@ssu,
+    jira.RequestType.instance.New_mobile_device_ID@ssu,
+    jira.RequestType.instance.Report_broken_hardware_ID@ssu,
+    jira.RequestType.instance.Request_new_software_ID@ssu,
+    jira.RequestType.instance.Request_new_hardware_ID@ssu,
+  ]
+  _parent = [
+    jira.Project.instance.ITSM_Demo@s,
+  ]
+  _alias = "ITSM Demo:Computers"
+}

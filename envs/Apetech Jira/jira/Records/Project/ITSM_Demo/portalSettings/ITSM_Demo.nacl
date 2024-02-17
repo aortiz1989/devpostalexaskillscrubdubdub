@@ -1,0 +1,11 @@
+jira.PortalSettings ITSM_Demo@s {
+  name = "ITSM Demo"
+  description = "Welcome! You can raise a request for ITSM Demo using the options provided."
+  announcementSettings = {
+    canAgentsManagePortalAnnouncement = false
+  }
+  _parent = [
+    jira.Project.instance.ITSM_Demo@s,
+  ]
+  _alias = "ITSM Demo:ITSM Demo"
+}

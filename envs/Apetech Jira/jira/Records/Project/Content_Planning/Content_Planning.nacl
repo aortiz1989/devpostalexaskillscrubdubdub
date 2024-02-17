@@ -1,0 +1,13 @@
+jira.Project Content_Planning@s {
+  key = "CP"
+  description = ""
+  name = "Content Planning"
+  projectTypeKey = "software"
+  entityId = "9f7ad323-1b58-44fb-b99f-2ed57c3e8558"
+  uuid = "9f7ad323-1b58-44fb-b99f-2ed57c3e8558"
+  issueSecurityScheme = jira.SecurityScheme.instance.CP__Simplified_Issue_Security_Scheme@fssss
+  leadAccountId = {
+    id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+    displayName = "Alex Ortiz"
+  }
+}

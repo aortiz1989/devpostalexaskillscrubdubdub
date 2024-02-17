@@ -1,0 +1,7 @@
+jira.ScreenScheme CSSD__Scrum_Default_Screen_Scheme@fssss {
+  name = "CSSD: Scrum Default Screen Scheme"
+  description = ""
+  screens = {
+    default = jira.Screen.instance.CSSD__Scrum_Default_Issue_Screen@fssss
+  }
+}

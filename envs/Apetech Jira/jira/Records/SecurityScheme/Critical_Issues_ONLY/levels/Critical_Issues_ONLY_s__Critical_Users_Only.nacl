@@ -1,0 +1,21 @@
+jira.SecurityLevel Critical_Issues_ONLY_s__Critical_Users_Only@uumuuss {
+  description = ""
+  name = "Critical Users Only"
+  members = [
+    {
+      holder = {
+        type = "group"
+        parameter = jira.Group.instance.Developer_Group_A@s
+      }
+    },
+    {
+      holder = {
+        type = "projectRole"
+        parameter = jira.ProjectRole.instance.atlassian_addons_project_access@b
+      }
+    },
+  ]
+  _parent = [
+    jira.SecurityScheme.instance.Critical_Issues_ONLY@s,
+  ]
+}

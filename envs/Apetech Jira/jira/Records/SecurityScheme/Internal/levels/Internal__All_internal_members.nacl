@@ -1,0 +1,15 @@
+jira.SecurityLevel Internal__All_internal_members@uuss {
+  description = ""
+  name = "All internal members"
+  members = [
+    {
+      holder = {
+        type = "projectRole"
+        parameter = jira.ProjectRole.instance.atlassian_addons_project_access@b
+      }
+    },
+  ]
+  _parent = [
+    jira.SecurityScheme.instance.Internal,
+  ]
+}

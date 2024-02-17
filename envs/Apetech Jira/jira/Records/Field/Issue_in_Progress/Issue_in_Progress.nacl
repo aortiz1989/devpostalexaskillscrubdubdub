@@ -1,0 +1,10 @@
+jira.Field Issue_in_Progress__datepicker__c@ssuuuu {
+  name = "Issue in Progress"
+  description = ""
+  searcherKey = "com.atlassian.jira.plugin.system.customfieldtypes:daterange"
+  type = "com.atlassian.jira.plugin.system.customfieldtypes:datepicker"
+  contexts = [
+    jira.CustomFieldContext.instance.Issue_in_Progress__datepicker__c_ssuuuu_Default_Configuration_Scheme_for_Issue_in_Progress@uuuuuumussssss,
+  ]
+  _alias = "Issue in Progress"
+}

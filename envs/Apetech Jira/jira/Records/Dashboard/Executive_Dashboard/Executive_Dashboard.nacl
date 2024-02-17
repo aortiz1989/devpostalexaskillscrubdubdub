@@ -1,0 +1,22 @@
+jira.Dashboard Executive_Dashboard@s {
+  description = ""
+  name = "Executive Dashboard"
+  owner = {
+    id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+    displayName = "Alex Ortiz"
+  }
+  gadgets = [
+    jira.DashboardGadget.instance.Executive_Dashboard_s__Issue_Statistics_0_0@umuusuu,
+    jira.DashboardGadget.instance.Executive_Dashboard_s__Filter_counts_0_1@umuusuu,
+    jira.DashboardGadget.instance.Executive_Dashboard_s__Custom_Charts_Simple_Search_0_2@umuusssuu,
+    jira.DashboardGadget.instance.Executive_Dashboard_s__Issue_Statistics_0_3@umuusuu,
+    jira.DashboardGadget.instance.Executive_Dashboard_s__Issue_Statistics_0_4@umuusuu,
+    jira.DashboardGadget.instance.Executive_Dashboard_s__Custom_Charts_0_5@umuusuu,
+    jira.DashboardGadget.instance.Executive_Dashboard_s__Custom_Charts_0_6@umuusuu,
+    jira.DashboardGadget.instance.Executive_Dashboard_s__Custom_Charts_0_7@umuusuu,
+    jira.DashboardGadget.instance.Executive_Dashboard_s__Issue_Statistics_1_0@umuusuu,
+    jira.DashboardGadget.instance.Executive_Dashboard_s__Custom_Charts_1_1@umuusuu,
+    jira.DashboardGadget.instance.Executive_Dashboard_s__Custom_Charts_1_2@umuusuu,
+  ]
+  layout = "AA"
+}

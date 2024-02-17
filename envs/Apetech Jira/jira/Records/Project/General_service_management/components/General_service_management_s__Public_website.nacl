@@ -1,0 +1,13 @@
+jira.ProjectComponent General_service_management_s__Public_website@uumuus {
+  description = "Issues related to the public website. Created by Jira Service Management."
+  assigneeType = "UNASSIGNED"
+  name = "Public website"
+  leadAccountId = {
+    id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+    displayName = "Alex Ortiz"
+  }
+  _parent = [
+    jira.Project.instance.General_service_management@s,
+  ]
+  _alias = "General service management:Public website"
+}

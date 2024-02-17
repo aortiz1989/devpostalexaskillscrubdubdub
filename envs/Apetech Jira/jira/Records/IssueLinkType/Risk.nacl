@@ -1,0 +1,5 @@
+jira.IssueLinkType Risk {
+  name = "Risk"
+  inward = "is Risked By"
+  outward = "Risks"
+}

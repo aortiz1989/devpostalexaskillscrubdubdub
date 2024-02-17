@@ -1,0 +1,5 @@
+jira.WorkflowScheme NPTRREVYZ__Simple_Issue_Tracking_Workflow_Scheme@fsssss {
+  name = "NPTRREVYZ: Simple Issue Tracking Workflow Scheme"
+  description = ""
+  defaultWorkflow = jira.Workflow.instance.NPTRREVYZ__Simple_Issue_Tracking_Workflow@fssss
+}

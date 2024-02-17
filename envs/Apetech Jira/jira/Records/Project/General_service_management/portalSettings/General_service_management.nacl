@@ -1,0 +1,11 @@
+jira.PortalSettings General_service_management@s {
+  name = "General service management"
+  description = "Welcome! You can raise a request for General service management using the options provided."
+  announcementSettings = {
+    canAgentsManagePortalAnnouncement = false
+  }
+  _parent = [
+    jira.Project.instance.General_service_management@s,
+  ]
+  _alias = "General service management:General service management"
+}

@@ -1,0 +1,8 @@
+jira.ProjectComponent CS_May_Course_s__Restaurant@uumuu {
+  assigneeType = "PROJECT_DEFAULT"
+  name = "Restaurant"
+  _parent = [
+    jira.Project.instance.CS_May_Course@s,
+  ]
+  _alias = "CS May Course:Restaurant"
+}

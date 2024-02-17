@@ -1,0 +1,114 @@
+jira.Automation set_story_start_and_end_dates@s {
+  name = "set story start and end dates"
+  state = "DISABLED"
+  description = ""
+  authorAccountId = {
+    id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+    displayName = "Alex Ortiz"
+  }
+  actor = {
+    type = "ACCOUNT_ID"
+    value = {
+      id = "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077"
+      displayName = "Automation for Jira"
+    }
+  }
+  trigger = {
+    component = "TRIGGER"
+    schemaVersion = 1
+    type = "jira.sprint.event.trigger:started"
+    value = {
+      boardId = jira.Board.instance.My_Scrum_Board@s
+      sprintNameFilter = ""
+    }
+    children = [
+    ]
+    conditions = [
+    ]
+  }
+  components = [
+    {
+      component = "BRANCH"
+      schemaVersion = 1
+      type = "jira.issue.related"
+      value = {
+        relatedType = "sprint"
+        jql = ""
+        linkTypes = [
+        ]
+        onlyUpdatedIssues = false
+        similarityLimit = 40
+        compareValue = 0
+      }
+      children = [
+        {
+          component = "ACTION"
+          schemaVersion = 10
+          type = "jira.issue.edit"
+          value = {
+            operations = [
+              {
+                field = {
+                  type = "NAME"
+                  value = jira.Field.instance.Start_date__datepicker__c@suuuu.name
+                }
+                fieldType = "com.atlassian.jira.plugin.system.customfieldtypes:datepicker"
+                type = "SET"
+                rawValue = "{{now}}"
+              },
+            ]
+            sendNotifications = true
+          }
+          children = [
+          ]
+          conditions = [
+          ]
+        },
+        {
+          component = "ACTION"
+          schemaVersion = 10
+          type = "jira.issue.edit"
+          value = {
+            operations = [
+              {
+                field = {
+                  type = "ID"
+                  value = jira.Field.instance.Due_date__date@suu
+                }
+                fieldType = "duedate"
+                type = "SET"
+                rawValue = "{{now.plusBusinessDays(10)}}"
+              },
+            ]
+            sendNotifications = true
+          }
+          children = [
+          ]
+          conditions = [
+          ]
+        },
+      ]
+      conditions = [
+      ]
+    },
+  ]
+  canOtherRuleTrigger = false
+  notifyOnError = "FIRSTERROR"
+  labels = [
+  ]
+  tags = [
+  ]
+  ruleHome = {
+    ruleLifecycleHome = {
+      locationARI = "ari:cloud:jira-software::site/49e44624-3532-4a57-a284-c63551c79cbe"
+    }
+    ruleBillingHome = {
+      locationARI = "ari:cloud:jira-software::site/49e44624-3532-4a57-a284-c63551c79cbe"
+    }
+  }
+  writeAccessType = "UNRESTRICTED"
+  collaborators = [
+  ]
+  billingType = "NORMAL"
+  _alias = "set story start and end dates"
+}

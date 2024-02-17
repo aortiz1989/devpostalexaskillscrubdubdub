@@ -1,0 +1,168 @@
+jira.Automation Copy_of_Sum_Up_Story_Points_to_Epic@s {
+  name = "Copy of Sum Up Story Points to Epic"
+  state = "DISABLED"
+  description = ""
+  authorAccountId = {
+    id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+    displayName = "Alex Ortiz"
+  }
+  actor = {
+    type = "ACCOUNT_ID"
+    value = {
+      id = "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077"
+      displayName = "Automation for Jira"
+    }
+  }
+  trigger = {
+    component = "TRIGGER"
+    schemaVersion = 2
+    type = "jira.issue.field.changed"
+    value = {
+      changeType = "ANY_CHANGE"
+      fields = [
+        {
+          value = jira.Field.instance.Story_Points__float__c@suuuu.name
+          type = "fieldName"
+        },
+      ]
+      actions = [
+      ]
+    }
+    children = [
+    ]
+    conditions = [
+    ]
+  }
+  components = [
+    {
+      component = "CONDITION"
+      schemaVersion = 3
+      type = "jira.issue.condition"
+      value = {
+        selectedField = {
+          type = "ID"
+          value = jira.Field.instance.Issue_Type__issuetype@suu
+        }
+        selectedFieldType = "issuetype"
+        comparison = "EQUALS"
+        compareFieldValue = {
+          type = "ID"
+          value = jira.IssueType.instance.Epic
+          multiValue = false
+        }
+      }
+      children = [
+      ]
+      conditions = [
+      ]
+    },
+    {
+      component = "BRANCH"
+      schemaVersion = 1
+      type = "jira.issue.related"
+      value = {
+        relatedType = "stories"
+        jql = ""
+        linkTypes = [
+        ]
+        onlyUpdatedIssues = false
+        similarityLimit = 40
+        compareValue = 0
+      }
+      children = [
+        {
+          component = "CONDITION"
+          schemaVersion = 3
+          type = "jira.issue.condition"
+          value = {
+            selectedField = {
+              type = "ID"
+              value = jira.Field.instance.Status__status
+            }
+            selectedFieldType = "status"
+            comparison = "EQUALS"
+            compareFieldValue = {
+              type = "NAME"
+              value = jira.Status.instance.done.name
+              multiValue = false
+            }
+          }
+          children = [
+          ]
+          conditions = [
+          ]
+        },
+        {
+          component = "ACTION"
+          schemaVersion = 1
+          type = "jira.lookup.issues"
+          value = {
+            id = "_customsmartvalue_id_1690487432480"
+            name = {
+              type = "FREE"
+              value = "lookupIssues"
+            }
+            type = "JQL"
+            query = {
+              type = "SMART"
+              value = "\"${ jira.Field.instance.Epic_Link__gh_epic_link__c@suubbuu.name }\" = {{triggerIssue.key}}"
+            }
+            lazy = false
+          }
+          children = [
+          ]
+          conditions = [
+          ]
+        },
+        {
+          component = "ACTION"
+          schemaVersion = 10
+          type = "jira.issue.edit"
+          value = {
+            operations = [
+              {
+                field = {
+                  type = "NAME"
+                  value = jira.Field.instance.Completed_Stories__float__c@suuuu.name
+                }
+                fieldType = "com.atlassian.jira.plugin.system.customfieldtypes:float"
+                type = "SET"
+                rawValue = "{{lookupIssues.Story Points.sum}}"
+              },
+            ]
+            sendNotifications = true
+          }
+          children = [
+          ]
+          conditions = [
+          ]
+        },
+      ]
+      conditions = [
+      ]
+    },
+  ]
+  canOtherRuleTrigger = true
+  notifyOnError = "FIRSTERROR"
+  labels = [
+  ]
+  tags = [
+    {
+      tagType = "IS_RULE_UPDATED"
+      tagValue = "true"
+    },
+  ]
+  ruleHome = {
+    ruleLifecycleHome = {
+      locationARI = "ari:cloud:jira-software::site/49e44624-3532-4a57-a284-c63551c79cbe"
+    }
+    ruleBillingHome = {
+      locationARI = "ari:cloud:jira-software::site/49e44624-3532-4a57-a284-c63551c79cbe"
+    }
+  }
+  writeAccessType = "UNRESTRICTED"
+  collaborators = [
+  ]
+  billingType = "NORMAL"
+  _alias = "Copy of Sum Up Story Points to Epic"
+}

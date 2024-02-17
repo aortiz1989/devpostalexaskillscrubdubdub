@@ -1,0 +1,17 @@
+jira.IssueTypeScheme ATT__Scrum_Issue_Type_Scheme@fssss {
+  name = "ATT: Scrum Issue Type Scheme"
+  defaultIssueTypeId = jira.IssueType.instance.Story
+  issueTypeIds = [
+    jira.IssueType.instance.Task,
+    jira.IssueType.instance.Sub_task@b,
+    jira.IssueType.instance.Story,
+    jira.IssueType.instance.Bug,
+    jira.IssueType.instance.Epic,
+    jira.IssueType.instance.The_DeVonna@s,
+    jira.IssueType.instance.Spike,
+    jira.IssueType.instance.Defect,
+    jira.IssueType.instance.Apple,
+    jira.IssueType.instance.Theme,
+    jira.IssueType.instance.Initiative,
+  ]
+}

@@ -1,0 +1,24 @@
+jira.Project Jan_2023_Jira_For_Scrum_Masters_Course@s {
+  key = "JIRAJAN"
+  description = ""
+  name = "Jan 2023 Jira For Scrum Masters Course"
+  projectTypeKey = "software"
+  components = [
+    jira.ProjectComponent.instance.Jan_2023_Jira_For_Scrum_Masters_Course_s__Account_Management@uuuuuumuus,
+    jira.ProjectComponent.instance.Jan_2023_Jira_For_Scrum_Masters_Course_s__Deals_Coupons@uuuuuumuud,
+    jira.ProjectComponent.instance.Jan_2023_Jira_For_Scrum_Masters_Course_s__Menu@uuuuuumuu,
+    jira.ProjectComponent.instance.Jan_2023_Jira_For_Scrum_Masters_Course_s__Order@uuuuuumuu,
+    jira.ProjectComponent.instance.Jan_2023_Jira_For_Scrum_Masters_Course_s__Payments@uuuuuumuu,
+    jira.ProjectComponent.instance.Jan_2023_Jira_For_Scrum_Masters_Course_s__Rewards@uuuuuumuu,
+    jira.ProjectComponent.instance.Jan_2023_Jira_For_Scrum_Masters_Course_s__Store_Location@uuuuuumuus,
+  ]
+  workflowScheme = jira.WorkflowScheme.instance.JIRAJAN__Software_Simplified_Workflow_Scheme@fssss
+  permissionScheme = jira.PermissionScheme.instance.Default_software_scheme@s
+  notificationScheme = jira.NotificationScheme.instance.Default_Notification_Scheme@s
+  issueTypeScreenScheme = jira.IssueTypeScreenScheme.instance.JIRAJAN__Scrum_Issue_Type_Screen_Scheme@fsssss
+  issueTypeScheme = jira.IssueTypeScheme.instance.JAA__Scrum_Issue_Type_Scheme@fssss
+  leadAccountId = {
+    id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+    displayName = "Alex Ortiz"
+  }
+}

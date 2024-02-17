@@ -1,0 +1,14 @@
+jira.IssueTypeScheme FJC__Scrum_Issue_Type_Scheme@fssss {
+  name = "FJC: Scrum Issue Type Scheme"
+  defaultIssueTypeId = jira.IssueType.instance.Bug
+  issueTypeIds = [
+    jira.IssueType.instance.Task,
+    jira.IssueType.instance.Sub_task@b,
+    jira.IssueType.instance.Initiative,
+    jira.IssueType.instance.Story,
+    jira.IssueType.instance.Risk,
+    jira.IssueType.instance.Bug,
+    jira.IssueType.instance.HLD,
+    jira.IssueType.instance.Epic,
+  ]
+}

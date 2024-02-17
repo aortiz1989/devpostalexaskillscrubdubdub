@@ -1,0 +1,45 @@
+jira.SLA time_to_demo_on_youtube_GID@ssssu {
+  name = "time to demo on youtube"
+  config = {
+    definition = {
+      start = [
+        {
+          pluginKey = "com.atlassian.servicedesk"
+          factoryKey = "status-sla-condition-factory"
+          conditionId = "3"
+          name = "Entered Status: In Progress"
+        },
+      ]
+      pause = [
+        {
+          pluginKey = "com.atlassian.servicedesk"
+          factoryKey = "status-sla-condition-factory"
+          conditionId = "10049"
+          name = "Status: Pending"
+        },
+      ]
+      stop = [
+        {
+          pluginKey = "com.atlassian.servicedesk"
+          factoryKey = "resolution-sla-condition-factory"
+          conditionId = "resolution-set-hit-condition"
+          name = "Resolution: Set"
+        },
+      ]
+    }
+    goals = [
+      {
+        jqlQuery = ""
+        duration = 7200000
+        calendarId = jira.Calendar.instance.Sample_9_5_Calendar_GID@sbsu
+        defaultGoal = true
+        timeMetricId = 0
+      },
+    ]
+    slaDisplayFormat = "OLD_SLA_FORMAT"
+  }
+  _parent = [
+    jira.Project.instance.General_IT_Demo@s,
+  ]
+  _alias = "General IT Demo:time to demo on youtube"
+}

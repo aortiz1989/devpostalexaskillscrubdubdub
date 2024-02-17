@@ -1,0 +1,14 @@
+jira.FieldConfigurationScheme Addium_Default_Field_Configuration_Scheme@s {
+  name = "Addium Default Field Configuration Scheme"
+  description = ""
+  items = [
+    {
+      issueTypeId = "default"
+      fieldConfigurationId = jira.FieldConfiguration.instance.Default_Field_Configuration@s
+    },
+    {
+      issueTypeId = jira.IssueType.instance.Bug
+      fieldConfigurationId = jira.FieldConfiguration.instance.Addium_Bugs_Demo_Default_Field_Configuration@s
+    },
+  ]
+}

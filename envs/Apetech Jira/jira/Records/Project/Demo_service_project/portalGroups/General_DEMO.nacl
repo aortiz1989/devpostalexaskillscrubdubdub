@@ -1,0 +1,15 @@
+jira.PortalGroup General_DEMO {
+  name = "General"
+  ticketTypeIds = [
+    jira.RequestType.instance.missing_33,
+    jira.RequestType.instance.Password_Resets_DEMO@su,
+    jira.RequestType.instance.Jira_Help_DEMO@su,
+    jira.RequestType.instance.Purchase_under__100_DEMO@sszcu,
+    jira.RequestType.instance.Employee_exit_DEMO@su,
+    jira.RequestType.instance.New_employee_DEMO@su,
+  ]
+  _parent = [
+    jira.Project.instance.Demo_service_project@s,
+  ]
+  _alias = "Demo service project:General"
+}

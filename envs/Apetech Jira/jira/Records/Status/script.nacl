@@ -1,0 +1,5 @@
+jira.Status script {
+  name = "Script"
+  statusCategory = jira.StatusCategory.instance.In_Progress@s
+  description = ""
+}

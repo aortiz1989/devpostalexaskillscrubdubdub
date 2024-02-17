@@ -1,0 +1,50 @@
+jira.Board JAA_board@s {
+  name = "JAA board"
+  type = "scrum"
+  admins = {
+    users = [
+      {
+        id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+        displayName = "Alex Ortiz"
+      },
+    ]
+  }
+  location = {
+    projectId = jira.Project.instance.Jira_April_Admin@s
+  }
+  filterId = jira.Filter.instance.Filter_for_JAA_board@s
+  columnConfig = {
+    columns = [
+      {
+        name = "New"
+        statuses = [
+          jira.Status.instance.to_do@s,
+          jira.Status.instance.open,
+        ]
+      },
+      {
+        name = "In Progress"
+        statuses = [
+          jira.Status.instance.in_progress@s,
+          jira.Status.instance.in_development@s,
+        ]
+      },
+      {
+        name = "Blocked"
+        statuses = [
+          jira.Status.instance.blocked,
+        ]
+      },
+      {
+        name = "Done"
+        statuses = [
+          jira.Status.instance.done,
+        ]
+      },
+    ]
+    constraintType = "none"
+  }
+  estimation = {
+    field = jira.Field.instance.Story_Points__float__c@suuuu
+  }
+}

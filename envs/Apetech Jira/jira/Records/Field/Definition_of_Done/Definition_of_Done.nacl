@@ -1,0 +1,10 @@
+jira.Field Definition_of_Done__textarea__c@ssuuuu {
+  name = "Definition of Done"
+  description = ""
+  searcherKey = "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher"
+  type = "com.atlassian.jira.plugin.system.customfieldtypes:textarea"
+  contexts = [
+    jira.CustomFieldContext.instance.Definition_of_Done__textarea__c_ssuuuu_Default_Configuration_Scheme_for_Definition_of_Done@uuuuuumussssss,
+  ]
+  _alias = "Definition of Done"
+}

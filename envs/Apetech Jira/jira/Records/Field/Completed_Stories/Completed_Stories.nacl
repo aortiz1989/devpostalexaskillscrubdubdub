@@ -1,0 +1,10 @@
+jira.Field Completed_Stories__float__c@suuuu {
+  name = "Completed Stories"
+  description = ""
+  searcherKey = "com.atlassian.jira.plugin.system.customfieldtypes:exactnumber"
+  type = "com.atlassian.jira.plugin.system.customfieldtypes:float"
+  contexts = [
+    jira.CustomFieldContext.instance.Completed_Stories__float__c_suuuu_Default_Configuration_Scheme_for_Completed_Stories@uuuuumusssss,
+  ]
+  _alias = "Completed Stories"
+}

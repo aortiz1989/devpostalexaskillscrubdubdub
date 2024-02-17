@@ -1,0 +1,20 @@
+jira.Project CS_May_Course@s {
+  key = "CMC"
+  description = ""
+  name = "CS May Course"
+  projectTypeKey = "software"
+  components = [
+    jira.ProjectComponent.instance.CS_May_Course_s__Location@uumuu,
+    jira.ProjectComponent.instance.CS_May_Course_s__Menu@uumuu,
+    jira.ProjectComponent.instance.CS_May_Course_s__Restaurant@uumuu,
+  ]
+  workflowScheme = jira.WorkflowScheme.instance.CMC__Software_Simplified_Workflow_Scheme@fssss
+  permissionScheme = jira.PermissionScheme.instance.Default_software_scheme@s
+  notificationScheme = jira.NotificationScheme.instance.Default_Notification_Scheme@s
+  issueTypeScreenScheme = jira.IssueTypeScreenScheme.instance.CMC__Scrum_Issue_Type_Screen_Scheme@fsssss
+  issueTypeScheme = jira.IssueTypeScheme.instance.CMC__Scrum_Issue_Type_Scheme@fssss
+  leadAccountId = {
+    id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+    displayName = "Alex Ortiz"
+  }
+}

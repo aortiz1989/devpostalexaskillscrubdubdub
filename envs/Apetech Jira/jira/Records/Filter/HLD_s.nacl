@@ -1,0 +1,13 @@
+jira.Filter HLD_s@t {
+  name = "HLD's"
+  owner = {
+    id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+    displayName = "Alex Ortiz"
+  }
+  jql = "${ jira.Field.instance.Issue_Type__issuetype@suu } = ${ jira.IssueType.instance.HLD.name } order by ${ jira.Field.instance.Created__datetime } DESC"
+  sharePermissions = [
+    {
+      type = "authenticated"
+    },
+  ]
+}

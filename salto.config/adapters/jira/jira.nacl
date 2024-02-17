@@ -1,0 +1,13 @@
+jira {
+  fetch = {
+    include = [
+      {
+        type = ".*"
+      },
+    ]
+    enableJSM = true
+  }
+  deploy = {
+    forceDelete = false
+  }
+}

@@ -1,0 +1,8 @@
+jira.Filter All_my_issues@s {
+  name = "All my issues"
+  owner = {
+    id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+    displayName = "Alex Ortiz"
+  }
+  jql = "${ jira.Field.instance.Project__project } = ${ jira.Project.instance.Demonstration_Project@s.key } order by ${ jira.Field.instance.Created__datetime } DESC"
+}

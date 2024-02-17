@@ -1,0 +1,24 @@
+jira.Project Friday_Jira_Class@s {
+  key = "FJC"
+  description = ""
+  name = "Friday Jira Class"
+  projectTypeKey = "software"
+  components = [
+    jira.ProjectComponent.instance.Friday_Jira_Class_s__Bathroom@uumuu,
+    jira.ProjectComponent.instance.Friday_Jira_Class_s__Compliance@uumuu,
+    jira.ProjectComponent.instance.Friday_Jira_Class_s__Kitchen@uumuu,
+    jira.ProjectComponent.instance.Friday_Jira_Class_s__Laundry_Room@uumuus,
+    jira.ProjectComponent.instance.Friday_Jira_Class_s__Main_Bedroom@uumuus,
+    jira.ProjectComponent.instance.Friday_Jira_Class_s__Plumbing@uumuu,
+    jira.ProjectComponent.instance.Friday_Jira_Class_s__Roofing@uumuu,
+  ]
+  workflowScheme = jira.WorkflowScheme.instance.FJC__Software_Simplified_Workflow_Scheme@fssss
+  permissionScheme = jira.PermissionScheme.instance.Default_software_scheme@s
+  notificationScheme = jira.NotificationScheme.instance.Default_Notification_Scheme@s
+  issueTypeScreenScheme = jira.IssueTypeScreenScheme.instance.FJC__Scrum_Issue_Type_Screen_Scheme@fsssss
+  issueTypeScheme = jira.IssueTypeScheme.instance.FJC__Scrum_Issue_Type_Scheme@fssss
+  leadAccountId = {
+    id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+    displayName = "Alex Ortiz"
+  }
+}

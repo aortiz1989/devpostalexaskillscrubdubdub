@@ -1,0 +1,3 @@
+jira.Group confluence_admins_apetechengineering@b {
+  name = "confluence-admins-apetechengineering"
+}

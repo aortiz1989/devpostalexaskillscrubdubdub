@@ -1,0 +1,8 @@
+jira.ProjectComponent Friday_Jira_Class_s__Compliance@uumuu {
+  assigneeType = "PROJECT_DEFAULT"
+  name = "Compliance"
+  _parent = [
+    jira.Project.instance.Friday_Jira_Class@s,
+  ]
+  _alias = "Friday Jira Class:Compliance"
+}

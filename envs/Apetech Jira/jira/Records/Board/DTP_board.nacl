@@ -1,0 +1,49 @@
+jira.Board DTP_board@s {
+  name = "DTP board"
+  type = "simple"
+  admins = {
+    users = [
+      {
+        id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+        displayName = "Alex Ortiz"
+      },
+    ]
+  }
+  location = {
+    projectId = jira.Project.instance.Demo_Team_Project@s
+  }
+  filterId = jira.Filter.instance.missing_10003
+  columnConfig = {
+    columns = [
+      {
+        name = "To Do"
+        statuses = [
+          jira.Status.instance.missing_10003,
+        ]
+      },
+      {
+        name = "In Progress"
+        statuses = [
+          jira.Status.instance.missing_10004,
+        ]
+      },
+      {
+        name = "In Review"
+        statuses = [
+          jira.Status.instance.missing_10047,
+          jira.Status.instance.missing_10046,
+        ]
+      },
+      {
+        name = "Done"
+        statuses = [
+          jira.Status.instance.missing_10005,
+        ]
+      },
+    ]
+    constraintType = "none"
+  }
+  estimation = {
+    field = jira.Field.instance.Story_point_estimate__jsw_story_points__c@ssuubbuu
+  }
+}

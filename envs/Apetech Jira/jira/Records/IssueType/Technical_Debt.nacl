@@ -1,0 +1,6 @@
+jira.IssueType Technical_Debt@s {
+  description = ""
+  name = "Technical Debt"
+  untranslatedName = "Technical Debt"
+  hierarchyLevel = 0
+}

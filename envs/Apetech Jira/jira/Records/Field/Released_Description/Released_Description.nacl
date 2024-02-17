@@ -1,0 +1,11 @@
+jira.Field Released_Description__textarea__c@suuuu {
+  name = "Released Description"
+  description = "A description of the issue to be included in your release notes."
+  isLocked = true
+  searcherKey = "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher"
+  type = "com.atlassian.jira.plugin.system.customfieldtypes:textarea"
+  contexts = [
+    jira.CustomFieldContext.instance.Released_Description__textarea__c_suuuu_Default_Configuration_Scheme_for_Public_Description@uuuuumusssss,
+  ]
+  _alias = "Released Description"
+}

@@ -1,0 +1,8 @@
+jira.ProjectComponent A_kanban_workflow_demo_s__demo_component@uuumuus {
+  assigneeType = "PROJECT_DEFAULT"
+  name = "demo component"
+  _parent = [
+    jira.Project.instance.A_kanban_workflow_demo@s,
+  ]
+  _alias = "A kanban workflow demo:demo component"
+}

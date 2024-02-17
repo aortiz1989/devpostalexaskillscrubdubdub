@@ -1,0 +1,14 @@
+jira.FieldConfigurationScheme JSD_Field_Configuration_Scheme@s {
+  name = "JSD Field Configuration Scheme"
+  description = ""
+  items = [
+    {
+      issueTypeId = "default"
+      fieldConfigurationId = jira.FieldConfiguration.instance.Default_Field_Configuration@s
+    },
+    {
+      issueTypeId = jira.IssueType.instance.Story
+      fieldConfigurationId = jira.FieldConfiguration.instance.Team_A_Story_Default_Field_Configuration@s
+    },
+  ]
+}

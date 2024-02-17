@@ -1,0 +1,8 @@
+jira.SecurityScheme Critical_Issues_ONLY@s {
+  name = "Critical Issues ONLY"
+  description = ""
+  levels = [
+    jira.SecurityLevel.instance.Critical_Issues_ONLY_s__All_Access@uumuus,
+    jira.SecurityLevel.instance.Critical_Issues_ONLY_s__Critical_Users_Only@uumuuss,
+  ]
+}

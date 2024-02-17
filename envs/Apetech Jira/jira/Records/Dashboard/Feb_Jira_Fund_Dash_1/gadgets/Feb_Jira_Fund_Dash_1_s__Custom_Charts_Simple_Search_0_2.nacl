@@ -1,0 +1,52 @@
+jira.DashboardGadget Feb_Jira_Fund_Dash_1_s__Custom_Charts_Simple_Search_0_2@uuuumuusssuu {
+  moduleKey = "com.atlassian.plugins.atlassian-connect-plugin:com.oldstreetsolutions.atlassian.jira.custom-charts__simple-search-dashboard-item"
+  color = "blue"
+  position = {
+    row = 2
+    column = 0
+  }
+  title = ""
+  properties = [
+    {
+      key = "params"
+      values = [
+        {
+          key = "id"
+          value = "MwBgjATMDsQ"
+        },
+        {
+          key = "isTabsEnabled"
+          value = false
+        },
+        {
+          key = "displayOptions"
+          value = "N4IgzgFg9g7gggEwQMQJYFMA2CBCBXAFwKgDsQAuAgJz3QBoQF0wBjK1ABwNVIAUowqbqQogcUIlAC2IBpFgB5Kkyo4AngBEqUDglhlKNeuGgwAyqikdM6M+gCGVFhA3M2nYQeq0GCRwGsAWSgmCgAze0wwdABfIA"
+        },
+        {
+          key = "tabs"
+          value = "NobwRAZglgpgNgEwM5gFyjFBawAcBOA9gFYwDGALmADSZIDKAhgG4zaoX4CuMtZXSCoQC2AOUbCYOGnXrxyFNmk48AvtXBYcUJEh4UAnrim0dTVuxW8w-QSPGTpphvMpKO3GOs3swgxhQCMmYs7lZ8AkJiElKoYMEucAphnt6Yvoy6UADmAHYwJrKhlp4RdtGOcQlySW4lahrpOIoAHlRlUQ6x8c7mKTy9ror11q1UVWlacdAtAGow+EhQhLkotIS4FMuraMAAuh32MU5FFsqlskP9Xo1TNpEi0PAIAPoAjAAMHwBMHzIbWxWKHQB3u5S6JxCZw8A0utWG5waPhwtiiT0Q7y+3wAHP9NttgftDhVutViojrGYriNJr4EDwEAFCgCCbtQaijpUeqdroN4ddVKDiABHOAnNhQCgAKVFaAgjDgSFGkqSOAAKowAEYAAje-3wCAWACEDGhwIZjDgACIAUXoAGEwKpBUA"
+        },
+        {
+          key = "title"
+          value = "FISwTghgBAIgpgWwPZA"
+        },
+        {
+          key = "titleAlignment"
+          value = "DIUQYgKkA"
+        },
+        {
+          key = "version"
+          value = "2"
+        },
+        {
+          key = "limitResults"
+          value = "N4IgVgjgNiBcIAcBOB7MBTAxgFwAQEkA5XACgB0QBBAYWooBoLKAVZhi6tkRkagBXa8AykIAig0fwl1uFUQNkh5AKQkBRALIB5CcwU8AYgFVCog2oBCgg8pkBKbiGwBPBOjgg+AJS3K1nIUdkNCxsAGc4AG1QAGt0Zw8aakcAOwBDAFt3eEo3bCwACwByMNxqFBT8yrKkdDTsAEsK3FIkhwBfelj4xNZUzOyqPMLcZhHmAFdsFCQGtKhS1tYOrpA4hPhOfqyPcoyEKDmUzHRR9DC8Uk4V7o3ePm3B8sr0ar4oNJSUhpSAcxaSPwbmsepsRKJHrsJhcUBlcEJMAUUB8kPDMEgJnDROgMigAdRwcD1h5JA96CB0jt4NjcWUKhcMTgfrg+KgMDgAaSiaClMlyZTBjS8c9sEg0jhFiRJNy7vJIdScfTRfUmikWWzQpy+DKSXxlPKlIr1SEOco+KItcoddTNFoDULcGF0EgAG4NE64YLsy5S23WpR6e1GsaZY3ezl6f3GUzmCwGgzoABGuAATAAGFMAZlwygaYtwBgmKQAJgNKvNSuUJkgnQDo2ZLFHbPHZqXnDm82kyh8wpKbNQOgBddpAA"
+        },
+      ]
+    },
+  ]
+  _parent = [
+    jira.Dashboard.instance.Feb_Jira_Fund_Dash_1@s,
+  ]
+  _alias = ""
+}

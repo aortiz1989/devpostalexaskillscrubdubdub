@@ -1,0 +1,8 @@
+jira.ProjectComponent demo_how_jira_works_s__Objective_1___Something@uuumuussbs {
+  assigneeType = "PROJECT_DEFAULT"
+  name = "Objective 1 - Something"
+  _parent = [
+    jira.Project.instance.demo_how_jira_works@s,
+  ]
+  _alias = "demo how jira works:Objective 1 - Something"
+}

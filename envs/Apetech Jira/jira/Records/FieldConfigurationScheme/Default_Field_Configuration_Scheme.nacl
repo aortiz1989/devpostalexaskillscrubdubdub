@@ -1,0 +1,14 @@
+jira.FieldConfigurationScheme Default_Field_Configuration_Scheme@s {
+  name = "Default Field Configuration Scheme"
+  description = ""
+  items = [
+    {
+      issueTypeId = "default"
+      fieldConfigurationId = jira.FieldConfiguration.instance.Default_Field_Configuration@s
+    },
+    {
+      issueTypeId = jira.IssueType.instance.Epic
+      fieldConfigurationId = jira.FieldConfiguration.instance.Project_Name_and_Issue_Type_Default_Field_Configuration@s
+    },
+  ]
+}

@@ -1,0 +1,16 @@
+jira.ProjectRole Administrators {
+  name = "Administrators"
+  description = "A project role that represents administrators in a project"
+  actors = [
+    {
+      displayName = "Alex Ortiz"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+          displayName = "Alex Ortiz"
+        }
+      }
+    },
+  ]
+}

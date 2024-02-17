@@ -1,0 +1,5 @@
+jira.IssueLinkType Issue_split@s {
+  name = "Issue split"
+  inward = "split from"
+  outward = "split to"
+}

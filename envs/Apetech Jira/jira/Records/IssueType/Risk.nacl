@@ -1,0 +1,6 @@
+jira.IssueType Risk {
+  description = ""
+  name = "Risk"
+  untranslatedName = "Risk"
+  hierarchyLevel = -1
+}

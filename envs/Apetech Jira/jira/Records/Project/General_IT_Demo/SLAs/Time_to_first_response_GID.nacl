@@ -1,0 +1,50 @@
+jira.SLA Time_to_first_response_GID@sssu {
+  name = "Time to first response"
+  config = {
+    definition = {
+      start = [
+        {
+          pluginKey = "com.atlassian.servicedesk"
+          factoryKey = "issue-created-sla-condition-factory"
+          conditionId = "issue-created-hit-condition"
+          name = "Issue Created"
+        },
+      ]
+      stop = [
+        {
+          pluginKey = "com.atlassian.servicedesk"
+          factoryKey = "comment-sla-condition-factory"
+          conditionId = "comment-for-reporter-hit-condition"
+          name = "Comment: For Customers"
+        },
+        {
+          pluginKey = "com.atlassian.servicedesk"
+          factoryKey = "resolution-sla-condition-factory"
+          conditionId = "resolution-set-hit-condition"
+          name = "Resolution: Set"
+        },
+      ]
+    }
+    goals = [
+      {
+        jqlQuery = "${ jira.Field.instance.Priority__priority } = ${ jira.Priority.instance.Highest.name }"
+        duration = 7200000
+        calendarId = jira.Calendar.instance.Sample_9_5_Calendar_GID@sbsu
+        defaultGoal = false
+        timeMetricId = 0
+      },
+      {
+        jqlQuery = ""
+        duration = 28800000
+        calendarId = jira.Calendar.instance.Sample_9_5_Calendar_GID@sbsu
+        defaultGoal = true
+        timeMetricId = 0
+      },
+    ]
+    slaDisplayFormat = "NEW_SLA_FORMAT"
+  }
+  _parent = [
+    jira.Project.instance.General_IT_Demo@s,
+  ]
+  _alias = "General IT Demo:Time to first response"
+}

@@ -1,0 +1,74 @@
+jira.Filter P_P_Project@es {
+  name = "P&P Project"
+  owner = {
+    id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+    displayName = "Alex Ortiz"
+  }
+  jql = "fixVersion = \"Price and Performance\""
+  columns = [
+    {
+      label = "Issue Type"
+      value = "issuetype"
+    },
+    {
+      label = "Key"
+      value = "issuekey"
+    },
+    {
+      label = "Summary"
+      value = "summary"
+    },
+    {
+      label = "Assignee"
+      value = "assignee"
+    },
+    {
+      label = "Reporter"
+      value = "reporter"
+    },
+    {
+      label = "Priority"
+      value = "priority"
+    },
+    {
+      label = "Status"
+      value = "status"
+    },
+    {
+      label = "Resolution"
+      value = "resolution"
+    },
+    {
+      label = "Created"
+      value = "created"
+    },
+    {
+      label = "Updated"
+      value = "updated"
+    },
+    {
+      label = "Due date"
+      value = "duedate"
+    },
+    {
+      label = "Epic Link"
+      value = "customfield_10014"
+    },
+    {
+      label = "Fix versions"
+      value = "fixVersions"
+    },
+    {
+      label = "Time Spent"
+      value = "timespent"
+    },
+    {
+      label = "Story Points"
+      value = "customfield_10028"
+    },
+    {
+      label = "Risk Score"
+      value = "customfield_10043"
+    },
+  ]
+}

@@ -1,0 +1,5 @@
+jira.Status live {
+  name = "Live"
+  statusCategory = jira.StatusCategory.instance.Done
+  description = ""
+}

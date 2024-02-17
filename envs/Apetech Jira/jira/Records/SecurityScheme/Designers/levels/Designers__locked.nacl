@@ -1,0 +1,24 @@
+jira.SecurityLevel Designers__locked {
+  description = ""
+  name = "locked"
+  members = [
+    {
+      holder = {
+        type = "user"
+        parameter = {
+          id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+          displayName = "Alex Ortiz"
+        }
+      }
+    },
+    {
+      holder = {
+        type = "projectRole"
+        parameter = jira.ProjectRole.instance.atlassian_addons_project_access@b
+      }
+    },
+  ]
+  _parent = [
+    jira.SecurityScheme.instance.Designers,
+  ]
+}

@@ -1,0 +1,8 @@
+jira.ScreenScheme JAM2__Kanban_Bug_Screen_Scheme@fssss {
+  name = "JAM2: Kanban Bug Screen Scheme"
+  description = ""
+  screens = {
+    default = jira.Screen.instance.JAM2__Kanban_Bug_Screen@fsss
+    edit = jira.Screen.instance.JAM2__EDIT_Kanban_Bug_Screen@fssss
+  }
+}

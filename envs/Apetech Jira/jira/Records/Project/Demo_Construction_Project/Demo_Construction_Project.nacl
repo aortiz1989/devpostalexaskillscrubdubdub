@@ -1,0 +1,15 @@
+jira.Project Demo_Construction_Project@s {
+  key = "DCP"
+  description = ""
+  name = "Demo Construction Project"
+  projectTypeKey = "business"
+  entityId = "405be1fe-80b6-454b-9f1b-1097a36f6c1e"
+  uuid = "405be1fe-80b6-454b-9f1b-1097a36f6c1e"
+  leadAccountId = {
+    id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+    displayName = "Alex Ortiz"
+  }
+  fieldContexts = [
+    jira.CustomFieldContext.instance.Category__jwm_category__c_uubuu_Category_Field_Config_Scheme_for_Project__Demo_Constructin_Project@uuuuumusssssfsss,
+  ]
+}

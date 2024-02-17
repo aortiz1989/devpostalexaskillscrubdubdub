@@ -1,0 +1,6 @@
+jira.IssueType Documents {
+  description = ""
+  name = "Documents"
+  untranslatedName = "Documents"
+  hierarchyLevel = 0
+}

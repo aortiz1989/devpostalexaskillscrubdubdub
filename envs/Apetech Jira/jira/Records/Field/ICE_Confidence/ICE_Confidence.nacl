@@ -1,0 +1,10 @@
+jira.Field ICE_Confidence__float__c@suuuu {
+  name = "ICE Confidence"
+  description = ""
+  searcherKey = "com.atlassian.jira.plugin.system.customfieldtypes:exactnumber"
+  type = "com.atlassian.jira.plugin.system.customfieldtypes:float"
+  contexts = [
+    jira.CustomFieldContext.instance.ICE_Confidence__float__c_suuuu_Default_Configuration_Scheme_for_ICE_Confidence@uuuuumusssss,
+  ]
+  _alias = "ICE Confidence"
+}

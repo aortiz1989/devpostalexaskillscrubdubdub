@@ -1,0 +1,8 @@
+jira.ProjectComponent Jira_Scrum_March_2023_s__UI@uuumuu {
+  assigneeType = "PROJECT_DEFAULT"
+  name = "UI"
+  _parent = [
+    jira.Project.instance.Jira_Scrum_March_2023@s,
+  ]
+  _alias = "Jira Scrum March 2023:UI"
+}

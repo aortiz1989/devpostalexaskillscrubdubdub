@@ -1,0 +1,64 @@
+jira.DashboardGadget Executive_Dashboard_s__Issue_Statistics_1_0@umuusuu {
+  uri = "rest/gadgets/1.0/g/com.atlassian.jira.gadgets:stats-gadget/gadgets/stats-gadget.xml"
+  color = "blue"
+  position = {
+    row = 0
+    column = 1
+  }
+  title = "Issue Statistics"
+  properties = [
+    {
+      key = "config"
+      values = [
+        {
+          key = "isConfigured"
+          value = "true"
+        },
+        {
+          key = "sortDirection"
+          value = "desc"
+        },
+        {
+          key = "statType"
+          value = "assignees"
+        },
+        {
+          key = "maxResults"
+          value = "10"
+        },
+        {
+          key = "name"
+          value = "Overdue Items"
+        },
+        {
+          key = "refresh"
+          value = "15"
+        },
+        {
+          key = "sortBy"
+          value = "total"
+        },
+        {
+          key = "projectOrFilterId"
+          value = jira.Filter.instance.Overdue_Items@s
+        },
+        {
+          key = "includeResolvedIssues"
+          value = "false"
+        },
+        {
+          key = "id"
+          value = "10038"
+        },
+        {
+          key = "type"
+          value = "filter"
+        },
+      ]
+    },
+  ]
+  _parent = [
+    jira.Dashboard.instance.Executive_Dashboard@s,
+  ]
+  _alias = "Issue Statistics"
+}

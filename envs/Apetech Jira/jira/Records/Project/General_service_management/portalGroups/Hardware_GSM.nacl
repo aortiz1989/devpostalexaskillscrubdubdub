@@ -1,0 +1,10 @@
+jira.PortalGroup Hardware_GSM {
+  name = "Hardware"
+  ticketTypeIds = [
+    jira.RequestType.instance.Hardware_Request_GSM@su,
+  ]
+  _parent = [
+    jira.Project.instance.General_service_management@s,
+  ]
+  _alias = "General service management:Hardware"
+}

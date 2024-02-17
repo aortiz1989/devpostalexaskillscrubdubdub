@@ -1,0 +1,57 @@
+jira.Board CP_board@s {
+  name = "CP board"
+  type = "simple"
+  admins = {
+    users = [
+      {
+        id = "557058:e6dea0b2-de5c-4e06-9b5b-c60809b0df8f"
+        displayName = "Alex Ortiz"
+      },
+    ]
+  }
+  location = {
+    projectId = jira.Project.instance.Content_Planning@s
+  }
+  filterId = jira.Filter.instance.missing_10014
+  columnConfig = {
+    columns = [
+      {
+        name = "To Do"
+        statuses = [
+          jira.Status.instance.missing_10012,
+        ]
+      },
+      {
+        name = "Create Script"
+        statuses = [
+          jira.Status.instance.missing_10013,
+        ]
+      },
+      {
+        name = "Record Video"
+        statuses = [
+          jira.Status.instance.missing_10015,
+        ]
+      },
+      {
+        name = "Edit Video"
+        statuses = [
+          jira.Status.instance.missing_10016,
+        ]
+      },
+      {
+        name = "Review Video"
+        statuses = [
+          jira.Status.instance.missing_10017,
+        ]
+      },
+      {
+        name = "Published"
+        statuses = [
+          jira.Status.instance.missing_10014,
+        ]
+      },
+    ]
+    constraintType = "none"
+  }
+}

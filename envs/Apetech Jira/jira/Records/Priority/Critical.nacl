@@ -1,0 +1,6 @@
+jira.Priority Critical {
+  statusColor = "#ff0000"
+  description = ""
+  iconUrl = "/images/icons/priorities/blocker.svg"
+  name = "Critical"
+}

@@ -1,0 +1,64 @@
+jira.DashboardGadget Executive_Dashboard_s__Issue_Statistics_0_0@umuusuu {
+  uri = "rest/gadgets/1.0/g/com.atlassian.jira.gadgets:stats-gadget/gadgets/stats-gadget.xml"
+  color = "blue"
+  position = {
+    row = 0
+    column = 0
+  }
+  title = "Issue Statistics"
+  properties = [
+    {
+      key = "config"
+      values = [
+        {
+          key = "isConfigured"
+          value = "true"
+        },
+        {
+          key = "sortDirection"
+          value = "desc"
+        },
+        {
+          key = "statType"
+          value = "priorities"
+        },
+        {
+          key = "maxResults"
+          value = "10"
+        },
+        {
+          key = "name"
+          value = "Blocked Issues"
+        },
+        {
+          key = "refresh"
+          value = "false"
+        },
+        {
+          key = "projectOrFilterId"
+          value = jira.Filter.instance.Blocked_Issues@s
+        },
+        {
+          key = "includeResolvedIssues"
+          value = "true"
+        },
+        {
+          key = "sortBy"
+          value = "total"
+        },
+        {
+          key = "id"
+          value = "10045"
+        },
+        {
+          key = "type"
+          value = "filter"
+        },
+      ]
+    },
+  ]
+  _parent = [
+    jira.Dashboard.instance.Executive_Dashboard@s,
+  ]
+  _alias = "Issue Statistics"
+}

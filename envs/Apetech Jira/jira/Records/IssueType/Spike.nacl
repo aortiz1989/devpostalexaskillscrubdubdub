@@ -1,0 +1,6 @@
+jira.IssueType Spike {
+  description = ""
+  name = "Spike"
+  untranslatedName = "Spike"
+  hierarchyLevel = 0
+}

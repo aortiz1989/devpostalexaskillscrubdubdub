@@ -1,0 +1,6 @@
+jira.IssueType Theme {
+  description = ""
+  name = "Theme"
+  untranslatedName = "Theme"
+  hierarchyLevel = 3
+}

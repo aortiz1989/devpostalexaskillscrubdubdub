@@ -1,0 +1,35 @@
+jira.Calendar Sample_9_5_Calendar_ID@sbsu {
+  name = "Sample 9-5 Calendar"
+  timezoneId = "America/Los_Angeles"
+  workingTimes = [
+    {
+      weekday = "monday"
+      start = 32400000
+      end = 61200000
+    },
+    {
+      weekday = "tuesday"
+      start = 32400000
+      end = 61200000
+    },
+    {
+      weekday = "wednesday"
+      start = 32400000
+      end = 61200000
+    },
+    {
+      weekday = "thursday"
+      start = 32400000
+      end = 61200000
+    },
+    {
+      weekday = "friday"
+      start = 32400000
+      end = 61200000
+    },
+  ]
+  _parent = [
+    jira.Project.instance.ITSM_Demo@s,
+  ]
+  _alias = "ITSM Demo:Sample 9-5 Calendar"
+}

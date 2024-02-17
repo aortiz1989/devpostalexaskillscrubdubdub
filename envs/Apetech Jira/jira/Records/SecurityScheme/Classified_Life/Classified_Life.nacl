@@ -1,0 +1,8 @@
+jira.SecurityScheme Classified_Life@s {
+  name = "Classified Life"
+  description = ""
+  levels = [
+    jira.SecurityLevel.instance.Classified_Life_s__Cleared@umuu,
+    jira.SecurityLevel.instance.Classified_Life_s__Common_Folk@umuus,
+  ]
+}

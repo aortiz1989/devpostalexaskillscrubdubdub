@@ -1,0 +1,8 @@
+jira.ScreenScheme JAA__Scrum_EPIC_Default_Screen_Scheme@fsssss {
+  name = "JAA: Scrum EPIC Default Screen Scheme"
+  description = ""
+  screens = {
+    default = jira.Screen.instance.JAA__Scrum_EPIC_Default_Issue_Screen@fsssss
+    edit = jira.Screen.instance.JAA__Scrum_EPIC_NO_START_DATE_Default_Issue_Screen@fssssssss
+  }
+}

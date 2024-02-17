@@ -1,0 +1,10 @@
+jira.IssueTypeScreenScheme TLPD__Kanban_Issue_Type_Screen_Scheme@fsssss {
+  name = "TLPD: Kanban Issue Type Screen Scheme"
+  description = ""
+  issueTypeMappings = [
+    {
+      issueTypeId = "default"
+      screenSchemeId = jira.ScreenScheme.instance.TLPD__Kanban_Default_Screen_Scheme@fssss
+    },
+  ]
+}

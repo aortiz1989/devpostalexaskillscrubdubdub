@@ -1,0 +1,72 @@
+jira.DashboardGadget My_First_Dashboard_s__Custom_Charts_0_0@uumuusuu {
+  moduleKey = "com.atlassian.plugins.atlassian-connect-plugin:com.oldstreetsolutions.atlassian.jira.custom-charts__custom-chart-dashboard-item"
+  color = "blue"
+  position = {
+    row = 0
+    column = 0
+  }
+  title = ""
+  properties = [
+    {
+      key = "params"
+      values = [
+        {
+          key = "id"
+          value = "MIBhCEEESA"
+        },
+        {
+          key = "title"
+          value = "Q"
+        },
+        {
+          key = "titleType"
+          value = "MICQggSgKkA"
+        },
+        {
+          key = "searchType"
+          value = "AoJQ8gUgogwgKgZSA"
+        },
+        {
+          key = "aggregations"
+          value = "NobwRALgngDgpmAXGAygVQLJgDRgIYDmBATnAXhHAEJRJgDGArgM4QD2AtgLT0AWexCMy4QAlhzhdRAOy6sKLMAF8AukA"
+        },
+        {
+          key = "customColumns"
+          value = "NoXSA"
+        },
+        {
+          key = "projects"
+          value = "NobwRA1gpgnmBcYDSB1AImANGAdgQwFsoEwBBAAgjxwCNryB3AewCcIAzAGyYfIBMoBJuXIAKVGgCUYAL4BdIA"
+        },
+        {
+          key = "displayOptions"
+          value = "N4IgzgFg9g7gQlATgEwKaJALgGYEMA2YqANONDACq4BG+qACugMaoB2ALmFu4gK4llYVWqgCSYMPy6Ye-UpFgAtdFABqBfgBkaqQljyEBCylHYEAwlF4dufI+QqmLUfLwC2rW3MEwA4oisABzgATy97WE1UAHM2ZHD5cgANAEEADwBLMG1qXQSfAE10rJy8mTtEoSgXdgzAgHlWOFxEAAkoADd0fNxedigAJVRsRFRIfQIiUgJ8WHrA2qhWMABZNl4e-FmYAFE0wKR2fONi7Ji4y2sj8u8TzLPY1mRGRBYbHEmBJggW9goQwKoLAgCgpOCaHYAJgAIiBSIDXmx2NCsoF8LgwpgQKoUpoAKo7OEgXD3ADK5Beb2uBimPmUAUpSNKeg+hnhzCRKLAaIxFAydGBOPxOwA+vQdgNzDsAHIUIkIqlcnkhegZIFYoUEsUSqWy+UcjhK9EhU6C3Fa8WSmVy0hMAhMXjo9gMA1mWL1bDAij1UGaIl0R7PKBgDKLTxYlJ9KD+85PbQhKzXECR-pE2rsOgpfAZaKsNxI4G6igSoloMBMRB1MP0YOhjJLYEIdj9NxE4x4oiIURuBFgJa4MP5JjZpgAawoEACvGiEHyAbiA0iGTcoawAFZSLU6OYfoh2KJnW4wC9FzB16QTfcd79WqgcxB2Jpl6vMJCAGwABkqMGhYwrVfrcNZAiGBmWkYDv2ldxckQSxXA8Y5yHESRUH+QEJjZEBWGg9B-CCDJWGiYFpXqEVfAGeo8XoURpV8IlsLcGD6FGJgskArAAEZ2URDhcFiZjUFYkMG0wLjiWiaJRmiAdAL5fM8VYF8QGhFIClJIk+MkmIZKWOTUHaXhEAGHSsAADltdxHRkrpHDMfAMNpB03Cs2obKcfBQkLVoUgGCgRTgApSxaUcVigNAHJAxwajqRppVwfN2i6DBWVpYxLEYgjUGQAApABHeyUoES8sgUpTLhsUhkAHVAADEkDcAdgRUgoRRq0QBlJPzSVaepfLbch2krAAvJY7KfVgxgi79VHQWo7XwRL0HG9UIJ8Zbrz3SxWAmphakI5bwIqEBkCyGg6FaAF0GzVhR2kGlUAAXyAA"
+        },
+        {
+          key = "series1"
+          value = "N4IgxgFghgTgLgIQJ4EkAmIBc4CuBnOAewFsBaSWOPUgdymoEsA7UgqOfEAGhDwFMA5sT5MqAYUJMAZgwE4Y7BpKygAbgH0AOiACiTAcz58YzAQAIJxAA4AbPnD7aVIZmj4APLAAYe-ISKosAG1QBgxsDW09AyYjE30LElt7RxBuEFUoGxw+LBAo-UNjU0TrOwcnHiYoYTzoovjzS2SHEABfAF0eMEIbQhg8gGIAIykAJgA2Ly901QY8BmG7LDgYHLaeSJAAFUIzABFCJ0xQpjdPTABGX0FhUTxg0PCMrR29w8qMrJy87V2Do5pKo1XLYf6HdpdcC9fpDAAsAHZhmAABxQWbzRbLTCrdabdSHWLOVweLBjG7+e6PFzPDSE3Kbb6gkD09LVWrYVmdbowgbYQZSKQo4bTDELJag3F8DYvbQoJhmAAKMEIAhgfDweGOp3OWAAzBS7oFMCEaXktvKlSq1RqtUCvtlmXKFcrVerNZ92czLa6bZrITy+nyQAK+MMJpMxVjJWtpfiEFAwABrPoCYlnUmYOGGgIPE1Pc3qBPJ1OzJl5Ysp1VskEVxNVtPc6FB+FePVjACccKjEpWsZlWwAynw7GAHGgzFJ+gc+KoR4QrEbtS4MxcAKw5qn5s0RV7D0fjyfT-az+eLgKfTKO34gfd8Md8CdTmAzud9c+iT217B3h9P4+nu+RoBs2sL8m4eprl4ww9tiUoDkWfTJo+6a6pgEybsapphIWCBIUmKGMte2B4YQyEYMCHIgKR5EgT0Lb8tMEwTHC3abJivY4v2+LaAAqkwDBwGY2wanAy4khcCKYXm2G0q8-GCcJomXuW2B8QJQkiQQX5UQpmmiXRvJDFIYBoGACITLBMZ4rKICKnEZgAEqzgwfA0OJq5YCi0nUjhu7aPZxhOS5bkqcR+R2Q5zlzKF9penkgUvtFrk0IZDEhpcyKXG4Vl9usMrEOwkCDiCABirk2GgeZSFk-A8GqhA4FYYj0GAUBuOVI5VVgNU2HVID4HwEhBnmUo8P0biNHkbh4GAIhoKY6R4BAhA0AAWsYhASDgW69f19H9AAMmRSY9bV0pAA"
+        },
+        {
+          key = "series2"
+          value = "N4IgxgFghgTgLgIQJ4EkAmIBcICWBnPAVwFMBrYpEAGhD2IHMBbYgOzjwGEB7FgMx3qEYUODh5ZQANwD6AaQDqAEQC0ANgm4WaYgA8sABhp0mrdlgDaoHBmwyFK9TUlQANiSwh7a6iBZRmHl7qAL4AujRgXC5cMB4AxABGvABMqvr6PpL4OAkuxFhwMCTBTnJKygCsGjhaulgAjEYMzGx4FlY2IHblVU6u7thevb7++YM9IGERUTHxACwA7AlgABxQmdm5Y4XFpV4r1bV6mMlNJq3tuJ3dKgd9bmOe5XcjAeO3k+HgM7HYcby8FYJdIbPA5PIFIrEEpdMoqBaHbTHADMZxaZkwliuHhuygR9wGT3hPj8byJeM+02ivxA-2ICVUqVB4O2UJhuIAnIi6pg5mjTG1MR0cXDlFyCY8vOLXpLylypt9qfN9Mjkhy5sytpDdrCvPV6tzjhV+RchdjbKL9Zl+rKVFaaKTbcorQrIkq-tpkRV9AlNRDMDtoXtyqrDVhVCaMVjrCKvKGJYEQ8kSaNEypQ66fvF0qpVHMNU5Nv7A+zLRlMFYjlgFpHBdHrmXrQ8086Mg7U+9W5TFbM-rwwGgwAtHF0i6ydbj6siw5gVrXLjGLXrpwnO1OU2Tl923b3afVlvVtH7x0HdeV6smK5okVgOfOzYuz3bk6vyReN0735n3bSVvVVBUYAjlkYJagGbLBumBpXjUN6YPUhi0M0AoLg2cYGq+6Efi2yIGt+u50gkHJ-se2qnpOBwwVW8GNEh5xRsKS7ni8zjNmuLyOi29QHPhNJxCsczEMkCS+oWoHFhBT7OlUVFwRe971rG57DKxhJ6sMnFrlUvHZvoKxoFAwFjmRpZ6hqsk8lOCmMVJ9QFl0NpcfZmlvhqOl-BUyLEHMKSkeBE6WuoFnHHZ1nmrZwGOWuI4uXqIRfDufFoMiCT1EJfklpByjJJelZycadHonWNm4jlTZqeUZXtpulXJu5tILKqvAgmJLImVlyTQXllkRoVKEPmhlUYQ5bHkp12GduN9X-LwHILBU6ytWBmVSck5ndSFNZ9aailMSoa3lU6B3VUdbkJVmfy5mAvBQCuo7iSepmVdOwUNHO20MeFpV3apR13bFz3bhdtLIlAyXECxxn+eRoq5dell3h9xVfbDh0ti+Mro0DP7-GAYBQBUw0gW10NPft5YbVgySIcYRWoUp5No5NbaY8z2MEQCqi8ClGWSbi63w8cnVhY+-NM+SzkdhL7N8XMU4rAsi33STK24i9lMnKcSP03tyg-VF5L-VLcYy-EqhgMiqjEPkS0SQFXhqjOySotrA0M9l0q-ej0oA-t8rnTjdnImgKws8Ty187DQUa2tIuDftkWjQ7MXG5V8VUgRUD7hyUD4srEf25VMkxwVtP9btq0qQbDsaan+3aQHBEVAtCSAbzhf7ZRMe9WXO0lbDLHV5VHF19lPGN3xFTqmgCQY+Hdsww7CKvScW2959ouw3nXuTXnvvZQi00rGAHLIisKlQyWMKMCIkAAMqjAAYjgxAuGggo3S4dA0PQMBcIQAAHDgUA8D420M-V+78sCf2-iAQgdBuDUg-q4WBMRtAwBqPQDw2hQGsDQJgnweAIBcAAO4AC1iB-24IQU0MDiAZxgAAGS4GAUg0CUHQiAA"
+        },
+        {
+          key = "impersonated"
+          value = false
+        },
+        {
+          key = "jiraFields"
+          value = "NobwRAlgJmBcYGcAuBDJBXBYA0YB2KAtgKZxgDKqGWuAxgDYqbEByRp8yamOYDTCYgEkYnKj1wJaAC2KEUccEgCeABw6JxNSEjlZYedPXp1MSAPaE4h45OXI5ZLtTABfV9nDQyEBAnTEANbEyrwEJGQA0iG8-MxsEfC+-qR0jMwiPjCSMnIKBkb0Hl6ifABOxGjE2fjsZADCFVU1cYIJGrRNulAAIlWx6YKZ8J2V3bxSsvKKYCrqZFBVSBARuBC6hPo2JnxmltaFdg5WI13Vbq4AukA"
+        },
+        {
+          key = "version"
+          value = "1"
+        },
+      ]
+    },
+  ]
+  _parent = [
+    jira.Dashboard.instance.My_First_Dashboard@s,
+  ]
+  _alias = ""
+}

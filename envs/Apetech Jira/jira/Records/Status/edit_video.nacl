@@ -1,0 +1,5 @@
+jira.Status edit_video@s {
+  name = "Edit Video"
+  statusCategory = jira.StatusCategory.instance.In_Progress@s
+  description = ""
+}

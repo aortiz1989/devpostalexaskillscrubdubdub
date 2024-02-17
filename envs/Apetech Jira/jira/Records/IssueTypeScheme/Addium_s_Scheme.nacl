@@ -1,0 +1,12 @@
+jira.IssueTypeScheme Addium_s_Scheme@ts {
+  name = "Addium's Scheme"
+  issueTypeIds = [
+    jira.IssueType.instance.Improvement,
+    jira.IssueType.instance.Service_Request@s,
+    jira.IssueType.instance.New_Feature@s,
+    jira.IssueType.instance.Bug,
+    jira.IssueType.instance.Technical_Debt@s,
+    jira.IssueType.instance.Task,
+    jira.IssueType.instance.Epic,
+  ]
+}

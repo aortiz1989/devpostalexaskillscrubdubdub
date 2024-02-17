@@ -1,0 +1,88 @@
+jira.IssueLayout Demo_Contracts_DC__Kanban_Default_Issue_Screen@sufssss {
+  
+  extraDefinerId = jira.Screen.instance.DC__Kanban_Default_Issue_Screen@fssss
+  issueLayoutConfig = {
+    items = [
+      {
+        type = "FIELD"
+        sectionType = "PRIMARY"
+        key = jira.Field.instance.Assignee__user
+        data = {
+          custom = false
+          global = true
+          required = false
+          
+        }
+      },
+      {
+        type = "FIELD"
+        sectionType = "PRIMARY"
+        key = jira.Field.instance.Reporter__user
+        data = {
+          custom = false
+          global = true
+          required = false
+          
+        }
+      },
+      {
+        type = "FIELD"
+        sectionType = "PRIMARY"
+        key = jira.Field.instance.Vendor_Parent_Company__select__c@dsuuuu
+        data = {
+          custom = true
+          global = true
+          description = ""
+          required = false
+        }
+      },
+      {
+        type = "FIELD"
+        sectionType = "PRIMARY"
+        key = jira.Field.instance.Contract_Access__multiselect__c@suuuu
+        data = {
+          custom = true
+          global = true
+          description = ""
+          required = false
+        }
+      },
+      {
+        type = "FIELD"
+        sectionType = "PRIMARY"
+        key = jira.Field.instance.Change_type__select__c@suuuu
+        data = {
+          custom = true
+          global = true
+          description = ""
+          required = false
+        }
+      },
+      {
+        type = "FIELD"
+        sectionType = "CONTENT"
+        key = jira.Field.instance.Description__string
+        data = {
+          custom = false
+          global = true
+          required = false
+          
+        }
+      },
+      {
+        type = "FIELD"
+        sectionType = "CONTENT"
+        key = jira.Field.instance.Product__select__c
+        data = {
+          custom = true
+          global = true
+          description = ""
+          required = false
+        }
+      },
+    ]
+  }
+  _parent = [
+    jira.Project.instance.Demo_Contracts@s,
+  ]
+}

@@ -1,0 +1,14 @@
+jira.FieldConfigurationScheme CSSD__Field_Configuration_Scheme@fsss {
+  name = "CSSD: Field Configuration Scheme"
+  description = ""
+  items = [
+    {
+      issueTypeId = "default"
+      fieldConfigurationId = jira.FieldConfiguration.instance.DeVonna_s_Field_Configuration@tss
+    },
+    {
+      issueTypeId = jira.IssueType.instance.Bug
+      fieldConfigurationId = jira.FieldConfiguration.instance.Default_Field_Configuration@s
+    },
+  ]
+}

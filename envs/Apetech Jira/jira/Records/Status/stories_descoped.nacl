@@ -1,0 +1,5 @@
+jira.Status stories_descoped@s {
+  name = "Stories Descoped"
+  statusCategory = jira.StatusCategory.instance.In_Progress@s
+  description = ""
+}

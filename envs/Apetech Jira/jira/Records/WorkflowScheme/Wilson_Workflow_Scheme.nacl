@@ -1,0 +1,15 @@
+jira.WorkflowScheme Wilson_Workflow_Scheme@s {
+  name = "Wilson Workflow Scheme"
+  description = ""
+  defaultWorkflow = jira.Workflow.instance.Wilson_s_Workfow@ts
+  items = [
+    {
+      workflow = jira.Workflow.instance.demo_workflow@s
+      issueType = jira.IssueType.instance.Story
+    },
+    {
+      workflow = jira.Workflow.instance.Adolf_s_Workflow@ts
+      issueType = jira.IssueType.instance.Bug
+    },
+  ]
+}

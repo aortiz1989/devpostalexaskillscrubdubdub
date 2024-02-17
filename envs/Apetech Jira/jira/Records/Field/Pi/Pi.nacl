@@ -1,0 +1,10 @@
+jira.Field Pi__float__c {
+  name = "Pi"
+  description = ""
+  searcherKey = "com.atlassian.jira.plugin.system.customfieldtypes:exactnumber"
+  type = "com.atlassian.jira.plugin.system.customfieldtypes:float"
+  contexts = [
+    jira.CustomFieldContext.instance.Pi__float__c_Default_Configuration_Scheme_for_Pi@uuuuussss,
+  ]
+  _alias = "Pi"
+}

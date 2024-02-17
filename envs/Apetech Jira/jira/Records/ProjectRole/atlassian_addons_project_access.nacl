@@ -1,0 +1,446 @@
+jira.ProjectRole atlassian_addons_project_access@b {
+  name = "atlassian-addons-project-access"
+  description = "A project role that represents Connect add-ons declaring a scope that requires more than read issue permissions"
+  actors = [
+    {
+      displayName = "Asset Management for Jira"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "5ec166070363340c0f7cb717"
+          displayName = "Asset Management for Jira"
+        }
+      }
+    },
+    {
+      displayName = "Atlas for Jira Cloud"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "630db2cd9796033b256bc349"
+          displayName = "Atlas for Jira Cloud"
+        }
+      }
+    },
+    {
+      displayName = "Atlassian Assist"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "5cb4ae0e4b97ab11a18e00c7"
+          displayName = "Atlassian Assist"
+        }
+      }
+    },
+    {
+      displayName = "Automated Release Notes"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "5f61e40dcacd8300776a997b"
+          displayName = "Automated Release Notes"
+        }
+      }
+    },
+    {
+      displayName = "Automation for Jira"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077"
+          displayName = "Automation for Jira"
+        }
+      }
+    },
+    {
+      displayName = "Clear Path"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "712020:64098f98-f6d4-40ce-9c3d-75d008827a7f"
+          displayName = "Clear Path"
+        }
+      }
+    },
+    {
+      displayName = "Cloud Gantt Cloud"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "5e286220b7c7b40ca5a45d94"
+          displayName = "Cloud Gantt Cloud"
+        }
+      }
+    },
+    {
+      displayName = "Custom Jira Charts for Confluence"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "5d77b3ce458a170db4b05ae1"
+          displayName = "Custom Jira Charts for Confluence"
+        }
+      }
+    },
+    {
+      displayName = "Deep Clone for Jira"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "5a8eb647d324b531c3d3f9cd"
+          displayName = "Deep Clone for Jira"
+        }
+      }
+    },
+    {
+      displayName = "External Share for Jira"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "5caf360937b1dc049479af84"
+          displayName = "External Share for Jira"
+        }
+      }
+    },
+    {
+      displayName = "GitHub (production)"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "5b69ff2b85ee4d3d958602b0"
+          displayName = "GitHub (production)"
+        }
+      }
+    },
+    {
+      displayName = "GreatG"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "557058:ceb6ab8f-7cc2-44ff-9e79-50a58f83f84e"
+          displayName = "GreatG"
+        }
+      }
+    },
+    {
+      displayName = "Hubspot CRM for Jira"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "615e1f2c64ff010071697697"
+          displayName = "Hubspot CRM for Jira"
+        }
+      }
+    },
+    {
+      displayName = "Jira - Azure Integration"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "5fb2724c78f0180076ca92e6"
+          displayName = "Jira - Azure Integration"
+        }
+      }
+    },
+    {
+      displayName = "Jira Out Of Office Addon"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "59fb203e1c0767667b2ce0ad"
+          displayName = "Jira Out Of Office Addon"
+        }
+      }
+    },
+    {
+      displayName = "Jira Outlook"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "5d53f3cbc6b9320d9ea5bdc2"
+          displayName = "Jira Outlook"
+        }
+      }
+    },
+    {
+      displayName = "Jira Service Management Widget"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "557058:950f9f5b-3d6d-4e1d-954a-21367ae9ac75"
+          displayName = "Jira Service Management Widget"
+        }
+      }
+    },
+    {
+      displayName = "Jira Spreadsheets"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "5cf112d31552030f1e3a5905"
+          displayName = "Jira Spreadsheets"
+        }
+      }
+    },
+    {
+      displayName = "Language Translation - Jira Service Desk"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "5bfef62153cd043c8c6117a0"
+          displayName = "Language Translation - Jira Service Desk"
+        }
+      }
+    },
+    {
+      displayName = "Microsoft 365"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "557058:db3870e2-1ddb-425e-a903-7646eb698fac"
+          displayName = "Microsoft 365"
+        }
+      }
+    },
+    {
+      displayName = "Microsoft Teams for Jira Cloud"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "60e5a86a471e61006a4c51fd"
+          displayName = "Microsoft Teams for Jira Cloud"
+        }
+      }
+    },
+    {
+      displayName = "New Status Colors PRO for JIRA Cloud"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "63f7393a263233e653aa4c4e"
+          displayName = "New Status Colors PRO for JIRA Cloud"
+        }
+      }
+    },
+    {
+      displayName = "Not Another Standup App (NASA)"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "712020:af065f57-0dc4-4ec7-b573-99567c12b652"
+          displayName = "Not Another Standup App (NASA)"
+        }
+      }
+    },
+    {
+      displayName = "OnRewards"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "712020:ea88abf4-9d22-41cc-8cfe-68fd985cb31a"
+          displayName = "OnRewards"
+        }
+      }
+    },
+    {
+      displayName = "Proforma Migrator"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "63a22fb348b367d78a14c15b"
+          displayName = "Proforma Migrator"
+        }
+      }
+    },
+    {
+      displayName = "Released"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "712020:c7f5fa25-c1f5-41d5-ba96-469d533313e5"
+          displayName = "Released"
+        }
+      }
+    },
+    {
+      displayName = "RenWare Management"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "5db9a93efc11e40c2ff415c9"
+          displayName = "RenWare Management"
+        }
+      }
+    },
+    {
+      displayName = "Reports - Charts & Graphs for Jira"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "611cbe80e05b7b006af2edea"
+          displayName = "Reports - Charts & Graphs for Jira"
+        }
+      }
+    },
+    {
+      displayName = "Revyz Backup & Restore"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "62cbb90d078104d0866c8595"
+          displayName = "Revyz Backup & Restore"
+        }
+      }
+    },
+    {
+      displayName = "Revyz Configuration Manager for Jira"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "712020:2b10dceb-03a0-4229-8c5a-22b9248455aa"
+          displayName = "Revyz Configuration Manager for Jira"
+        }
+      }
+    },
+    {
+      displayName = "Rewind"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "60fefbd98ad5b6007078b306"
+          displayName = "Rewind"
+        }
+      }
+    },
+    {
+      displayName = "Slack"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "557058:0867a421-a9ee-4659-801a-bc0ee4a4487e"
+          displayName = "Slack"
+        }
+      }
+    },
+    {
+      displayName = "Statuspage for Jira"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "5b6c7b3afbc68529c6c47967"
+          displayName = "Statuspage for Jira"
+        }
+      }
+    },
+    {
+      displayName = "Structure Cloud"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "5c3df66b1c6a692feaba4f49"
+          displayName = "Structure Cloud"
+        }
+      }
+    },
+    {
+      displayName = "Swanly"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "5b11a75adaa2e712a6d34b46"
+          displayName = "Swanly"
+        }
+      }
+    },
+    {
+      displayName = "System"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "5dd64082af96bc0efbe55103"
+          displayName = "System"
+        }
+      }
+    },
+    {
+      displayName = "Team Worklog Reports Lite"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "5e58eb3b7ece1a0c9993b81b"
+          displayName = "Team Worklog Reports Lite"
+        }
+      }
+    },
+    {
+      displayName = "Tempo Base plugin"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "557058:4bf913be-d3b6-4a41-8b7f-01c7da1964ab"
+          displayName = "Tempo Base plugin"
+        }
+      }
+    },
+    {
+      displayName = "Tempo Cost Tracker"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "5de8027d8743750d00b80c76"
+          displayName = "Tempo Cost Tracker"
+        }
+      }
+    },
+    {
+      displayName = "Tempo Timesheets"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "557058:295406f3-a1fc-4733-b906-dd15d021bd79"
+          displayName = "Tempo Timesheets"
+        }
+      }
+    },
+    {
+      displayName = "Timetracker Plugin"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "5d66c213a2e0110c0c3feed1"
+          displayName = "Timetracker Plugin"
+        }
+      }
+    },
+    {
+      displayName = "Trello"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "557058:214cdd6a-ff93-4d8b-838b-62dfcf1a2a71"
+          displayName = "Trello"
+        }
+      }
+    },
+    {
+      displayName = "monday.com for Jira"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "6023f1267db80e006a1f745c"
+          displayName = "monday.com for Jira"
+        }
+      }
+    },
+    {
+      displayName = "optimizer-for-jira-cloud"
+      type = "atlassian-user-role-actor"
+      actorUser = {
+        accountId = {
+          id = "6315a9018d88ec800fbf38a6"
+          displayName = "optimizer-for-jira-cloud"
+        }
+      }
+    },
+  ]
+}

@@ -1,0 +1,10 @@
+jira.Field ICE_Ease__float__c@suuuu {
+  name = "ICE Ease"
+  description = ""
+  searcherKey = "com.atlassian.jira.plugin.system.customfieldtypes:exactnumber"
+  type = "com.atlassian.jira.plugin.system.customfieldtypes:float"
+  contexts = [
+    jira.CustomFieldContext.instance.ICE_Ease__float__c_suuuu_Default_Configuration_Scheme_for_ICE_Ease@uuuuumusssss,
+  ]
+  _alias = "ICE Ease"
+}

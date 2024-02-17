@@ -1,0 +1,10 @@
+jira.Field Risk_Score__float__c@suuuu {
+  name = "Risk Score"
+  description = ""
+  searcherKey = "com.atlassian.jira.plugin.system.customfieldtypes:exactnumber"
+  type = "com.atlassian.jira.plugin.system.customfieldtypes:float"
+  contexts = [
+    jira.CustomFieldContext.instance.Risk_Score__float__c_suuuu_Default_Configuration_Scheme_for_Risk_Score@uuuuumusssss,
+  ]
+  _alias = "Risk Score"
+}

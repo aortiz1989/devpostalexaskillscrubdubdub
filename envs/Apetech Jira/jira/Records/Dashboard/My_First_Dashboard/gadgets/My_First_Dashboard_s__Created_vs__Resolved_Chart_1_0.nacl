@@ -1,0 +1,72 @@
+jira.DashboardGadget My_First_Dashboard_s__Created_vs__Resolved_Chart_1_0@uumuusvssuu {
+  uri = "rest/gadgets/1.0/g/com.atlassian.jira.gadgets:created-vs-resolved-issues-chart-gadget/gadgets/createdvsresolved-gadget.xml"
+  color = "blue"
+  position = {
+    row = 0
+    column = 1
+  }
+  title = "Created vs. Resolved Chart"
+  properties = [
+    {
+      key = "config"
+      values = [
+        {
+          key = "isConfigured"
+          value = "true"
+        },
+        {
+          key = "isPopup"
+          value = "false"
+        },
+        {
+          key = "refresh"
+          value = "false"
+        },
+        {
+          key = "periodName"
+          value = "quarterly"
+        },
+        {
+          key = "showUnresolvedTrend"
+          value = "false"
+        },
+        {
+          key = "projectOrFilterId"
+          value = ""
+        },
+        {
+          key = "type"
+          value = "project"
+        },
+        {
+          key = "versionLabel"
+          value = "major"
+        },
+        {
+          key = "isCumulative"
+          value = "false"
+        },
+        {
+          key = "name"
+          value = "Thanksgiving Dinner - How to Agile"
+        },
+        {
+          key = "daysprevious"
+          value = "30"
+        },
+        {
+          key = "id"
+          value = "10015"
+        },
+        {
+          key = "operation"
+          value = "count"
+        },
+      ]
+    },
+  ]
+  _parent = [
+    jira.Dashboard.instance.My_First_Dashboard@s,
+  ]
+  _alias = "Created vs. Resolved Chart"
+}

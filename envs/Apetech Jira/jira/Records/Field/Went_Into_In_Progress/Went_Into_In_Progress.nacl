@@ -1,0 +1,10 @@
+jira.Field Went_Into_In_Progress__datepicker__c@sssuuuu {
+  name = "Went Into In Progress"
+  description = ""
+  searcherKey = "com.atlassian.jira.plugin.system.customfieldtypes:daterange"
+  type = "com.atlassian.jira.plugin.system.customfieldtypes:datepicker"
+  contexts = [
+    jira.CustomFieldContext.instance.Went_Into_In_Progress__datepicker__c_sssuuuu_Default_Configuration_Scheme_for_Went_Into_In_Progress@uuuuuuumusssssss,
+  ]
+  _alias = "Went Into In Progress"
+}

@@ -1,0 +1,14 @@
+jira.Screen Transition_to_In_Progress@s {
+  name = "Transition to In Progress"
+  description = ""
+  tabs = {
+    
+    General = {
+      name = "General"
+      fields = [
+        jira.Field.instance.Due_date__date@suu,
+      ]
+      position = 0
+    }
+  }
+}

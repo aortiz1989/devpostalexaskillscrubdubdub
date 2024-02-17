@@ -1,0 +1,10 @@
+jira.Screen NPTR__Scrum_Default_Issue_Screen@fssss {
+  name = "NPTR: Scrum Default Issue Screen"
+  tabs = {
+    
+    General = {
+      name = "General"
+      position = 0
+    }
+  }
+}
