@@ -2,4 +2,5 @@ jira.Status publish_video@s {
   name = "Publish Video"
   statusCategory = jira.StatusCategory.instance.Done
   description = ""
+  _alias = "Publish Video"
 }

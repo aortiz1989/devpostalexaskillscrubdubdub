@@ -2,4 +2,5 @@ jira.Status in_test@s {
   name = "In Test"
   statusCategory = jira.StatusCategory.instance.In_Progress@s
   description = ""
+  _alias = "In Test"
 }

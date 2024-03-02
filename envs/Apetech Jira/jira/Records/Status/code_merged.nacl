@@ -2,4 +2,5 @@ jira.Status code_merged@s {
   name = "Code Merged"
   statusCategory = jira.StatusCategory.instance.In_Progress@s
   description = ""
+  _alias = "Code Merged"
 }

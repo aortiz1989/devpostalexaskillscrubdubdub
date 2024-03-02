@@ -2,4 +2,5 @@ jira.Status engineering_complete@s {
   name = "Engineering Complete"
   statusCategory = jira.StatusCategory.instance.In_Progress@s
   description = ""
+  _alias = "Engineering Complete"
 }

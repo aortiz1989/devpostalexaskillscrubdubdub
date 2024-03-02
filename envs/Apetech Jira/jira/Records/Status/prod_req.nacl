@@ -2,4 +2,5 @@ jira.Status prod_req@s {
   name = "Prod Req"
   statusCategory = jira.StatusCategory.instance.To_Do@s
   description = ""
+  _alias = "Prod Req"
 }

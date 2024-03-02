@@ -2,4 +2,5 @@ jira.Status edit_vid@s {
   name = "Edit Vid"
   statusCategory = jira.StatusCategory.instance.In_Progress@s
   description = ""
+  _alias = "Edit Vid"
 }

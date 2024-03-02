@@ -2,4 +2,5 @@ jira.Status video_recording@s {
   name = "Video Recording"
   statusCategory = jira.StatusCategory.instance.In_Progress@s
   description = ""
+  _alias = "Video Recording"
 }

@@ -17,9 +17,7 @@ jira.Board SKP_board@s {
     columns = [
       {
         name = "Backlog"
-        statuses = [
-          jira.Status.instance.backlog,
-        ]
+        
       },
       {
         name = "DEV::Selected for Development"

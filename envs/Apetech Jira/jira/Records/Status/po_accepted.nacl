@@ -2,4 +2,5 @@ jira.Status po_accepted@s {
   name = "PO Accepted"
   statusCategory = jira.StatusCategory.instance.In_Progress@s
   description = "This status is managed internally by Jira Software"
+  _alias = "PO Accepted"
 }

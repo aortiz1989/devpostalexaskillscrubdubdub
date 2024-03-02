@@ -2,4 +2,5 @@ jira.Status blocked {
   name = "Blocked"
   statusCategory = jira.StatusCategory.instance.In_Progress@s
   description = "(red)"
+  _alias = "Blocked"
 }

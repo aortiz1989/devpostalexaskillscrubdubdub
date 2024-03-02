@@ -487,5 +487,13 @@ Examples: 4d, 5h 30m, 60m and 3w.
       isRequired = false
       
     }
+    New_Date_Field__datepicker__c@ssuuuu = {
+      isHidden = false
+      isRequired = false
+    }
+    Publish_Date__datepicker__c@suuuu = {
+      isHidden = false
+      isRequired = false
+    }
   }
 }

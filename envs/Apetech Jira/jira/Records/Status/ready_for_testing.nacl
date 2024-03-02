@@ -2,4 +2,5 @@ jira.Status ready_for_testing@s {
   name = "Ready for Testing"
   statusCategory = jira.StatusCategory.instance.In_Progress@s
   description = "This status is managed internally by Jira Software"
+  _alias = "Ready for Testing"
 }

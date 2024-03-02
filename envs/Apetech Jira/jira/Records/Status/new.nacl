@@ -2,4 +2,5 @@ jira.Status new {
   name = "New"
   statusCategory = jira.StatusCategory.instance.To_Do@s
   description = ""
+  _alias = "New"
 }

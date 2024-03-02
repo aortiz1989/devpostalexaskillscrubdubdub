@@ -450,5 +450,11 @@ jira.Permissions {
       type = "PROJECT"
       description = "Publish a view to an audience."
     }
+    "com.yasoon.jira.cloud__global-permission-is-active" = {
+      key = "com.yasoon.jira.cloud__global-permission-is-active"
+      name = "Access Microsoft 365 for Jira"
+      type = "GLOBAL"
+      description = "Allows access to the app Microsoft 365 for Jira. Visibility is still controlled by the individual feature activiation within the app settings."
+    }
   }
 }

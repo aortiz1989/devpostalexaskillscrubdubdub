@@ -2,4 +2,5 @@ jira.Status expired {
   name = "Expired"
   statusCategory = jira.StatusCategory.instance.Done
   description = ""
+  _alias = "Expired"
 }

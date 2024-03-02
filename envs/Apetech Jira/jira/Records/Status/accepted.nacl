@@ -2,4 +2,5 @@ jira.Status accepted {
   name = "Accepted"
   statusCategory = jira.StatusCategory.instance.Done
   description = ""
+  _alias = "Accepted"
 }

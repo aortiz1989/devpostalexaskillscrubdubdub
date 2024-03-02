@@ -2,4 +2,5 @@ jira.Status current {
   name = "Current"
   statusCategory = jira.StatusCategory.instance.In_Progress@s
   description = ""
+  _alias = "Current"
 }
